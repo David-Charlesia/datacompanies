@@ -2,6 +2,8 @@ package org.lpld.datacompanies.backend;
 
 import java.util.ArrayList;
 
+import com.mongodb.DBCursor;
+
 import java.io.FileReader;
 
 import org.json.simple.JSONObject;
@@ -10,13 +12,12 @@ import org.json.simple.parser.*;
 public class Requests {
     public Requests() {}
 
-    public ArrayList<Integer> doRequest(String jsonFile){
+    public DBCursor doRequest(String jsonFile){
         JSONObject request = parseJson(jsonFile);
-        ArrayList<Integer> results=new ArrayList<Integer>();
-
-
-
-        return results;
+        
+        DBCursor cursor=null;
+        
+        return cursor;
     }
 
     private JSONObject parseJson(String jsonFile){
