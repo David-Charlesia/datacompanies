@@ -30,6 +30,7 @@ public class DatabaseMongoDB {
     private MongoDatabase database;
     private String databaseName;
     private MongoCollection<Document> collection;
+    private static String pathCredentials = "./src/main/java/org/lpld/datacompanies/backend/mongodb/credentials.json";
 
     public DatabaseMongoDB() {
         connString = getConnectionString();
@@ -40,7 +41,7 @@ public class DatabaseMongoDB {
 
     private ConnectionString getConnectionString() {
         try{
-            JSONObject credentialsJson = (JSONObject) new JSONParser().parse(new FileReader("crendentials.json"));
+            JSONObject credentialsJson = (JSONObject) new JSONParser().parse(new FileReader(pathCredentials));
             String username = (String) credentialsJson.get("username");
             String password = (String) credentialsJson.get("password");
             String cluster_address = (String) credentialsJson.get("cluster-address");
@@ -51,6 +52,14 @@ public class DatabaseMongoDB {
             System.out.println(e);
         }
         return null;
+    }
+
+    public MongoDatabase getDataBase(){
+        return database;
+    }
+
+    public void setCollection(String collectionName){
+        collection = database.getCollection(collectionName);
     }
 
     public MongoCollection<Document> getCollection(){
