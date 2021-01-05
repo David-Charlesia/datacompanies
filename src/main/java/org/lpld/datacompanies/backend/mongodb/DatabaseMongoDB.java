@@ -33,10 +33,15 @@ public class DatabaseMongoDB {
     private static String pathCredentials = "./src/main/java/org/lpld/datacompanies/backend/mongodb/credentials.json";
 
     public DatabaseMongoDB() {
+        /*
         connString = getConnectionString();
         settings = MongoClientSettings.builder().applyConnectionString(connString).retryWrites(true).build();
         mongoClient = MongoClients.create(settings);
         database = mongoClient.getDatabase(databaseName);
+        */
+        final String uriString = "mongodb://user1:$admin@ec2-3-135-248-22.us-east-2.compute.amazonaws.com:27017/test?authSource=admin";
+        mongoClient = MongoClients.create(uriString);
+        database = mongoClient.getDatabase("test");
     }
 
     private ConnectionString getConnectionString() {
