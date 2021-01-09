@@ -33,28 +33,18 @@ public class DatabaseMongoDB {
     private static String pathCredentials = "./src/main/java/org/lpld/datacompanies/backend/mongodb/credentials.json";
 
     public DatabaseMongoDB() {
-        /*
-        connString = getConnectionString();
-        settings = MongoClientSettings.builder().applyConnectionString(connString).retryWrites(true).build();
-        mongoClient = MongoClients.create(settings);
+        mongoClient = MongoClients.create(getConnectionString());
         database = mongoClient.getDatabase(databaseName);
-        */
-        //final String uriString = "mongodb://user1:$admin@ec2-3-135-248-22.us-east-2.compute.amazonaws.com:27017/test?authSource=admin";
-        final String uriString = "mongodb://java:pwd_java@54.90.244.234:27017/test";
-        // mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb][?options]]
-        mongoClient = MongoClients.create(uriString);
-        database = mongoClient.getDatabase("table");
     }
 
-    private ConnectionString getConnectionString() {
+    private String getConnectionString() {
         try{
             JSONObject credentialsJson = (JSONObject) new JSONParser().parse(new FileReader(pathCredentials));
             String username = (String) credentialsJson.get("username");
             String password = (String) credentialsJson.get("password");
             String cluster_address = (String) credentialsJson.get("cluster-address");
             databaseName = (String) credentialsJson.get("database_name");
-            return new ConnectionString(
-                    "mongodb+srv://" + username + ":" + password + "@" + cluster_address + "/test?w=majority");
+            return ("mongodb://" + username + ":" + password + "@" + cluster_address + ":27017/test?");
         }catch(Exception e){
             System.out.println(e);
         }

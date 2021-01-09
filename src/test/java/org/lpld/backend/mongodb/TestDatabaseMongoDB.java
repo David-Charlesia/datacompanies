@@ -23,32 +23,16 @@ public class TestDatabaseMongoDB {
     public void TestDatabaseMongoDB_constructor(){
         DatabaseMongoDB db = new DatabaseMongoDB();
         MongoDatabase database = db.getDataBase();
-        MongoCollection<Document> collection = database.getCollection("table");
+        MongoCollection<Document> collection = database.getCollection("collection");
         //int count = collection.count();
-        FindIterable<Document> myDoc = database.getCollection("table").find(new Document("nom","adam"));
+        FindIterable<Document> myDoc = collection.find(new Document("nom","adam"));
         /*Document doc = new Document("name", "MongoDB").append("type", "database").append("count", 1)
                 .append("versions", Arrays.asList("v3.2", "v3.0", "v2.6"))
                 .append("info", new Document("x", 203).append("y", 102));
         collection.insertOne(doc);*/
-        System.out.println(myDoc.first());
+        //System.out.println(myDoc.first());
         Assert.assertNotNull(database);
+        Assert.assertNotNull(myDoc.first().toString());
     }
- 
-    @Test
-    public void TestDocument(){
-        DatabaseMongoDB db = new DatabaseMongoDB();
-        db.setCollection("Gang");
-        Assert.assertNotNull(db.getCollection());
-    }
-
-    /*
-     db.createUser({ 
-      user:'java',
-      pwd:'pwd_java',
-      roles: [ {role:'readWrite', db:'table' } ]
-     });
-     */
-
-    
 
 }
