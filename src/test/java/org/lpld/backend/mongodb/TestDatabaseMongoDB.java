@@ -23,14 +23,15 @@ public class TestDatabaseMongoDB {
     public void TestDatabaseMongoDB_constructor(){
         DatabaseMongoDB db = new DatabaseMongoDB();
         MongoDatabase database = db.getDataBase();
-        MongoCollection<Document> collection = database.getCollection("collection");
+        MongoCollection<Document> collection = database.getCollection("personne");
         //int count = collection.count();
-        FindIterable<Document> myDoc = collection.find(new Document("nom","adam"));
+        //collection.insertOne(new Document("testInsert","testokbro"));
+        FindIterable<Document> myDoc = collection.find(new Document("nom","Carole"));
         /*Document doc = new Document("name", "MongoDB").append("type", "database").append("count", 1)
                 .append("versions", Arrays.asList("v3.2", "v3.0", "v2.6"))
                 .append("info", new Document("x", 203).append("y", 102));
         collection.insertOne(doc);*/
-        //System.out.println(myDoc.first());
+        System.out.println(myDoc.first().toString());
         Assert.assertNotNull(database);
         Assert.assertNotNull(myDoc.first().toString());
     }
