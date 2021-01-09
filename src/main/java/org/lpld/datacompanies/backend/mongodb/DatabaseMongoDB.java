@@ -39,9 +39,11 @@ public class DatabaseMongoDB {
         mongoClient = MongoClients.create(settings);
         database = mongoClient.getDatabase(databaseName);
         */
-        final String uriString = "mongodb://user1:$admin@ec2-3-135-248-22.us-east-2.compute.amazonaws.com:27017/test?authSource=admin";
+        //final String uriString = "mongodb://user1:$admin@ec2-3-135-248-22.us-east-2.compute.amazonaws.com:27017/test?authSource=admin";
+        final String uriString = "mongodb://java:pwd_java@54.90.244.234:27017/test";
+        // mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb][?options]]
         mongoClient = MongoClients.create(uriString);
-        database = mongoClient.getDatabase("test");
+        database = mongoClient.getDatabase("table");
     }
 
     private ConnectionString getConnectionString() {
