@@ -1,10 +1,11 @@
 package org.lpld.datacompanies.backend.mongodb;
 
-import com.mongodb.ConnectionString;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoDatabase;
-import com.mongodb.MongoClientSettings;
 
 import java.io.FileReader;
 
@@ -12,20 +13,10 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.*;
 
 import com.mongodb.client.MongoCollection;
-import com.mongodb.client.MongoDatabase;
-import com.mongodb.client.FindIterable;
-import com.mongodb.client.model.Projections;
-import com.mongodb.client.model.Filters;
-import static com.mongodb.client.model.Filters.*;
-import static com.mongodb.client.model.Projections.*;
-import com.mongodb.client.model.Sorts;
-import java.util.Arrays;
-import java.util.function.Consumer;
 import org.bson.Document;
 
 public class DatabaseMongoDB {
-    private ConnectionString connString;
-    private MongoClientSettings settings;
+    private static final Logger LOGGER = LoggerFactory.getLogger(DatabaseMongoDB.class);
     private MongoClient mongoClient;
     private MongoDatabase database;
     private String databaseName;
@@ -44,9 +35,9 @@ public class DatabaseMongoDB {
             String password = (String) credentialsJson.get("password");
             String cluster_address = (String) credentialsJson.get("cluster-address");
             databaseName = (String) credentialsJson.get("database_name");
-            return ("mongodb://" + username + ":" + password + "@" + cluster_address + ":27017/test?");
+            return ("mongodb://" + username + ":" + password + "@" + cluster_address + ":27017/test");
         }catch(Exception e){
-            System.out.println(e);
+            LOGGER.error(e.toString());
         }
         return null;
     }
