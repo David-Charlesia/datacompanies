@@ -46,11 +46,7 @@ public class DatabaseMongoDB {
         return database;
     }
 
-    public void setCollection(String collectionName){
-        collection = database.getCollection(collectionName);
-    }
-
-    public MongoCollection<Document> getCollection(){
-        return this.collection;
+    public MongoCollection<Document> getCollection(String collectionName){
+        return this.database.getCollection(collectionName);
     }
 }
