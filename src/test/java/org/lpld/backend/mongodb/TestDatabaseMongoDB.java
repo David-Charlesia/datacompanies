@@ -18,7 +18,7 @@ public class TestDatabaseMongoDB {
     public void TestDatabaseMongoDB_constructor(){
         DatabaseMongoDB db = new DatabaseMongoDB();
         MongoDatabase database = db.getDataBase();
-        MongoCollection<Document> collection = database.getCollection("Decembre2017");
+        MongoCollection<Document> collection = db.getCollection("Decembre2017");
         FindIterable<Document> myDoc = collection.find(new Document("siren","005880596"));
         LOGGER.info(myDoc.first().toString());
         Assert.assertNotNull(database);

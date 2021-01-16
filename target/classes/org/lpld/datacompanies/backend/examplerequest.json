@@ -1,16 +1,5 @@
 {
     "more_than":{
-        "Chiffre d'affaire":"50000000",
-        "Résultat d'Exploitation":"60000"
-    },
-
-    "less_than":{
-        "Total Actif":"50000",
-        "Total Passif":"2000"
-    },
-
-    "equals_to":{
-        "Salaires":"2000"
+        "DI.0":"2000"
     }
-
 }
