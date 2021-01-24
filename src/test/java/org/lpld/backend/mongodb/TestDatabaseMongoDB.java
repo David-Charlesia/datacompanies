@@ -16,7 +16,7 @@ public class TestDatabaseMongoDB {
 
     @Test
     public void TestDatabaseMongoDB_constructor(){
-        DatabaseMongoDB db = new DatabaseMongoDB();
+        DatabaseMongoDB db = new DatabaseMongoDB();//Ok
         MongoDatabase database = db.getDataBase();
         MongoCollection<Document> collection = db.getCollection();
         FindIterable<Document> myList = collection.find(new Document("siren","005880596"));
