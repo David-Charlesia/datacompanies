@@ -9,6 +9,7 @@ import com.mongodb.client.MongoCursor;
 
 import org.junit.Test;
 import org.lpld.datacompanies.backend.Requests;
+import org.lpld.datacompanies.backend.model.AnnualAccount;
 import org.bson.BsonDocument;
 import org.bson.Document;
 import org.junit.Assert;

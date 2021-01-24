@@ -3,13 +3,10 @@ package org.lpld.datacompanies.backend;
 import java.util.Iterator;
 
 import com.mongodb.BasicDBObject;
-import com.mongodb.DBObject;
 import com.mongodb.client.MongoCursor;
 
 import java.io.FileReader;
-import java.io.UncheckedIOException;
 
-import org.bson.BSONObject;
 import org.bson.Document;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.*;
@@ -114,7 +111,7 @@ public class Requests {
         this.doc.put(key, value);
     }
 
-    public MongoCursor doRequest(BasicDBObject b){
+    public MongoCursor<Document> doRequest(BasicDBObject b){
         return db.getCollection("Decembre2017").find(b).cursor();
     }
 }

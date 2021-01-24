@@ -1,0 +1,497 @@
+
+
+ public static final String ACTIF;
+
+ public static final String CAPITAL_SOUSCRIT_NON_APPELE;
+
+ public static final String FRAIS_D_ETABLISSEMENT;
+
+ public static final String FRAIS_DE_DEVELOPPEMENT_OU_DE_RECHERCHE_ET_DEVELOPPEMENT;
+
+ public static final String CONCESSIONS_BREVETS_ET_DROITS_SIMILAIRES;
+
+ public static final String FONDS_COMMERCIAL;
+
+ public static final String AUTRES_IMMOBILISATIONS_INCORPORELLES;
+
+ public static final String AVANCES_ET_ACOMPTES_SUR_IMMOBILISATIONS_INCORPORELLES;
+
+ public static final String TERRAINS;
+
+ public static final String CONSTRUCTIONS;
+
+ public static final String INSTALLATIONS_TECHNIQUES_MATERIEL_ET_OUTILLAGE_INDUSTRIELS;
+
+ public static final String AUTRES_IMMOBILISATIONS_CORPORELLES;
+
+ public static final String IMMOBILISATIONS_EN_COURS;
+
+ public static final String AVANCES_ET_ACOMPTES;
+
+ public static final String PARTICIPATIONS_EVALUEES_MISE_EN_EQUIVALENCE;
+
+ public static final String AUTRES_PARTICIPATIONS;
+
+ public static final String CREANCES_RATTACHEES_A_DES_PARTICIPATIONS;
+
+ public static final String AUTRES_TITRES_IMMOBILISES;
+
+ public static final String PRETS;
+
+ public static final String AUTRES_IMMOBILISATIONS_FINANCIERES;
+
+ public static final String TOTAL_I;
+
+ public static final String MATIERES_PREMIERES_APPROVISIONNEMENTS;
+
+ public static final String EN_COURS_DE_PRODUCTION_DE_BIENS;
+
+ public static final String EN_COURS_DE_PRODUCTION_DE_SERVICES;
+
+ public static final String PRODUITS_INTERMEDIAIRES_ET_FINIS;
+
+ public static final String MARCHANDISES;
+
+ public static final String AVANCES_ET_ACOMPTES_VERSES_SUR_COMMANDES;
+
+ public static final String CLIENTS_ET_COMPTES_RATTACHES;
+
+ public static final String AUTRES_CREANCES;
+
+ public static final String CAPITAL_SOUSCRIT_ET_APPELE_NON_VERSE;
+
+ public static final String VALEURS_MOBILIERES_DE_PLACEMENT;
+
+ public static final String DISPONIBILITES;
+
+ public static final String CHARGES_CONSTATEES_D_AVANCE;
+
+ public static final String TOTAL_II;
+
+ public static final String CHARGES_A_REPARTIR_OU_FRAIS_D_EMISSION_D_EMPRUNT;
+
+ public static final String PRIMES_DE_REMBOURSEMENT_DES_OBLIGATIONS_IV;
+
+ public static final String ECARTS_DE_CONVERSION_ACTIF_V;
+
+ public static final String TOTAL_GENERAL_0_A_V;
+
+ public static final String PARTS_A_MOINS_D_UN_AN;
+
+ public static final String PARTS_A_PLUS_D_UN_AN;
+
+ public static final String PASSIF;
+
+ public static final String CAPITAL_SOCIAL_OU_INDIVIDUEL;
+
+ public static final String PRIMES_D_EMISSION_DE_FUSION_D_APPORT_;
+
+ public static final String DONT_ECART_D_EQUIVALENCE;
+
+ public static final String ECARTS_DE_REEVALUATION;
+
+ public static final String RESERVE_LEGALE_1;
+
+ public static final String RESERVES_STATUTAIRES_OU_CONTRACTUELLES;
+
+ public static final String DONT_RESERVE_SPECIALE_DES_PROVISIONS_POUR_FLUCTUATION_DES_COURS;
+
+ public static final String RESERVES_REGLEMENTEES_1;
+
+ public static final String DONT_RESERVE_RELATIVE_A_L_ACHAT_D_OEUVRES_ORIGINALES_D_ARTISTES_VIVANTS;
+
+ public static final String AUTRES_RESERVES;
+
+ public static final String REPORT_A_NOUVEAU;
+
+ public static final String RESULTAT_DE_L_EXERCICE_BENEFICE_OU_PERTE;
+
+ public static final String SUBVENTIONS_D_INVESTISSEMENT;
+
+ public static final String PROVISIONS_REGLEMENTEES;
+
+ public static final String TOTAL_I;
+
+ public static final String PRODUIT_DES_EMISSIONS_DE_TITRES_PARTICIPATIFS;
+
+ public static final String AVANCES_CONDITIONNEES;
+
+ public static final String TOTAL_II;
+
+ public static final String PROVISIONS_POUR_RISQUES;
+
+ public static final String PROVISIONS_POUR_CHARGES;
+
+ public static final String TOTAL_III;
+
+ public static final String EMPRUNTS_OBLIGATAIRES_CONVERTIBLES;
+
+ public static final String AUTRES_EMPRUNTS_OBLIGATAIRES;
+
+ public static final String EMPRUNTS_ET_DETTES_AUPRES_DES_ETABLISSEMENTS_DE_CREDIT_3;
+
+ public static final String EMPRUNTS_ET_DETTES_FINANCIERES_DIVERS_4;
+
+ public static final String AVANCES_ET_ACOMPTES_RECUS_SUR_COMMANDES_EN_COURS;
+
+ public static final String DETTES_FOURNISSEURS_ET_COMPTES_RATTACHES;
+
+ public static final String DETTES_FISCALES_ET_SOCIALES;
+
+ public static final String DETTES_SUR_IMMOBILISATIONS_ET_COMPTES_RATTACHES;
+
+ public static final String AUTRES_DETTES;
+
+ public static final String PRODUITS_CONSTATES_D_AVANCE_2;
+
+ public static final String TOTAL_IV;
+
+ public static final String V;
+
+ public static final String TOTAL_GENERAL_I_A_V;
+
+ public static final String DONT_RESERVE_REGLEMENTEE_DES_PLUSVALUES_A_LONG_TERME;
+
+ public static final String DETTES_ET_PRODUITS_CONSTATES_D_AVANCE_A_MOINS_D_UN_AN;
+
+ public static final String DONT_CONCOURS_BANCAIRES_COURANTS_ET_SOLDES_CREDITEURS_DE_BANQUES_ET_CCP;
+
+ public static final String DONT_EMPRUNTS_PARTICIPATIFS;
+
+ public static final String COMPTE_DE_RESULTAT_A;
+
+ public static final String VENTES_DE_MARCHANDISES;
+
+ public static final String PRODUCTION_VENDUE_BIENS;
+
+ public static final String PRODUCTION_VENDUE_SERVICES;
+
+ public static final String CHIFFRES_D_AFFAIRES_NETS;
+
+ public static final String PRODUCTION_STOCKEE;
+
+ public static final String PRODUCTION_IMMOBILISEE;
+
+ public static final String SUBVENTIONS_D_EXPLOITATION;
+
+ public static final String REPRISES_SUR_AMORTISSEMENTS_ET_PROVISIONS_TRANSFERT_DE_CHARGES;
+
+ public static final String AUTRES_PRODUITS;
+
+ public static final String TOTAL_DES_PRODUITS_D_EXPLOITATION_I;
+
+ public static final String ACHATS_DE_MARCHANDISES_Y_COMPRIS_DROITS_DE_DOUANE;
+
+ public static final String VARIATION_DE_STOCK_MARCHANDISES;
+
+ public static final String ACHATS_DE_MATIERES_PREMIERES_ET_AUTRES_APPROVISIONNEMENTS;
+
+ public static final String VARIATION_DE_STOCK_MATIERES_PREMIERES_ET_APPROVISIONNEMENTS;
+
+ public static final String AUTRES_ACHATS_ET_CHARGES_EXTERNES;
+
+ public static final String IMPOTS_TAXES_ET_VERSEMENTS_ASSIMILES;
+
+ public static final String SALAIRES_ET_TRAITEMENTS;
+
+ public static final String CHARGES_SOCIALES;
+
+ public static final String DOT_D_EXPLOIT_DOTATIONS_AUX_AMORTISSEMENTS;
+
+ public static final String DOT_D_EXPLOIT_DOTATIONS_AUX_PROVISIONS;
+
+ public static final String DOT_D_EXPLOIT_SUR_ACTIF_CIRCULANT_DOTATIONS_AUX_PROVISIONS;
+
+ public static final String DOT_D_EXPLOIT_POUR_RISQUES_ET_CHARGES_DOTATIONS_AUX_PROVISIONS;
+
+ public static final String AUTRES_CHARGES;
+
+ public static final String TOTAL_DES_CHARGES_D_EXPLOITATION_II;
+
+ public static final String RESULTAT_D_EXPLOITATION_I_II;
+
+ public static final String BENEFICE_ATTRIBUE_OU_PERTE_TRANSFEREE_III;
+
+ public static final String PERTE_SUPPORTEE_OU_BENEFICE_TRANSFERE_IV;
+
+ public static final String PRODUITS_FINANCIERS_DE_PARTICIPATIONS;
+
+ public static final String PRODUITS_DES_AUTRES_VALEURS_MOBILIERES_ET_CREANCES_DE_L_ACTIF_IMMOBILISE;
+
+ public static final String AUTRES_INTERETS_ET_PRODUITS_ASSIMILES;
+
+ public static final String REPRISES_SUR_PROVISIONS_ET_TRANSFERTS_DE_CHARGES;
+
+ public static final String DIFFERENCES_POSITIVES_DE_CHANGE;
+
+ public static final String PRODUITS_NETS_SUR_CESSIONS_DE_VALEURS_MOBILIERES_DE_PLACEMENT;
+
+ public static final String TOTAL_DES_PRODUITS_FINANCIERS_V;
+
+ public static final String DOTATIONS_FINANCIERES_SUR_AMORTISSEMENTS_ET_PROVISIONS;
+
+ public static final String INTERETS_ET_CHARGES_ASSIMILEES;
+
+ public static final String DIFFERENCES_NEGATIVES_DE_CHANGE;
+
+ public static final String CHARGES_NETTES_SUR_CESSIONS_DE_VALEURS_MOBILIERES_DE_PLACEMENT;
+
+ public static final String TOTAL_DES_CHARGES_FINANCIERES_VI;
+
+ public static final String RESULTAT_FINANCIER_V_VI;
+
+ public static final String RESULTAT_COURANT_AVANT_IMPOTS_I_II_III_IV_V_VI;
+
+ public static final String COMPTE_DE_RESULTAT_B;
+
+ public static final String PRODUITS_EXCEPTIONNELS_SUR_OPERATIONS_DE_GESTION;
+
+ public static final String PRODUITS_EXCEPTIONNELS_SUR_OPERATIONS_EN_CAPITAL;
+
+ public static final String REPRISES_SUR_PROVISIONS_ET_TRANSFERTS_DE_CHARGES;
+
+ public static final String TOTAL_DES_PRODUITS_EXCEPTIONNELS_VII;
+
+ public static final String CHARGES_EXCEPTIONNELLES_SUR_OPERATIONS_DE_GESTION;
+
+ public static final String CHARGES_EXCEPTIONNELLES_SUR_OPERATIONS_EN_CAPITAL;
+
+ public static final String DOTATIONS_EXCEPTIONNELLES_AUX_AMORTISSEMENTS_ET_PROVISIONS;
+
+ public static final String TOTAL_DES_CHARGES_EXCEPTIONNELLES_VIII;
+
+ public static final String RESULTAT_EXCEPTIONNEL_VII_VIII;
+
+ public static final String PARTICIPATION_DES_SALARIES_AUX_RESULTATS_DE_L_ENTREPRISE;
+
+ public static final String IMPOTS_SUR_LES_BENEFICES_X;
+
+ public static final String TOTAL_DES_PRODUITS_I_III_V_VII;
+
+ public static final String TOTAL_DES_CHARGES_II_IV_VI_VIII_IX_X;
+
+ public static final String BENEFICE_OU_PERTE_TOTAL_DES_PRODUITS_TOTAL_DES_CHARGES;
+
+ public static final String RENVOIS_CREDITBAIL_MOBILIER;
+
+ public static final String RENVOIS_CREDITBAIL_IMMOBILIER;
+
+ public static final String RENVOIS_TRANSFERT_DE_CHARGES;
+
+ public static final String RENVOIS_COTISATIONS_PERSONNELLES_DE_L_EXPLOITANT;
+
+ public static final String RENVOIS_REDEVANCES_POUR_CONCESSIONS_DE_BREVETS_DE_LICENCES_PRODUITS;
+
+ public static final String RENVOIS_REDEVANCES_POUR_CONCESSIONS_DE_BREVETS_DE_LICENCES_CHARGES;
+
+ public static final String IMMOBILISATIONS;
+
+ public static final String ACQUISITIONS_FRAIS_D_ETABLISSEMENT_ET_DE_DEVELOPPEMENT_OU_DE_RECHERCHE;
+
+ public static final String ACQUISITIONS_TOTAL_DONT_AUTRES_POSTES_D_IMMOBILISATIONS_INCORPORELLES;
+
+ public static final String ACQUISITIONS_TOTAL_IMMOBILISATIONS_CORPORELLES;
+
+ public static final String ACQUISITIONS_TOTAL_IMMOBILISATIONS_FINANCIERES;
+
+ public static final String ACQUISITIONS_TOTAL_GENERAL;
+
+ public static final String DIMINUTIONS_FRAIS_D_ETABLISSEMENT_ET_DE_DEVELOPPEMENT_OU_DE_RECHERCHE;
+
+ public static final String DIMINUTIONS_TOTAL_DONT_AUTRES_POSTES_D_IMMOBILISATIONS_INCORPORELLES;
+
+ public static final String DIMINUTIONS_VIREMENT_POSTES_IMMOBILISATIONS_CORPORELLES_EN_COURS;
+
+ public static final String DIMINUTIONS_VIREMENT_POSTES_AVANCES_ET_ACOMPTES;
+
+ public static final String DIMINUTIONS_TOTAL_IMMOBILISATIONS_CORPORELLES;
+
+ public static final String DIMINUTIONS_PRETS_ET_IMMOBILISATIONS_FINANCIERES;
+
+ public static final String DIMINUTIONS_TOTAL_IMMOBILISATIONS_FINANCIERES;
+
+ public static final String DIMINUTIONS_TOTAL_GENERAL;
+
+ public static final String AMORTISSEMENTS;
+
+ public static final String AMORTISSEMENTS_FRAIS_D_ETABLISSEMENT_ET_DE_DEVELOPPEMENT_OU_DE_RECHERCHE;
+
+ public static final String AMORTISSEMENTS_TOTAL_DONT_AUTRES_IMMOBILISATIONS_INCORPORELLES;
+
+ public static final String AMORTISSEMENTS_TOTAL_IMMOBILISATIONS_CORPORELLES;
+
+ public static final String AMORTISSEMENTS_TOTAL_GENERAL;
+
+ public static final String CHARGES_A_REPARTIR_OU_FRAIS_D_EMISSION_D_EMPRUNT;
+
+ public static final String MVT_SUR_CHARGES_REP_PRIMES_DE_REMBOURSEMENT_DES_OBLIGATIONS;
+
+ public static final String PROVISIONS;
+
+ public static final String AMORTISSEMENTS_DEROGATOIRES;
+
+ public static final String TOTAL_PROVISIONS_REGLEMENTEES;
+
+ public static final String PROVISIONS_POUR_LITIGES;
+
+ public static final String PROVISIONS_POUR_GARANTIES_DONNEES_AUX_CLIENTS;
+
+ public static final String PROVISIONS_POUR_PERTE_SUR_MARCHES_A_TERME;
+
+ public static final String PROVISIONS_POUR_AMENDES_ET_PENALITES;
+
+ public static final String PROVISIONS_POUR_PERTE_DE_CHANGE;
+
+ public static final String PROVISIONS_POUR_PENSIONS_ET_OBLIGATIONS_SIMILAIRES;
+
+ public static final String PROVISIONS_POUR_IMPOTS;
+
+ public static final String PROVISIONS_POUR_RENOUVELLEMENT_DES_IMMOBILISATIONS;
+
+ public static final String PROVISIONS_POUR_GROS_ENTRETIEN_ET_GRANDES_REVISIONS_OU_GROSSES_REPARATIONS;
+
+ public static final String PROVISIONS_POUR_CHARGES_SOCIALES_ET_FISCALES_SUR_CONGES_A_PAYER;
+
+ public static final String AUTRES_PROVISIONS_POUR_RISQUES_ET_CHARGES;
+
+ public static final String TOTAL_PROVISIONS_POUR_RISQUES_ET_CHARGES;
+
+ public static final String SUR_IMMOBILISATIONS_INCORPORELLES;
+
+ public static final String SUR_IMMOBILISATIONS_CORPORELLES;
+
+ public static final String SUR_IMMOBILISATIONS_TITRES_MIS_EN_EQUIVALENCE;
+
+ public static final String SUR_IMMOBILISATIONS_TITRES_DE_PARTICIPATION;
+
+ public static final String SUR_IMMOBILISATIONS_AUTRES_IMMOBILISATIONS_FINANCIERES;
+
+ public static final String SUR_STOCKS_ET_EN_COURS;
+
+ public static final String SUR_COMPTES_CLIENTS;
+
+ public static final String AUTRES_PROVISIONS_POUR_DEPRECIATION;
+
+ public static final String TOTAL_PROVISIONS_POUR_DEPRECIATION;
+
+ public static final String TOTAL_GENERAL;
+
+ public static final String DONT_DOTATIONS_ET_REPRISES_D_EXPLOITATION;
+
+ public static final String DONT_DOTATIONS_ET_REPRISES_FINANCIERES;
+
+ public static final String DONT_DOTATIONS_ET_REPRISES_EXCEPTIONNELLES;
+
+ public static final String CREANCES_ET_DETTES;
+
+ public static final String CREANCES_RATTACHEES_A_DES_PARTICIPATIONS;
+
+ public static final String PRETS;
+
+ public static final String AUTRES_IMMOBILISATIONS_FINANCIERES;
+
+ public static final String CLIENTS_DOUTEUX_OU_LITIGIEUX;
+
+ public static final String AUTRES_CREANCES_CLIENTS;
+
+ public static final String PROVISION_POUR_DEPRECIATION_ANTERIEUREMENT_CONSTITUEE;
+
+ public static final String CREANCES_REPRESENTATIVES_DE_TITRES_PRETES;
+
+ public static final String PERSONNEL_ET_COMPTES_RATTACHES;
+
+ public static final String SECURITE_SOCIALE_AUTRES_ORGANISMES_SOCIAUX;
+
+ public static final String IMPOTS_SUR_LES_BENEFICES;
+
+ public static final String T_V_A;
+
+ public static final String AUTRES_IMPOTS_TAXES_VERSEMENTS_ASSIMILES;
+
+ public static final String DIVERS;
+
+ public static final String GROUPE_ET_ASSOCIES;
+
+ public static final String DEBITEURS_DIVERS_DONT_CREANCES_RELATIVES_A_DES_OPERATIONS_DE_PENSION_DE_TITRES;
+
+ public static final String CHARGES_CONSTATEES_D_AVANCE;
+
+ public static final String TOTAL_ETAT_DES_CREANCES;
+
+ public static final String EMPRUNTS_OBLIGATAIRES_CONVERTIBLES_BRUT_A_UN_AN_AU_PLUS;
+
+ public static final String AUTRES_EMPRUNTS_OBLIGATAIRES_BRUT_A_UN_AN_AU_PLUS;
+
+ public static final String EMPRUNTS_A_1_AN_MAXIMUM_A_L_ORIGINE;
+
+ public static final String EMPRUNTS_A_PLUS_D_1_AN_A_L_ORIGINE;
+
+ public static final String EMPRUNTS_ET_DETTES_FINANCIERES_DIVERS;
+
+ public static final String FOURNISSEURS_ET_COMPTES_RATTACHES;
+
+ public static final String PERSONNEL_ET_COMPTES_RATTACHES;
+
+ public static final String SECURITE_SOCIALE_ET_AUTRES_ORGANISMES_SOCIAUX;
+
+ public static final String IMPOTS_SUR_LES_BENEFICES;
+
+ public static final String TVA;
+
+ public static final String OBLIGATIONS_CAUTIONNEES;
+
+ public static final String AUTRES_IMPOTS_TAXES_ET_ASSIMILES;
+
+ public static final String DETTES_SUR_IMMOBILISATIONS_ET_COMPTES_RATTACHES;
+
+ public static final String GROUPE_ET_ASSOCIES;
+
+ public static final String AUTRES_DETTES_DONT_DETTES_RELATIVES_A_DES_OPERATIONS_DE_PENSION_DE_TITRE;
+
+ public static final String DETTE_REPRESENTATIVE_DE_TITRES_EMPRUNTES;
+
+ public static final String PRODUITS_CONSTATES_D_AVANCE;
+
+ public static final String TOTAL_ETAT_DES_DETTES;
+
+ public static final String EMPRUNTS_SOUSCRITS_EN_COURS_D_EXERCICE;
+
+ public static final String EMPRUNTS_REMBOURSES_EN_COURS_D_EXERCICE;
+
+ public static final String AFFECTATION_DU_RESULTAT_RENSEIGNEMENTS_DIVERS;
+
+ public static final String DIVIDENDES;
+
+ public static final String ENGAGEMENT_DE_CREDITBAIL_MOBILIER;
+
+ public static final String ENGAGEMENT_DE_CREDITBAIL_IMMOBILIER;
+
+ public static final String EFFETS_PORTES_A_L_ESCOMPTE_ET_NON_ECHUS;
+
+ public static final String SOUSTRAITANCE;
+
+ public static final String LOCATION_CHARGES_LOCATIVES_ET_DE_COPROPRIETE;
+
+ public static final String PERSONNEL_EXTERIEUR_A_L_ENTREPRISE;
+
+ public static final String REMUNERATION_D_INTERMEDIAIRES_ET_HONORAIRES_HORS_RETROCESSIONS;
+
+ public static final String RETROCESSIONS_D_HONORAIRES_COMMISSIONS_ET_COURTAGES;
+
+ public static final String AUTRES_COMPTES;
+
+ public static final String TOTAL_DU_POSTE_CORRESPONDANT_A_LA_LIGNE_FW_DU_TABLEAU_NUMERO_2052;
+
+ public static final String TAXE_PROFESSIONNELLE;
+
+ public static final String AUTRES_IMPOTS_TAXES_ET_VERSEMENTS_ASSIMILES;
+
+ public static final String TOTAL_DU_COMPTE_CORRESPONDANT_A_LA_LIGNE_FX_DU_TABLEAU_NUMERO_2052;
+
+ public static final String MONTANT_DE_LA_TVA_COLLECTEE;
+
+ public static final String TOTAL_TVA_DEDUCTIBLE_SUR_BIENS_ET_SERVICES;
+
+ public static final String EFFECTIF_MOYEN_DU_PERSONNEL;
+
+ public static final String FILIALES_ET_PARTICIPATIONS;

@@ -18,10 +18,12 @@ public class TestDatabaseMongoDB {
     public void TestDatabaseMongoDB_constructor(){
         DatabaseMongoDB db = new DatabaseMongoDB();
         MongoDatabase database = db.getDataBase();
-        MongoCollection<Document> collection = db.getCollection("Decembre2017");
-        FindIterable<Document> myDoc = collection.find(new Document("siren","005880596"));
-        LOGGER.info(myDoc.first().toString());
+        MongoCollection<Document> collection = db.getCollection();
+        FindIterable<Document> myList = collection.find(new Document("siren","005880596"));
+        //LOGGER.info(myDoc.first().toString());
+        Document doc = myList.first();
+        doc.keySet();
         Assert.assertNotNull(database);
-        Assert.assertEquals("GEDIMO HOLDING",myDoc.first().get("denomination"));
+        Assert.assertEquals("GEDIMO HOLDING",myList.first().get("denomination"));
     }
 }
