@@ -8,6 +8,10 @@ public class AnnualAccount extends AnnualAccountStringHelper {
 
     public AnnualAccount(Document doc){
         super();
+        //String :
+        this.setSIREN((String) doc.get("siren"));
+
+        //int :
         this.setACTIF((int) doc.get("aaaaaa"));
         this.setCAPITAL_SOUSCRIT_NON_APPELE((int) doc.get("aa"));
         this.setFRAIS_D_ETABLISSEMENT((int) doc.get("ab"));
