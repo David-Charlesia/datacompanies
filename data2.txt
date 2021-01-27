@@ -1,249 +1,992 @@
 
-this.setACTIF((int)doc.get("aaaaaa"));
-this.setCAPITAL_SOUSCRIT_NON_APPELE((int)doc.get("aa"));
-this.setFRAIS_D_ETABLISSEMENT((int)doc.get("ab"));
-this.setFRAIS_DE_DEVELOPPEMENT_OU_DE_RECHERCHE_ET_DEVELOPPEMENT((int)doc.get("cx"));
-this.setCONCESSIONS_BREVETS_ET_DROITS_SIMILAIRES((int)doc.get("af"));
-this.setFONDS_COMMERCIAL((int)doc.get("ah"));
-this.setAUTRES_IMMOBILISATIONS_INCORPORELLES((int)doc.get("aj"));
-this.setAVANCES_ET_ACOMPTES_SUR_IMMOBILISATIONS_INCORPORELLES((int)doc.get("al"));
-this.setTERRAINS((int)doc.get("an"));
-this.setCONSTRUCTIONS((int)doc.get("ap"));
-this.setINSTALLATIONS_TECHNIQUES_MATERIEL_ET_OUTILLAGE_INDUSTRIELS((int)doc.get("ar"));
-this.setAUTRES_IMMOBILISATIONS_CORPORELLES((int)doc.get("at"));
-this.setIMMOBILISATIONS_EN_COURS((int)doc.get("av"));
-this.setAVANCES_ET_ACOMPTES((int)doc.get("ax"));
-this.setPARTICIPATIONS_EVALUEES_MISE_EN_EQUIVALENCE((int)doc.get("cs"));
-this.setAUTRES_PARTICIPATIONS((int)doc.get("cu"));
-this.setCREANCES_RATTACHEES_A_DES_PARTICIPATIONS((int)doc.get("bb"));
-this.setAUTRES_TITRES_IMMOBILISES((int)doc.get("bd"));
-this.setPRETS((int)doc.get("bf"));
-this.setAUTRES_IMMOBILISATIONS_FINANCIERES((int)doc.get("bh"));
-this.setTOTAL_I((int)doc.get("bj"));
-this.setMATIERES_PREMIERES_APPROVISIONNEMENTS((int)doc.get("bl"));
-this.setEN_COURS_DE_PRODUCTION_DE_BIENS((int)doc.get("bn"));
-this.setEN_COURS_DE_PRODUCTION_DE_SERVICES((int)doc.get("bp"));
-this.setPRODUITS_INTERMEDIAIRES_ET_FINIS((int)doc.get("br"));
-this.setMARCHANDISES((int)doc.get("bt"));
-this.setAVANCES_ET_ACOMPTES_VERSES_SUR_COMMANDES((int)doc.get("bv"));
-this.setCLIENTS_ET_COMPTES_RATTACHES((int)doc.get("bx"));
-this.setAUTRES_CREANCES((int)doc.get("bz"));
-this.setCAPITAL_SOUSCRIT_ET_APPELE_NON_VERSE((int)doc.get("cb"));
-this.setVALEURS_MOBILIERES_DE_PLACEMENT((int)doc.get("cd"));
-this.setDISPONIBILITES((int)doc.get("cf"));
-this.setCHARGES_CONSTATEES_D_AVANCE((int)doc.get("ch"));
-this.setTOTAL_II((int)doc.get("cj"));
-this.setCHARGES_A_REPARTIR_OU_FRAIS_D_EMISSION_D_EMPRUNT((int)doc.get("cw"));
-this.setPRIMES_DE_REMBOURSEMENT_DES_OBLIGATIONS_IV((int)doc.get("cm"));
-this.setECARTS_DE_CONVERSION_ACTIF_V((int)doc.get("cn"));
-this.setTOTAL_GENERAL_0_A_V((int)doc.get("co"));
-this.setPARTS_A_MOINS_D_UN_AN((int)doc.get("cp"));
-this.setPARTS_A_PLUS_D_UN_AN((int)doc.get("cr"));
-this.setPASSIF((int)doc.get("pppppp"));
-this.setCAPITAL_SOCIAL_OU_INDIVIDUEL((int)doc.get("da"));
-this.setPRIMES_D_EMISSION_DE_FUSION_D_APPORT_((int)doc.get("db"));
-this.setDONT_ECART_D_EQUIVALENCE((int)doc.get("ek"));
-this.setECARTS_DE_REEVALUATION((int)doc.get("dc"));
-this.setRESERVE_LEGALE_1((int)doc.get("dd"));
-this.setRESERVES_STATUTAIRES_OU_CONTRACTUELLES((int)doc.get("de"));
-this.setDONT_RESERVE_SPECIALE_DES_PROVISIONS_POUR_FLUCTUATION_DES_COURS((int)doc.get("b1"));
-this.setRESERVES_REGLEMENTEES_1((int)doc.get("df"));
-this.setDONT_RESERVE_RELATIVE_A_L_ACHAT_D_OEUVRES_ORIGINALES_D_ARTISTES_VIVANTS((int)doc.get("ej"));
-this.setAUTRES_RESERVES((int)doc.get("dg"));
-this.setREPORT_A_NOUVEAU((int)doc.get("dh"));
-this.setRESULTAT_DE_L_EXERCICE_BENEFICE_OU_PERTE((int)doc.get("di"));
-this.setSUBVENTIONS_D_INVESTISSEMENT((int)doc.get("dj"));
-this.setPROVISIONS_REGLEMENTEES((int)doc.get("dk"));
-this.setTOTAL_I((int)doc.get("dl"));
-this.setPRODUIT_DES_EMISSIONS_DE_TITRES_PARTICIPATIFS((int)doc.get("dm"));
-this.setAVANCES_CONDITIONNEES((int)doc.get("dn"));
-this.setTOTAL_II((int)doc.get("do"));
-this.setPROVISIONS_POUR_RISQUES((int)doc.get("dp"));
-this.setPROVISIONS_POUR_CHARGES((int)doc.get("dq"));
-this.setTOTAL_III((int)doc.get("dr"));
-this.setEMPRUNTS_OBLIGATAIRES_CONVERTIBLES((int)doc.get("ds"));
-this.setAUTRES_EMPRUNTS_OBLIGATAIRES((int)doc.get("dt"));
-this.setEMPRUNTS_ET_DETTES_AUPRES_DES_ETABLISSEMENTS_DE_CREDIT_3((int)doc.get("du"));
-this.setEMPRUNTS_ET_DETTES_FINANCIERES_DIVERS_4((int)doc.get("dv"));
-this.setAVANCES_ET_ACOMPTES_RECUS_SUR_COMMANDES_EN_COURS((int)doc.get("dw"));
-this.setDETTES_FOURNISSEURS_ET_COMPTES_RATTACHES((int)doc.get("dx"));
-this.setDETTES_FISCALES_ET_SOCIALES((int)doc.get("dy"));
-this.setDETTES_SUR_IMMOBILISATIONS_ET_COMPTES_RATTACHES((int)doc.get("dz"));
-this.setAUTRES_DETTES((int)doc.get("ea"));
-this.setPRODUITS_CONSTATES_D_AVANCE_2((int)doc.get("eb"));
-this.setTOTAL_IV((int)doc.get("ec"));
-this.setV((int)doc.get("ed"));
-this.setTOTAL_GENERAL_I_A_V((int)doc.get("ee"));
-this.setDONT_RESERVE_REGLEMENTEE_DES_PLUSVALUES_A_LONG_TERME((int)doc.get("ef"));
-this.setDETTES_ET_PRODUITS_CONSTATES_D_AVANCE_A_MOINS_D_UN_AN((int)doc.get("eg"));
-this.setDONT_CONCOURS_BANCAIRES_COURANTS_ET_SOLDES_CREDITEURS_DE_BANQUES_ET_CCP((int)doc.get("eh"));
-this.setDONT_EMPRUNTS_PARTICIPATIFS((int)doc.get("ei"));
-this.setCOMPTE_DE_RESULTAT_A((int)doc.get("cccccc"));
-this.setVENTES_DE_MARCHANDISES((int)doc.get("fa"));
-this.setPRODUCTION_VENDUE_BIENS((int)doc.get("fd"));
-this.setPRODUCTION_VENDUE_SERVICES((int)doc.get("fg"));
-this.setCHIFFRES_D_AFFAIRES_NETS((int)doc.get("fj"));
-this.setPRODUCTION_STOCKEE((int)doc.get("fm"));
-this.setPRODUCTION_IMMOBILISEE((int)doc.get("fn"));
-this.setSUBVENTIONS_D_EXPLOITATION((int)doc.get("fo"));
-this.setREPRISES_SUR_AMORTISSEMENTS_ET_PROVISIONS_TRANSFERT_DE_CHARGES((int)doc.get("fp"));
-this.setAUTRES_PRODUITS((int)doc.get("fq"));
-this.setTOTAL_DES_PRODUITS_D_EXPLOITATION_I((int)doc.get("fr"));
-this.setACHATS_DE_MARCHANDISES_Y_COMPRIS_DROITS_DE_DOUANE((int)doc.get("fs"));
-this.setVARIATION_DE_STOCK_MARCHANDISES((int)doc.get("ft"));
-this.setACHATS_DE_MATIERES_PREMIERES_ET_AUTRES_APPROVISIONNEMENTS((int)doc.get("fu"));
-this.setVARIATION_DE_STOCK_MATIERES_PREMIERES_ET_APPROVISIONNEMENTS((int)doc.get("fv"));
-this.setAUTRES_ACHATS_ET_CHARGES_EXTERNES((int)doc.get("fw"));
-this.setIMPOTS_TAXES_ET_VERSEMENTS_ASSIMILES((int)doc.get("fx"));
-this.setSALAIRES_ET_TRAITEMENTS((int)doc.get("fy"));
-this.setCHARGES_SOCIALES((int)doc.get("fz"));
-this.setDOT_D_EXPLOIT_DOTATIONS_AUX_AMORTISSEMENTS((int)doc.get("ga"));
-this.setDOT_D_EXPLOIT_DOTATIONS_AUX_PROVISIONS((int)doc.get("gb"));
-this.setDOT_D_EXPLOIT_SUR_ACTIF_CIRCULANT_DOTATIONS_AUX_PROVISIONS((int)doc.get("gc"));
-this.setDOT_D_EXPLOIT_POUR_RISQUES_ET_CHARGES_DOTATIONS_AUX_PROVISIONS((int)doc.get("gd"));
-this.setAUTRES_CHARGES((int)doc.get("ge"));
-this.setTOTAL_DES_CHARGES_D_EXPLOITATION_II((int)doc.get("gf"));
-this.setRESULTAT_D_EXPLOITATION_I_II((int)doc.get("gg"));
-this.setBENEFICE_ATTRIBUE_OU_PERTE_TRANSFEREE_III((int)doc.get("gh"));
-this.setPERTE_SUPPORTEE_OU_BENEFICE_TRANSFERE_IV((int)doc.get("gi"));
-this.setPRODUITS_FINANCIERS_DE_PARTICIPATIONS((int)doc.get("gj"));
-this.setPRODUITS_DES_AUTRES_VALEURS_MOBILIERES_ET_CREANCES_DE_L_ACTIF_IMMOBILISE((int)doc.get("gk"));
-this.setAUTRES_INTERETS_ET_PRODUITS_ASSIMILES((int)doc.get("gl"));
-this.setREPRISES_SUR_PROVISIONS_ET_TRANSFERTS_DE_CHARGES((int)doc.get("gm"));
-this.setDIFFERENCES_POSITIVES_DE_CHANGE((int)doc.get("gn"));
-this.setPRODUITS_NETS_SUR_CESSIONS_DE_VALEURS_MOBILIERES_DE_PLACEMENT((int)doc.get("go"));
-this.setTOTAL_DES_PRODUITS_FINANCIERS_V((int)doc.get("gp"));
-this.setDOTATIONS_FINANCIERES_SUR_AMORTISSEMENTS_ET_PROVISIONS((int)doc.get("gq"));
-this.setINTERETS_ET_CHARGES_ASSIMILEES((int)doc.get("gr"));
-this.setDIFFERENCES_NEGATIVES_DE_CHANGE((int)doc.get("gs"));
-this.setCHARGES_NETTES_SUR_CESSIONS_DE_VALEURS_MOBILIERES_DE_PLACEMENT((int)doc.get("gt"));
-this.setTOTAL_DES_CHARGES_FINANCIERES_VI((int)doc.get("gu"));
-this.setRESULTAT_FINANCIER_V_VI((int)doc.get("gv"));
-this.setRESULTAT_COURANT_AVANT_IMPOTS_I_II_III_IV_V_VI((int)doc.get("gw"));
-this.setCOMPTE_DE_RESULTAT_B((int)doc.get("cccbbb"));
-this.setPRODUITS_EXCEPTIONNELS_SUR_OPERATIONS_DE_GESTION((int)doc.get("ha"));
-this.setPRODUITS_EXCEPTIONNELS_SUR_OPERATIONS_EN_CAPITAL((int)doc.get("hb"));
-this.setREPRISES_SUR_PROVISIONS_ET_TRANSFERTS_DE_CHARGES((int)doc.get("hc"));
-this.setTOTAL_DES_PRODUITS_EXCEPTIONNELS_VII((int)doc.get("hd"));
-this.setCHARGES_EXCEPTIONNELLES_SUR_OPERATIONS_DE_GESTION((int)doc.get("he"));
-this.setCHARGES_EXCEPTIONNELLES_SUR_OPERATIONS_EN_CAPITAL((int)doc.get("hf"));
-this.setDOTATIONS_EXCEPTIONNELLES_AUX_AMORTISSEMENTS_ET_PROVISIONS((int)doc.get("hg"));
-this.setTOTAL_DES_CHARGES_EXCEPTIONNELLES_VIII((int)doc.get("hh"));
-this.setRESULTAT_EXCEPTIONNEL_VII_VIII((int)doc.get("hi"));
-this.setPARTICIPATION_DES_SALARIES_AUX_RESULTATS_DE_L_ENTREPRISE((int)doc.get("hj"));
-this.setIMPOTS_SUR_LES_BENEFICES_X((int)doc.get("hk"));
-this.setTOTAL_DES_PRODUITS_I_III_V_VII((int)doc.get("hl"));
-this.setTOTAL_DES_CHARGES_II_IV_VI_VIII_IX_X((int)doc.get("hm"));
-this.setBENEFICE_OU_PERTE_TOTAL_DES_PRODUITS_TOTAL_DES_CHARGES((int)doc.get("hn"));
-this.setRENVOIS_CREDITBAIL_MOBILIER((int)doc.get("hp"));
-this.setRENVOIS_CREDITBAIL_IMMOBILIER((int)doc.get("hq"));
-this.setRENVOIS_TRANSFERT_DE_CHARGES((int)doc.get("a1"));
-this.setRENVOIS_COTISATIONS_PERSONNELLES_DE_L_EXPLOITANT((int)doc.get("a2"));
-this.setRENVOIS_REDEVANCES_POUR_CONCESSIONS_DE_BREVETS_DE_LICENCES_PRODUITS((int)doc.get("a3"));
-this.setRENVOIS_REDEVANCES_POUR_CONCESSIONS_DE_BREVETS_DE_LICENCES_CHARGES((int)doc.get("a4"));
-this.setIMMOBILISATIONS((int)doc.get("iiiiii"));
-this.setACQUISITIONS_FRAIS_D_ETABLISSEMENT_ET_DE_DEVELOPPEMENT_OU_DE_RECHERCHE((int)doc.get("cz"));
-this.setACQUISITIONS_TOTAL_DONT_AUTRES_POSTES_D_IMMOBILISATIONS_INCORPORELLES((int)doc.get("kd"));
-this.setACQUISITIONS_TOTAL_IMMOBILISATIONS_CORPORELLES((int)doc.get("ln"));
-this.setACQUISITIONS_TOTAL_IMMOBILISATIONS_FINANCIERES((int)doc.get("lq"));
-this.setACQUISITIONS_TOTAL_GENERAL((int)doc.get("0g"));
-this.setDIMINUTIONS_FRAIS_D_ETABLISSEMENT_ET_DE_DEVELOPPEMENT_OU_DE_RECHERCHE((int)doc.get("in"));
-this.setDIMINUTIONS_TOTAL_DONT_AUTRES_POSTES_D_IMMOBILISATIONS_INCORPORELLES((int)doc.get("io"));
-this.setDIMINUTIONS_VIREMENT_POSTES_IMMOBILISATIONS_CORPORELLES_EN_COURS((int)doc.get("my"));
-this.setDIMINUTIONS_VIREMENT_POSTES_AVANCES_ET_ACOMPTES((int)doc.get("nc"));
-this.setDIMINUTIONS_TOTAL_IMMOBILISATIONS_CORPORELLES((int)doc.get("iy"));
-this.setDIMINUTIONS_PRETS_ET_IMMOBILISATIONS_FINANCIERES((int)doc.get("i2"));
-this.setDIMINUTIONS_TOTAL_IMMOBILISATIONS_FINANCIERES((int)doc.get("i3"));
-this.setDIMINUTIONS_TOTAL_GENERAL((int)doc.get("i4"));
-this.setAMORTISSEMENTS((int)doc.get("iiiaaa"));
-this.setAMORTISSEMENTS_FRAIS_D_ETABLISSEMENT_ET_DE_DEVELOPPEMENT_OU_DE_RECHERCHE((int)doc.get("cy"));
-this.setAMORTISSEMENTS_TOTAL_DONT_AUTRES_IMMOBILISATIONS_INCORPORELLES((int)doc.get("pe"));
-this.setAMORTISSEMENTS_TOTAL_IMMOBILISATIONS_CORPORELLES((int)doc.get("qu"));
-this.setAMORTISSEMENTS_TOTAL_GENERAL((int)doc.get("0n"));
-this.setCHARGES_A_REPARTIR_OU_FRAIS_D_EMISSION_D_EMPRUNT((int)doc.get("z9"));
-this.setMVT_SUR_CHARGES_REP_PRIMES_DE_REMBOURSEMENT_DES_OBLIGATIONS((int)doc.get("sp"));
-this.setPROVISIONS((int)doc.get("pppbbb"));
-this.setAMORTISSEMENTS_DEROGATOIRES((int)doc.get("3x"));
-this.setTOTAL_PROVISIONS_REGLEMENTEES((int)doc.get("3z"));
-this.setPROVISIONS_POUR_LITIGES((int)doc.get("4a"));
-this.setPROVISIONS_POUR_GARANTIES_DONNEES_AUX_CLIENTS((int)doc.get("4e"));
-this.setPROVISIONS_POUR_PERTE_SUR_MARCHES_A_TERME((int)doc.get("4j"));
-this.setPROVISIONS_POUR_AMENDES_ET_PENALITES((int)doc.get("4n"));
-this.setPROVISIONS_POUR_PERTE_DE_CHANGE((int)doc.get("4t"));
-this.setPROVISIONS_POUR_PENSIONS_ET_OBLIGATIONS_SIMILAIRES((int)doc.get("4x"));
-this.setPROVISIONS_POUR_IMPOTS((int)doc.get("5b"));
-this.setPROVISIONS_POUR_RENOUVELLEMENT_DES_IMMOBILISATIONS((int)doc.get("5f"));
-this.setPROVISIONS_POUR_GROS_ENTRETIEN_ET_GRANDES_REVISIONS_OU_GROSSES_REPARATIONS((int)doc.get("eo"));
-this.setPROVISIONS_POUR_CHARGES_SOCIALES_ET_FISCALES_SUR_CONGES_A_PAYER((int)doc.get("5r"));
-this.setAUTRES_PROVISIONS_POUR_RISQUES_ET_CHARGES((int)doc.get("5v"));
-this.setTOTAL_PROVISIONS_POUR_RISQUES_ET_CHARGES((int)doc.get("5z"));
-this.setSUR_IMMOBILISATIONS_INCORPORELLES((int)doc.get("6a"));
-this.setSUR_IMMOBILISATIONS_CORPORELLES((int)doc.get("6e"));
-this.setSUR_IMMOBILISATIONS_TITRES_MIS_EN_EQUIVALENCE((int)doc.get("02"));
-this.setSUR_IMMOBILISATIONS_TITRES_DE_PARTICIPATION((int)doc.get("9u"));
-this.setSUR_IMMOBILISATIONS_AUTRES_IMMOBILISATIONS_FINANCIERES((int)doc.get("06"));
-this.setSUR_STOCKS_ET_EN_COURS((int)doc.get("6n"));
-this.setSUR_COMPTES_CLIENTS((int)doc.get("6t"));
-this.setAUTRES_PROVISIONS_POUR_DEPRECIATION((int)doc.get("6x"));
-this.setTOTAL_PROVISIONS_POUR_DEPRECIATION((int)doc.get("7b"));
-this.setTOTAL_GENERAL((int)doc.get("7c"));
-this.setDONT_DOTATIONS_ET_REPRISES_D_EXPLOITATION((int)doc.get("ue"));
-this.setDONT_DOTATIONS_ET_REPRISES_FINANCIERES((int)doc.get("ug"));
-this.setDONT_DOTATIONS_ET_REPRISES_EXCEPTIONNELLES((int)doc.get("uj"));
-this.setCREANCES_ET_DETTES((int)doc.get("cccaaa"));
-this.setCREANCES_RATTACHEES_A_DES_PARTICIPATIONS((int)doc.get("ul"));
-this.setPRETS((int)doc.get("up"));
-this.setAUTRES_IMMOBILISATIONS_FINANCIERES((int)doc.get("ut"));
-this.setCLIENTS_DOUTEUX_OU_LITIGIEUX((int)doc.get("va"));
-this.setAUTRES_CREANCES_CLIENTS((int)doc.get("ux"));
-this.setPROVISION_POUR_DEPRECIATION_ANTERIEUREMENT_CONSTITUEE((int)doc.get("uo"));
-this.setCREANCES_REPRESENTATIVES_DE_TITRES_PRETES((int)doc.get("z1"));
-this.setPERSONNEL_ET_COMPTES_RATTACHES((int)doc.get("uy"));
-this.setSECURITE_SOCIALE_AUTRES_ORGANISMES_SOCIAUX((int)doc.get("uz"));
-this.setIMPOTS_SUR_LES_BENEFICES((int)doc.get("vm"));
-this.setT_V_A((int)doc.get("vb"));
-this.setAUTRES_IMPOTS_TAXES_VERSEMENTS_ASSIMILES((int)doc.get("vn"));
-this.setDIVERS((int)doc.get("vp"));
-this.setGROUPE_ET_ASSOCIES((int)doc.get("vc"));
-this.setDEBITEURS_DIVERS_DONT_CREANCES_RELATIVES_A_DES_OPERATIONS_DE_PENSION_DE_TITRES((int)doc.get("vr"));
-this.setCHARGES_CONSTATEES_D_AVANCE((int)doc.get("vs"));
-this.setTOTAL_ETAT_DES_CREANCES((int)doc.get("vt"));
-this.setEMPRUNTS_OBLIGATAIRES_CONVERTIBLES_BRUT_A_UN_AN_AU_PLUS((int)doc.get("7y"));
-this.setAUTRES_EMPRUNTS_OBLIGATAIRES_BRUT_A_UN_AN_AU_PLUS((int)doc.get("7z"));
-this.setEMPRUNTS_A_1_AN_MAXIMUM_A_L_ORIGINE((int)doc.get("vg"));
-this.setEMPRUNTS_A_PLUS_D_1_AN_A_L_ORIGINE((int)doc.get("vh"));
-this.setEMPRUNTS_ET_DETTES_FINANCIERES_DIVERS((int)doc.get("8a"));
-this.setFOURNISSEURS_ET_COMPTES_RATTACHES((int)doc.get("8b"));
-this.setPERSONNEL_ET_COMPTES_RATTACHES((int)doc.get("8c"));
-this.setSECURITE_SOCIALE_ET_AUTRES_ORGANISMES_SOCIAUX((int)doc.get("8d"));
-this.setIMPOTS_SUR_LES_BENEFICES((int)doc.get("8e"));
-this.setTVA((int)doc.get("vw"));
-this.setOBLIGATIONS_CAUTIONNEES((int)doc.get("vx"));
-this.setAUTRES_IMPOTS_TAXES_ET_ASSIMILES((int)doc.get("vq"));
-this.setDETTES_SUR_IMMOBILISATIONS_ET_COMPTES_RATTACHES((int)doc.get("8j"));
-this.setGROUPE_ET_ASSOCIES((int)doc.get("vi"));
-this.setAUTRES_DETTES_DONT_DETTES_RELATIVES_A_DES_OPERATIONS_DE_PENSION_DE_TITRE((int)doc.get("8k"));
-this.setDETTE_REPRESENTATIVE_DE_TITRES_EMPRUNTES((int)doc.get("z2"));
-this.setPRODUITS_CONSTATES_D_AVANCE((int)doc.get("8l"));
-this.setTOTAL_ETAT_DES_DETTES((int)doc.get("vy"));
-this.setEMPRUNTS_SOUSCRITS_EN_COURS_D_EXERCICE((int)doc.get("vj"));
-this.setEMPRUNTS_REMBOURSES_EN_COURS_D_EXERCICE((int)doc.get("vk"));
-this.setAFFECTATION_DU_RESULTAT_RENSEIGNEMENTS_DIVERS((int)doc.get("rrrrrr"));
-this.setDIVIDENDES((int)doc.get("ze"));
-this.setENGAGEMENT_DE_CREDITBAIL_MOBILIER((int)doc.get("yq"));
-this.setENGAGEMENT_DE_CREDITBAIL_IMMOBILIER((int)doc.get("yr"));
-this.setEFFETS_PORTES_A_L_ESCOMPTE_ET_NON_ECHUS((int)doc.get("ys"));
-this.setSOUSTRAITANCE((int)doc.get("yt"));
-this.setLOCATION_CHARGES_LOCATIVES_ET_DE_COPROPRIETE((int)doc.get("xq"));
-this.setPERSONNEL_EXTERIEUR_A_L_ENTREPRISE((int)doc.get("yu"));
-this.setREMUNERATION_D_INTERMEDIAIRES_ET_HONORAIRES_HORS_RETROCESSIONS((int)doc.get("ss"));
-this.setRETROCESSIONS_D_HONORAIRES_COMMISSIONS_ET_COURTAGES((int)doc.get("yv"));
-this.setAUTRES_COMPTES((int)doc.get("st"));
-this.setTOTAL_DU_POSTE_CORRESPONDANT_A_LA_LIGNE_FW_DU_TABLEAU_NUMERO_2052((int)doc.get("zj"));
-this.setTAXE_PROFESSIONNELLE((int)doc.get("yw"));
-this.setAUTRES_IMPOTS_TAXES_ET_VERSEMENTS_ASSIMILES((int)doc.get("9z"));
-this.setTOTAL_DU_COMPTE_CORRESPONDANT_A_LA_LIGNE_FX_DU_TABLEAU_NUMERO_2052((int)doc.get("yx"));
-this.setMONTANT_DE_LA_TVA_COLLECTEE((int)doc.get("yy"));
-this.setTOTAL_TVA_DEDUCTIBLE_SUR_BIENS_ET_SERVICES((int)doc.get("yz"));
-this.setEFFECTIF_MOYEN_DU_PERSONNEL((int)doc.get("yp"));
-this.setFILIALES_ET_PARTICIPATIONS((int)doc.get("zr"));
+if(doc.get("aaaaaa")!=null){
+   this.setACTIF((int)doc.get("aaaaaa"));
+}
+
+if(doc.get("aa")!=null){
+   this.setCAPITAL_SOUSCRIT_NON_APPELE((int)doc.get("aa"));
+}
+
+if(doc.get("ab")!=null){
+   this.setFRAIS_D_ETABLISSEMENT((int)doc.get("ab"));
+}
+
+if(doc.get("cx")!=null){
+   this.setFRAIS_DE_DEVELOPPEMENT_OU_DE_RECHERCHE_ET_DEVELOPPEMENT((int)doc.get("cx"));
+}
+
+if(doc.get("af")!=null){
+   this.setCONCESSIONS_BREVETS_ET_DROITS_SIMILAIRES((int)doc.get("af"));
+}
+
+if(doc.get("ah")!=null){
+   this.setFONDS_COMMERCIAL((int)doc.get("ah"));
+}
+
+if(doc.get("aj")!=null){
+   this.setAUTRES_IMMOBILISATIONS_INCORPORELLES((int)doc.get("aj"));
+}
+
+if(doc.get("al")!=null){
+   this.setAVANCES_ET_ACOMPTES_SUR_IMMOBILISATIONS_INCORPORELLES((int)doc.get("al"));
+}
+
+if(doc.get("an")!=null){
+   this.setTERRAINS((int)doc.get("an"));
+}
+
+if(doc.get("ap")!=null){
+   this.setCONSTRUCTIONS((int)doc.get("ap"));
+}
+
+if(doc.get("ar")!=null){
+   this.setINSTALLATIONS_TECHNIQUES_MATERIEL_ET_OUTILLAGE_INDUSTRIELS((int)doc.get("ar"));
+}
+
+if(doc.get("at")!=null){
+   this.setAUTRES_IMMOBILISATIONS_CORPORELLES((int)doc.get("at"));
+}
+
+if(doc.get("av")!=null){
+   this.setIMMOBILISATIONS_EN_COURS((int)doc.get("av"));
+}
+
+if(doc.get("ax")!=null){
+   this.setAVANCES_ET_ACOMPTES((int)doc.get("ax"));
+}
+
+if(doc.get("cs")!=null){
+   this.setPARTICIPATIONS_EVALUEES_MISE_EN_EQUIVALENCE((int)doc.get("cs"));
+}
+
+if(doc.get("cu")!=null){
+   this.setAUTRES_PARTICIPATIONS((int)doc.get("cu"));
+}
+
+if(doc.get("bb")!=null){
+   this.setCREANCES_RATTACHEES_A_DES_PARTICIPATIONS((int)doc.get("bb"));
+}
+
+if(doc.get("bd")!=null){
+   this.setAUTRES_TITRES_IMMOBILISES((int)doc.get("bd"));
+}
+
+if(doc.get("bf")!=null){
+   this.setPRETS((int)doc.get("bf"));
+}
+
+if(doc.get("bh")!=null){
+   this.setAUTRES_IMMOBILISATIONS_FINANCIERES((int)doc.get("bh"));
+}
+
+if(doc.get("bj")!=null){
+   this.setTOTAL_I((int)doc.get("bj"));
+}
+
+if(doc.get("bl")!=null){
+   this.setMATIERES_PREMIERES_APPROVISIONNEMENTS((int)doc.get("bl"));
+}
+
+if(doc.get("bn")!=null){
+   this.setEN_COURS_DE_PRODUCTION_DE_BIENS((int)doc.get("bn"));
+}
+
+if(doc.get("bp")!=null){
+   this.setEN_COURS_DE_PRODUCTION_DE_SERVICES((int)doc.get("bp"));
+}
+
+if(doc.get("br")!=null){
+   this.setPRODUITS_INTERMEDIAIRES_ET_FINIS((int)doc.get("br"));
+}
+
+if(doc.get("bt")!=null){
+   this.setMARCHANDISES((int)doc.get("bt"));
+}
+
+if(doc.get("bv")!=null){
+   this.setAVANCES_ET_ACOMPTES_VERSES_SUR_COMMANDES((int)doc.get("bv"));
+}
+
+if(doc.get("bx")!=null){
+   this.setCLIENTS_ET_COMPTES_RATTACHES((int)doc.get("bx"));
+}
+
+if(doc.get("bz")!=null){
+   this.setAUTRES_CREANCES((int)doc.get("bz"));
+}
+
+if(doc.get("cb")!=null){
+   this.setCAPITAL_SOUSCRIT_ET_APPELE_NON_VERSE((int)doc.get("cb"));
+}
+
+if(doc.get("cd")!=null){
+   this.setVALEURS_MOBILIERES_DE_PLACEMENT((int)doc.get("cd"));
+}
+
+if(doc.get("cf")!=null){
+   this.setDISPONIBILITES((int)doc.get("cf"));
+}
+
+if(doc.get("ch")!=null){
+   this.setCHARGES_CONSTATEES_D_AVANCE((int)doc.get("ch"));
+}
+
+if(doc.get("cj")!=null){
+   this.setTOTAL_II((int)doc.get("cj"));
+}
+
+if(doc.get("cw")!=null){
+   this.setCHARGES_A_REPARTIR_OU_FRAIS_D_EMISSION_D_EMPRUNT((int)doc.get("cw"));
+}
+
+if(doc.get("cm")!=null){
+   this.setPRIMES_DE_REMBOURSEMENT_DES_OBLIGATIONS_IV((int)doc.get("cm"));
+}
+
+if(doc.get("cn")!=null){
+   this.setECARTS_DE_CONVERSION_ACTIF_V((int)doc.get("cn"));
+}
+
+if(doc.get("co")!=null){
+   this.setTOTAL_GENERAL_0_A_V((int)doc.get("co"));
+}
+
+if(doc.get("cp")!=null){
+   this.setPARTS_A_MOINS_D_UN_AN((int)doc.get("cp"));
+}
+
+if(doc.get("cr")!=null){
+   this.setPARTS_A_PLUS_D_UN_AN((int)doc.get("cr"));
+}
+
+if(doc.get("pppppp")!=null){
+   this.setPASSIF((int)doc.get("pppppp"));
+}
+
+if(doc.get("da")!=null){
+   this.setCAPITAL_SOCIAL_OU_INDIVIDUEL((int)doc.get("da"));
+}
+
+if(doc.get("db")!=null){
+   this.setPRIMES_D_EMISSION_DE_FUSION_D_APPORT((int)doc.get("db"));
+}
+
+if(doc.get("ek")!=null){
+   this.setDONT_ECART_D_EQUIVALENCE((int)doc.get("ek"));
+}
+
+if(doc.get("dc")!=null){
+   this.setECARTS_DE_REEVALUATION((int)doc.get("dc"));
+}
+
+if(doc.get("dd")!=null){
+   this.setRESERVE_LEGALE_1((int)doc.get("dd"));
+}
+
+if(doc.get("de")!=null){
+   this.setRESERVES_STATUTAIRES_OU_CONTRACTUELLES((int)doc.get("de"));
+}
+
+if(doc.get("b1")!=null){
+   this.setDONT_RESERVE_SPECIALE_DES_PROVISIONS_POUR_FLUCTUATION_DES_COURS((int)doc.get("b1"));
+}
+
+if(doc.get("df")!=null){
+   this.setRESERVES_REGLEMENTEES_1((int)doc.get("df"));
+}
+
+if(doc.get("ej")!=null){
+   this.setDONT_RESERVE_RELATIVE_A_L_ACHAT_D_OEUVRES_ORIGINALES_D_ARTISTES_VIVANTS((int)doc.get("ej"));
+}
+
+if(doc.get("dg")!=null){
+   this.setAUTRES_RESERVES((int)doc.get("dg"));
+}
+
+if(doc.get("dh")!=null){
+   this.setREPORT_A_NOUVEAU((int)doc.get("dh"));
+}
+
+if(doc.get("di")!=null){
+   this.setRESULTAT_DE_L_EXERCICE_BENEFICE_OU_PERTE((int)doc.get("di"));
+}
+
+if(doc.get("dj")!=null){
+   this.setSUBVENTIONS_D_INVESTISSEMENT((int)doc.get("dj"));
+}
+
+if(doc.get("dk")!=null){
+   this.setPROVISIONS_REGLEMENTEES((int)doc.get("dk"));
+}
+
+if(doc.get("dl")!=null){
+   this.setTOTAL_I((int)doc.get("dl"));
+}
+
+if(doc.get("dm")!=null){
+   this.setPRODUIT_DES_EMISSIONS_DE_TITRES_PARTICIPATIFS((int)doc.get("dm"));
+}
+
+if(doc.get("dn")!=null){
+   this.setAVANCES_CONDITIONNEES((int)doc.get("dn"));
+}
+
+if(doc.get("do")!=null){
+   this.setTOTAL_II((int)doc.get("do"));
+}
+
+if(doc.get("dp")!=null){
+   this.setPROVISIONS_POUR_RISQUES((int)doc.get("dp"));
+}
+
+if(doc.get("dq")!=null){
+   this.setPROVISIONS_POUR_CHARGES((int)doc.get("dq"));
+}
+
+if(doc.get("dr")!=null){
+   this.setTOTAL_III((int)doc.get("dr"));
+}
+
+if(doc.get("ds")!=null){
+   this.setEMPRUNTS_OBLIGATAIRES_CONVERTIBLES((int)doc.get("ds"));
+}
+
+if(doc.get("dt")!=null){
+   this.setAUTRES_EMPRUNTS_OBLIGATAIRES((int)doc.get("dt"));
+}
+
+if(doc.get("du")!=null){
+   this.setEMPRUNTS_ET_DETTES_AUPRES_DES_ETABLISSEMENTS_DE_CREDIT_3((int)doc.get("du"));
+}
+
+if(doc.get("dv")!=null){
+   this.setEMPRUNTS_ET_DETTES_FINANCIERES_DIVERS_4((int)doc.get("dv"));
+}
+
+if(doc.get("dw")!=null){
+   this.setAVANCES_ET_ACOMPTES_RECUS_SUR_COMMANDES_EN_COURS((int)doc.get("dw"));
+}
+
+if(doc.get("dx")!=null){
+   this.setDETTES_FOURNISSEURS_ET_COMPTES_RATTACHES((int)doc.get("dx"));
+}
+
+if(doc.get("dy")!=null){
+   this.setDETTES_FISCALES_ET_SOCIALES((int)doc.get("dy"));
+}
+
+if(doc.get("dz")!=null){
+   this.setDETTES_SUR_IMMOBILISATIONS_ET_COMPTES_RATTACHES((int)doc.get("dz"));
+}
+
+if(doc.get("ea")!=null){
+   this.setAUTRES_DETTES((int)doc.get("ea"));
+}
+
+if(doc.get("eb")!=null){
+   this.setPRODUITS_CONSTATES_D_AVANCE_2((int)doc.get("eb"));
+}
+
+if(doc.get("ec")!=null){
+   this.setTOTAL_IV((int)doc.get("ec"));
+}
+
+if(doc.get("ed")!=null){
+   this.setV((int)doc.get("ed"));
+}
+
+if(doc.get("ee")!=null){
+   this.setTOTAL_GENERAL_I_A_V((int)doc.get("ee"));
+}
+
+if(doc.get("ef")!=null){
+   this.setDONT_RESERVE_REGLEMENTEE_DES_PLUSVALUES_A_LONG_TERME((int)doc.get("ef"));
+}
+
+if(doc.get("eg")!=null){
+   this.setDETTES_ET_PRODUITS_CONSTATES_D_AVANCE_A_MOINS_D_UN_AN((int)doc.get("eg"));
+}
+
+if(doc.get("eh")!=null){
+   this.setDONT_CONCOURS_BANCAIRES_COURANTS_ET_SOLDES_CREDITEURS_DE_BANQUES_ET_CCP((int)doc.get("eh"));
+}
+
+if(doc.get("ei")!=null){
+   this.setDONT_EMPRUNTS_PARTICIPATIFS((int)doc.get("ei"));
+}
+
+if(doc.get("cccccc")!=null){
+   this.setCOMPTE_DE_RESULTAT_A((int)doc.get("cccccc"));
+}
+
+if(doc.get("fa")!=null){
+   this.setVENTES_DE_MARCHANDISES((int)doc.get("fa"));
+}
+
+if(doc.get("fd")!=null){
+   this.setPRODUCTION_VENDUE_BIENS((int)doc.get("fd"));
+}
+
+if(doc.get("fg")!=null){
+   this.setPRODUCTION_VENDUE_SERVICES((int)doc.get("fg"));
+}
+
+if(doc.get("fj")!=null){
+   this.setCHIFFRES_D_AFFAIRES_NETS((int)doc.get("fj"));
+}
+
+if(doc.get("fm")!=null){
+   this.setPRODUCTION_STOCKEE((int)doc.get("fm"));
+}
+
+if(doc.get("fn")!=null){
+   this.setPRODUCTION_IMMOBILISEE((int)doc.get("fn"));
+}
+
+if(doc.get("fo")!=null){
+   this.setSUBVENTIONS_D_EXPLOITATION((int)doc.get("fo"));
+}
+
+if(doc.get("fp")!=null){
+   this.setREPRISES_SUR_AMORTISSEMENTS_ET_PROVISIONS_TRANSFERT_DE_CHARGES((int)doc.get("fp"));
+}
+
+if(doc.get("fq")!=null){
+   this.setAUTRES_PRODUITS((int)doc.get("fq"));
+}
+
+if(doc.get("fr")!=null){
+   this.setTOTAL_DES_PRODUITS_D_EXPLOITATION_I((int)doc.get("fr"));
+}
+
+if(doc.get("fs")!=null){
+   this.setACHATS_DE_MARCHANDISES_Y_COMPRIS_DROITS_DE_DOUANE((int)doc.get("fs"));
+}
+
+if(doc.get("ft")!=null){
+   this.setVARIATION_DE_STOCK_MARCHANDISES((int)doc.get("ft"));
+}
+
+if(doc.get("fu")!=null){
+   this.setACHATS_DE_MATIERES_PREMIERES_ET_AUTRES_APPROVISIONNEMENTS((int)doc.get("fu"));
+}
+
+if(doc.get("fv")!=null){
+   this.setVARIATION_DE_STOCK_MATIERES_PREMIERES_ET_APPROVISIONNEMENTS((int)doc.get("fv"));
+}
+
+if(doc.get("fw")!=null){
+   this.setAUTRES_ACHATS_ET_CHARGES_EXTERNES((int)doc.get("fw"));
+}
+
+if(doc.get("fx")!=null){
+   this.setIMPOTS_TAXES_ET_VERSEMENTS_ASSIMILES((int)doc.get("fx"));
+}
+
+if(doc.get("fy")!=null){
+   this.setSALAIRES_ET_TRAITEMENTS((int)doc.get("fy"));
+}
+
+if(doc.get("fz")!=null){
+   this.setCHARGES_SOCIALES((int)doc.get("fz"));
+}
+
+if(doc.get("ga")!=null){
+   this.setDOT_D_EXPLOIT_DOTATIONS_AUX_AMORTISSEMENTS((int)doc.get("ga"));
+}
+
+if(doc.get("gb")!=null){
+   this.setDOT_D_EXPLOIT_DOTATIONS_AUX_PROVISIONS((int)doc.get("gb"));
+}
+
+if(doc.get("gc")!=null){
+   this.setDOT_D_EXPLOIT_SUR_ACTIF_CIRCULANT_DOTATIONS_AUX_PROVISIONS((int)doc.get("gc"));
+}
+
+if(doc.get("gd")!=null){
+   this.setDOT_D_EXPLOIT_POUR_RISQUES_ET_CHARGES_DOTATIONS_AUX_PROVISIONS((int)doc.get("gd"));
+}
+
+if(doc.get("ge")!=null){
+   this.setAUTRES_CHARGES((int)doc.get("ge"));
+}
+
+if(doc.get("gf")!=null){
+   this.setTOTAL_DES_CHARGES_D_EXPLOITATION_II((int)doc.get("gf"));
+}
+
+if(doc.get("gg")!=null){
+   this.setRESULTAT_D_EXPLOITATION_I_II((int)doc.get("gg"));
+}
+
+if(doc.get("gh")!=null){
+   this.setBENEFICE_ATTRIBUE_OU_PERTE_TRANSFEREE_III((int)doc.get("gh"));
+}
+
+if(doc.get("gi")!=null){
+   this.setPERTE_SUPPORTEE_OU_BENEFICE_TRANSFERE_IV((int)doc.get("gi"));
+}
+
+if(doc.get("gj")!=null){
+   this.setPRODUITS_FINANCIERS_DE_PARTICIPATIONS((int)doc.get("gj"));
+}
+
+if(doc.get("gk")!=null){
+   this.setPRODUITS_DES_AUTRES_VALEURS_MOBILIERES_ET_CREANCES_DE_L_ACTIF_IMMOBILISE((int)doc.get("gk"));
+}
+
+if(doc.get("gl")!=null){
+   this.setAUTRES_INTERETS_ET_PRODUITS_ASSIMILES((int)doc.get("gl"));
+}
+
+if(doc.get("gm")!=null){
+   this.setREPRISES_SUR_PROVISIONS_ET_TRANSFERTS_DE_CHARGES((int)doc.get("gm"));
+}
+
+if(doc.get("gn")!=null){
+   this.setDIFFERENCES_POSITIVES_DE_CHANGE((int)doc.get("gn"));
+}
+
+if(doc.get("go")!=null){
+   this.setPRODUITS_NETS_SUR_CESSIONS_DE_VALEURS_MOBILIERES_DE_PLACEMENT((int)doc.get("go"));
+}
+
+if(doc.get("gp")!=null){
+   this.setTOTAL_DES_PRODUITS_FINANCIERS_V((int)doc.get("gp"));
+}
+
+if(doc.get("gq")!=null){
+   this.setDOTATIONS_FINANCIERES_SUR_AMORTISSEMENTS_ET_PROVISIONS((int)doc.get("gq"));
+}
+
+if(doc.get("gr")!=null){
+   this.setINTERETS_ET_CHARGES_ASSIMILEES((int)doc.get("gr"));
+}
+
+if(doc.get("gs")!=null){
+   this.setDIFFERENCES_NEGATIVES_DE_CHANGE((int)doc.get("gs"));
+}
+
+if(doc.get("gt")!=null){
+   this.setCHARGES_NETTES_SUR_CESSIONS_DE_VALEURS_MOBILIERES_DE_PLACEMENT((int)doc.get("gt"));
+}
+
+if(doc.get("gu")!=null){
+   this.setTOTAL_DES_CHARGES_FINANCIERES_VI((int)doc.get("gu"));
+}
+
+if(doc.get("gv")!=null){
+   this.setRESULTAT_FINANCIER_V_VI((int)doc.get("gv"));
+}
+
+if(doc.get("gw")!=null){
+   this.setRESULTAT_COURANT_AVANT_IMPOTS_I_II_III_IV_V_VI((int)doc.get("gw"));
+}
+
+if(doc.get("cccbbb")!=null){
+   this.setCOMPTE_DE_RESULTAT_B((int)doc.get("cccbbb"));
+}
+
+if(doc.get("ha")!=null){
+   this.setPRODUITS_EXCEPTIONNELS_SUR_OPERATIONS_DE_GESTION((int)doc.get("ha"));
+}
+
+if(doc.get("hb")!=null){
+   this.setPRODUITS_EXCEPTIONNELS_SUR_OPERATIONS_EN_CAPITAL((int)doc.get("hb"));
+}
+
+if(doc.get("hc")!=null){
+   this.setREPRISES_SUR_PROVISIONS_ET_TRANSFERTS_DE_CHARGES((int)doc.get("hc"));
+}
+
+if(doc.get("hd")!=null){
+   this.setTOTAL_DES_PRODUITS_EXCEPTIONNELS_VII((int)doc.get("hd"));
+}
+
+if(doc.get("he")!=null){
+   this.setCHARGES_EXCEPTIONNELLES_SUR_OPERATIONS_DE_GESTION((int)doc.get("he"));
+}
+
+if(doc.get("hf")!=null){
+   this.setCHARGES_EXCEPTIONNELLES_SUR_OPERATIONS_EN_CAPITAL((int)doc.get("hf"));
+}
+
+if(doc.get("hg")!=null){
+   this.setDOTATIONS_EXCEPTIONNELLES_AUX_AMORTISSEMENTS_ET_PROVISIONS((int)doc.get("hg"));
+}
+
+if(doc.get("hh")!=null){
+   this.setTOTAL_DES_CHARGES_EXCEPTIONNELLES_VIII((int)doc.get("hh"));
+}
+
+if(doc.get("hi")!=null){
+   this.setRESULTAT_EXCEPTIONNEL_VII_VIII((int)doc.get("hi"));
+}
+
+if(doc.get("hj")!=null){
+   this.setPARTICIPATION_DES_SALARIES_AUX_RESULTATS_DE_L_ENTREPRISE((int)doc.get("hj"));
+}
+
+if(doc.get("hk")!=null){
+   this.setIMPOTS_SUR_LES_BENEFICES_X((int)doc.get("hk"));
+}
+
+if(doc.get("hl")!=null){
+   this.setTOTAL_DES_PRODUITS_I_III_V_VII((int)doc.get("hl"));
+}
+
+if(doc.get("hm")!=null){
+   this.setTOTAL_DES_CHARGES_II_IV_VI_VIII_IX_X((int)doc.get("hm"));
+}
+
+if(doc.get("hn")!=null){
+   this.setBENEFICE_OU_PERTE_TOTAL_DES_PRODUITS_TOTAL_DES_CHARGES((int)doc.get("hn"));
+}
+
+if(doc.get("hp")!=null){
+   this.setRENVOIS_CREDITBAIL_MOBILIER((int)doc.get("hp"));
+}
+
+if(doc.get("hq")!=null){
+   this.setRENVOIS_CREDITBAIL_IMMOBILIER((int)doc.get("hq"));
+}
+
+if(doc.get("a1")!=null){
+   this.setRENVOIS_TRANSFERT_DE_CHARGES((int)doc.get("a1"));
+}
+
+if(doc.get("a2")!=null){
+   this.setRENVOIS_COTISATIONS_PERSONNELLES_DE_L_EXPLOITANT((int)doc.get("a2"));
+}
+
+if(doc.get("a3")!=null){
+   this.setRENVOIS_REDEVANCES_POUR_CONCESSIONS_DE_BREVETS_DE_LICENCES_PRODUITS((int)doc.get("a3"));
+}
+
+if(doc.get("a4")!=null){
+   this.setRENVOIS_REDEVANCES_POUR_CONCESSIONS_DE_BREVETS_DE_LICENCES_CHARGES((int)doc.get("a4"));
+}
+
+if(doc.get("iiiiii")!=null){
+   this.setIMMOBILISATIONS((int)doc.get("iiiiii"));
+}
+
+if(doc.get("cz")!=null){
+   this.setACQUISITIONS_FRAIS_D_ETABLISSEMENT_ET_DE_DEVELOPPEMENT_OU_DE_RECHERCHE((int)doc.get("cz"));
+}
+
+if(doc.get("kd")!=null){
+   this.setACQUISITIONS_TOTAL_DONT_AUTRES_POSTES_D_IMMOBILISATIONS_INCORPORELLES((int)doc.get("kd"));
+}
+
+if(doc.get("ln")!=null){
+   this.setACQUISITIONS_TOTAL_IMMOBILISATIONS_CORPORELLES((int)doc.get("ln"));
+}
+
+if(doc.get("lq")!=null){
+   this.setACQUISITIONS_TOTAL_IMMOBILISATIONS_FINANCIERES((int)doc.get("lq"));
+}
+
+if(doc.get("0g")!=null){
+   this.setACQUISITIONS_TOTAL_GENERAL((int)doc.get("0g"));
+}
+
+if(doc.get("in")!=null){
+   this.setDIMINUTIONS_FRAIS_D_ETABLISSEMENT_ET_DE_DEVELOPPEMENT_OU_DE_RECHERCHE((int)doc.get("in"));
+}
+
+if(doc.get("io")!=null){
+   this.setDIMINUTIONS_TOTAL_DONT_AUTRES_POSTES_D_IMMOBILISATIONS_INCORPORELLES((int)doc.get("io"));
+}
+
+if(doc.get("my")!=null){
+   this.setDIMINUTIONS_VIREMENT_POSTES_IMMOBILISATIONS_CORPORELLES_EN_COURS((int)doc.get("my"));
+}
+
+if(doc.get("nc")!=null){
+   this.setDIMINUTIONS_VIREMENT_POSTES_AVANCES_ET_ACOMPTES((int)doc.get("nc"));
+}
+
+if(doc.get("iy")!=null){
+   this.setDIMINUTIONS_TOTAL_IMMOBILISATIONS_CORPORELLES((int)doc.get("iy"));
+}
+
+if(doc.get("i2")!=null){
+   this.setDIMINUTIONS_PRETS_ET_IMMOBILISATIONS_FINANCIERES((int)doc.get("i2"));
+}
+
+if(doc.get("i3")!=null){
+   this.setDIMINUTIONS_TOTAL_IMMOBILISATIONS_FINANCIERES((int)doc.get("i3"));
+}
+
+if(doc.get("i4")!=null){
+   this.setDIMINUTIONS_TOTAL_GENERAL((int)doc.get("i4"));
+}
+
+if(doc.get("iiiaaa")!=null){
+   this.setAMORTISSEMENTS((int)doc.get("iiiaaa"));
+}
+
+if(doc.get("cy")!=null){
+   this.setAMORTISSEMENTS_FRAIS_D_ETABLISSEMENT_ET_DE_DEVELOPPEMENT_OU_DE_RECHERCHE((int)doc.get("cy"));
+}
+
+if(doc.get("pe")!=null){
+   this.setAMORTISSEMENTS_TOTAL_DONT_AUTRES_IMMOBILISATIONS_INCORPORELLES((int)doc.get("pe"));
+}
+
+if(doc.get("qu")!=null){
+   this.setAMORTISSEMENTS_TOTAL_IMMOBILISATIONS_CORPORELLES((int)doc.get("qu"));
+}
+
+if(doc.get("0n")!=null){
+   this.setAMORTISSEMENTS_TOTAL_GENERAL((int)doc.get("0n"));
+}
+
+if(doc.get("z9")!=null){
+   this.setCHARGES_A_REPARTIR_OU_FRAIS_D_EMISSION_D_EMPRUNT((int)doc.get("z9"));
+}
+
+if(doc.get("sp")!=null){
+   this.setMVT_SUR_CHARGES_REP_PRIMES_DE_REMBOURSEMENT_DES_OBLIGATIONS((int)doc.get("sp"));
+}
+
+if(doc.get("pppbbb")!=null){
+   this.setPROVISIONS((int)doc.get("pppbbb"));
+}
+
+if(doc.get("3x")!=null){
+   this.setAMORTISSEMENTS_DEROGATOIRES((int)doc.get("3x"));
+}
+
+if(doc.get("3z")!=null){
+   this.setTOTAL_PROVISIONS_REGLEMENTEES((int)doc.get("3z"));
+}
+
+if(doc.get("4a")!=null){
+   this.setPROVISIONS_POUR_LITIGES((int)doc.get("4a"));
+}
+
+if(doc.get("4e")!=null){
+   this.setPROVISIONS_POUR_GARANTIES_DONNEES_AUX_CLIENTS((int)doc.get("4e"));
+}
+
+if(doc.get("4j")!=null){
+   this.setPROVISIONS_POUR_PERTE_SUR_MARCHES_A_TERME((int)doc.get("4j"));
+}
+
+if(doc.get("4n")!=null){
+   this.setPROVISIONS_POUR_AMENDES_ET_PENALITES((int)doc.get("4n"));
+}
+
+if(doc.get("4t")!=null){
+   this.setPROVISIONS_POUR_PERTE_DE_CHANGE((int)doc.get("4t"));
+}
+
+if(doc.get("4x")!=null){
+   this.setPROVISIONS_POUR_PENSIONS_ET_OBLIGATIONS_SIMILAIRES((int)doc.get("4x"));
+}
+
+if(doc.get("5b")!=null){
+   this.setPROVISIONS_POUR_IMPOTS((int)doc.get("5b"));
+}
+
+if(doc.get("5f")!=null){
+   this.setPROVISIONS_POUR_RENOUVELLEMENT_DES_IMMOBILISATIONS((int)doc.get("5f"));
+}
+
+if(doc.get("eo")!=null){
+   this.setPROVISIONS_POUR_GROS_ENTRETIEN_ET_GRANDES_REVISIONS_OU_GROSSES_REPARATIONS((int)doc.get("eo"));
+}
+
+if(doc.get("5r")!=null){
+   this.setPROVISIONS_POUR_CHARGES_SOCIALES_ET_FISCALES_SUR_CONGES_A_PAYER((int)doc.get("5r"));
+}
+
+if(doc.get("5v")!=null){
+   this.setAUTRES_PROVISIONS_POUR_RISQUES_ET_CHARGES((int)doc.get("5v"));
+}
+
+if(doc.get("5z")!=null){
+   this.setTOTAL_PROVISIONS_POUR_RISQUES_ET_CHARGES((int)doc.get("5z"));
+}
+
+if(doc.get("6a")!=null){
+   this.setSUR_IMMOBILISATIONS_INCORPORELLES((int)doc.get("6a"));
+}
+
+if(doc.get("6e")!=null){
+   this.setSUR_IMMOBILISATIONS_CORPORELLES((int)doc.get("6e"));
+}
+
+if(doc.get("02")!=null){
+   this.setSUR_IMMOBILISATIONS_TITRES_MIS_EN_EQUIVALENCE((int)doc.get("02"));
+}
+
+if(doc.get("9u")!=null){
+   this.setSUR_IMMOBILISATIONS_TITRES_DE_PARTICIPATION((int)doc.get("9u"));
+}
+
+if(doc.get("06")!=null){
+   this.setSUR_IMMOBILISATIONS_AUTRES_IMMOBILISATIONS_FINANCIERES((int)doc.get("06"));
+}
+
+if(doc.get("6n")!=null){
+   this.setSUR_STOCKS_ET_EN_COURS((int)doc.get("6n"));
+}
+
+if(doc.get("6t")!=null){
+   this.setSUR_COMPTES_CLIENTS((int)doc.get("6t"));
+}
+
+if(doc.get("6x")!=null){
+   this.setAUTRES_PROVISIONS_POUR_DEPRECIATION((int)doc.get("6x"));
+}
+
+if(doc.get("7b")!=null){
+   this.setTOTAL_PROVISIONS_POUR_DEPRECIATION((int)doc.get("7b"));
+}
+
+if(doc.get("7c")!=null){
+   this.setTOTAL_GENERAL((int)doc.get("7c"));
+}
+
+if(doc.get("ue")!=null){
+   this.setDONT_DOTATIONS_ET_REPRISES_D_EXPLOITATION((int)doc.get("ue"));
+}
+
+if(doc.get("ug")!=null){
+   this.setDONT_DOTATIONS_ET_REPRISES_FINANCIERES((int)doc.get("ug"));
+}
+
+if(doc.get("uj")!=null){
+   this.setDONT_DOTATIONS_ET_REPRISES_EXCEPTIONNELLES((int)doc.get("uj"));
+}
+
+if(doc.get("cccaaa")!=null){
+   this.setCREANCES_ET_DETTES((int)doc.get("cccaaa"));
+}
+
+if(doc.get("ul")!=null){
+   this.setCREANCES_RATTACHEES_A_DES_PARTICIPATIONS((int)doc.get("ul"));
+}
+
+if(doc.get("up")!=null){
+   this.setPRETS((int)doc.get("up"));
+}
+
+if(doc.get("ut")!=null){
+   this.setAUTRES_IMMOBILISATIONS_FINANCIERES((int)doc.get("ut"));
+}
+
+if(doc.get("va")!=null){
+   this.setCLIENTS_DOUTEUX_OU_LITIGIEUX((int)doc.get("va"));
+}
+
+if(doc.get("ux")!=null){
+   this.setAUTRES_CREANCES_CLIENTS((int)doc.get("ux"));
+}
+
+if(doc.get("uo")!=null){
+   this.setPROVISION_POUR_DEPRECIATION_ANTERIEUREMENT_CONSTITUEE((int)doc.get("uo"));
+}
+
+if(doc.get("z1")!=null){
+   this.setCREANCES_REPRESENTATIVES_DE_TITRES_PRETES((int)doc.get("z1"));
+}
+
+if(doc.get("uy")!=null){
+   this.setPERSONNEL_ET_COMPTES_RATTACHES((int)doc.get("uy"));
+}
+
+if(doc.get("uz")!=null){
+   this.setSECURITE_SOCIALE_AUTRES_ORGANISMES_SOCIAUX((int)doc.get("uz"));
+}
+
+if(doc.get("vm")!=null){
+   this.setIMPOTS_SUR_LES_BENEFICES((int)doc.get("vm"));
+}
+
+if(doc.get("vb")!=null){
+   this.setT_V_A((int)doc.get("vb"));
+}
+
+if(doc.get("vn")!=null){
+   this.setAUTRES_IMPOTS_TAXES_VERSEMENTS_ASSIMILES((int)doc.get("vn"));
+}
+
+if(doc.get("vp")!=null){
+   this.setDIVERS((int)doc.get("vp"));
+}
+
+if(doc.get("vc")!=null){
+   this.setGROUPE_ET_ASSOCIES((int)doc.get("vc"));
+}
+
+if(doc.get("vr")!=null){
+   this.setDEBITEURS_DIVERS_DONT_CREANCES_RELATIVES_A_DES_OPERATIONS_DE_PENSION_DE_TITRES((int)doc.get("vr"));
+}
+
+if(doc.get("vs")!=null){
+   this.setCHARGES_CONSTATEES_D_AVANCE((int)doc.get("vs"));
+}
+
+if(doc.get("vt")!=null){
+   this.setTOTAL_ETAT_DES_CREANCES((int)doc.get("vt"));
+}
+
+if(doc.get("7y")!=null){
+   this.setEMPRUNTS_OBLIGATAIRES_CONVERTIBLES_BRUT_A_UN_AN_AU_PLUS((int)doc.get("7y"));
+}
+
+if(doc.get("7z")!=null){
+   this.setAUTRES_EMPRUNTS_OBLIGATAIRES_BRUT_A_UN_AN_AU_PLUS((int)doc.get("7z"));
+}
+
+if(doc.get("vg")!=null){
+   this.setEMPRUNTS_A_1_AN_MAXIMUM_A_L_ORIGINE((int)doc.get("vg"));
+}
+
+if(doc.get("vh")!=null){
+   this.setEMPRUNTS_A_PLUS_D_1_AN_A_L_ORIGINE((int)doc.get("vh"));
+}
+
+if(doc.get("8a")!=null){
+   this.setEMPRUNTS_ET_DETTES_FINANCIERES_DIVERS((int)doc.get("8a"));
+}
+
+if(doc.get("8b")!=null){
+   this.setFOURNISSEURS_ET_COMPTES_RATTACHES((int)doc.get("8b"));
+}
+
+if(doc.get("8c")!=null){
+   this.setPERSONNEL_ET_COMPTES_RATTACHES((int)doc.get("8c"));
+}
+
+if(doc.get("8d")!=null){
+   this.setSECURITE_SOCIALE_ET_AUTRES_ORGANISMES_SOCIAUX((int)doc.get("8d"));
+}
+
+if(doc.get("8e")!=null){
+   this.setIMPOTS_SUR_LES_BENEFICES((int)doc.get("8e"));
+}
+
+if(doc.get("vw")!=null){
+   this.setTVA((int)doc.get("vw"));
+}
+
+if(doc.get("vx")!=null){
+   this.setOBLIGATIONS_CAUTIONNEES((int)doc.get("vx"));
+}
+
+if(doc.get("vq")!=null){
+   this.setAUTRES_IMPOTS_TAXES_ET_ASSIMILES((int)doc.get("vq"));
+}
+
+if(doc.get("8j")!=null){
+   this.setDETTES_SUR_IMMOBILISATIONS_ET_COMPTES_RATTACHES((int)doc.get("8j"));
+}
+
+if(doc.get("vi")!=null){
+   this.setGROUPE_ET_ASSOCIES((int)doc.get("vi"));
+}
+
+if(doc.get("8k")!=null){
+   this.setAUTRES_DETTES_DONT_DETTES_RELATIVES_A_DES_OPERATIONS_DE_PENSION_DE_TITRE((int)doc.get("8k"));
+}
+
+if(doc.get("z2")!=null){
+   this.setDETTE_REPRESENTATIVE_DE_TITRES_EMPRUNTES((int)doc.get("z2"));
+}
+
+if(doc.get("8l")!=null){
+   this.setPRODUITS_CONSTATES_D_AVANCE((int)doc.get("8l"));
+}
+
+if(doc.get("vy")!=null){
+   this.setTOTAL_ETAT_DES_DETTES((int)doc.get("vy"));
+}
+
+if(doc.get("vj")!=null){
+   this.setEMPRUNTS_SOUSCRITS_EN_COURS_D_EXERCICE((int)doc.get("vj"));
+}
+
+if(doc.get("vk")!=null){
+   this.setEMPRUNTS_REMBOURSES_EN_COURS_D_EXERCICE((int)doc.get("vk"));
+}
+
+if(doc.get("rrrrrr")!=null){
+   this.setAFFECTATION_DU_RESULTAT_RENSEIGNEMENTS_DIVERS((int)doc.get("rrrrrr"));
+}
+
+if(doc.get("ze")!=null){
+   this.setDIVIDENDES((int)doc.get("ze"));
+}
+
+if(doc.get("yq")!=null){
+   this.setENGAGEMENT_DE_CREDITBAIL_MOBILIER((int)doc.get("yq"));
+}
+
+if(doc.get("yr")!=null){
+   this.setENGAGEMENT_DE_CREDITBAIL_IMMOBILIER((int)doc.get("yr"));
+}
+
+if(doc.get("ys")!=null){
+   this.setEFFETS_PORTES_A_L_ESCOMPTE_ET_NON_ECHUS((int)doc.get("ys"));
+}
+
+if(doc.get("yt")!=null){
+   this.setSOUSTRAITANCE((int)doc.get("yt"));
+}
+
+if(doc.get("xq")!=null){
+   this.setLOCATION_CHARGES_LOCATIVES_ET_DE_COPROPRIETE((int)doc.get("xq"));
+}
+
+if(doc.get("yu")!=null){
+   this.setPERSONNEL_EXTERIEUR_A_L_ENTREPRISE((int)doc.get("yu"));
+}
+
+if(doc.get("ss")!=null){
+   this.setREMUNERATION_D_INTERMEDIAIRES_ET_HONORAIRES_HORS_RETROCESSIONS((int)doc.get("ss"));
+}
+
+if(doc.get("yv")!=null){
+   this.setRETROCESSIONS_D_HONORAIRES_COMMISSIONS_ET_COURTAGES((int)doc.get("yv"));
+}
+
+if(doc.get("st")!=null){
+   this.setAUTRES_COMPTES((int)doc.get("st"));
+}
+
+if(doc.get("zj")!=null){
+   this.setTOTAL_DU_POSTE_CORRESPONDANT_A_LA_LIGNE_FW_DU_TABLEAU_NUMERO_2052((int)doc.get("zj"));
+}
+
+if(doc.get("yw")!=null){
+   this.setTAXE_PROFESSIONNELLE((int)doc.get("yw"));
+}
+
+if(doc.get("9z")!=null){
+   this.setAUTRES_IMPOTS_TAXES_ET_VERSEMENTS_ASSIMILES((int)doc.get("9z"));
+}
+
+if(doc.get("yx")!=null){
+   this.setTOTAL_DU_COMPTE_CORRESPONDANT_A_LA_LIGNE_FX_DU_TABLEAU_NUMERO_2052((int)doc.get("yx"));
+}
+
+if(doc.get("yy")!=null){
+   this.setMONTANT_DE_LA_TVA_COLLECTEE((int)doc.get("yy"));
+}
+
+if(doc.get("yz")!=null){
+   this.setTOTAL_TVA_DEDUCTIBLE_SUR_BIENS_ET_SERVICES((int)doc.get("yz"));
+}
+
+if(doc.get("yp")!=null){
+   this.setEFFECTIF_MOYEN_DU_PERSONNEL((int)doc.get("yp"));
+}
+
+if(doc.get("zr")!=null){
+   this.setFILIALES_ET_PARTICIPATIONS((int)doc.get("zr"));
+}

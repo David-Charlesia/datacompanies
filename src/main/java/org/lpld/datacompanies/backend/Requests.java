@@ -27,8 +27,7 @@ public class Requests {
         this.db = new DatabaseMongoDB();
     }
 
-    public MongoCursor<Document> doRequest(String jsonFile){
-        JSONObject requestFile = parseJson(jsonFile);
+    public MongoCursor<Document> doRequest(JSONObject requestFile){
         this.doc = new BasicDBObject();
         if(requestFile == null){
             LOGGER.warn("JSON file couldn't be parsed");
