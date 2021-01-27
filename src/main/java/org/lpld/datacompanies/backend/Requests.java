@@ -47,7 +47,7 @@ public class Requests {
             this.putOptions(EQUALS_TO);
         }
         
-        return db.getCollection("Decembre2017").find(this.doc).cursor();
+        return db.getCollection().find(this.doc).cursor();
     }
 
     private JSONObject parseJson(String jsonFile){
