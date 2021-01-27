@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.lpld.backend.model.TestRequests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 6.02 s <<< FAILURE! - in org.lpld.backend.model.TestRequests
+testDate(org.lpld.backend.model.TestRequests)  Time elapsed: 2.046 s  <<< ERROR!
+java.util.NoSuchElementException
+	at org.lpld.backend.model.TestRequests.testDate(TestRequests.java:57)
+
+testK(org.lpld.backend.model.TestRequests)  Time elapsed: 1.829 s  <<< FAILURE!
+java.lang.AssertionError
+	at org.lpld.backend.model.TestRequests.testK(TestRequests.java:42)
+

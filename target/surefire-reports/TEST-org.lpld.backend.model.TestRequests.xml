@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.lpld.backend.mongodb.TestDatabaseMongoDB" time="1.527" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.lpld.backend.model.TestRequests" time="6.02" tests="2" errors="1" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -60,5 +60,28 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="TestDatabaseMongoDB_constructor" classname="org.lpld.backend.mongodb.TestDatabaseMongoDB" time="1.522"/>
+  <testcase name="testDate" classname="org.lpld.backend.model.TestRequests" time="2.046">
+    <error type="java.util.NoSuchElementException">java.util.NoSuchElementException
+	at org.lpld.backend.model.TestRequests.testDate(TestRequests.java:57)
+</error>
+    <system-err><![CDATA[[main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[ec2-18-191-14-80.us-east-2.compute.amazonaws.com:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+[main] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+[cluster-ClusterId{value='6011dcc085cfb55f9f244a22', description='null'}-ec2-18-191-14-80.us-east-2.compute.amazonaws.com:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:46}] to ec2-18-191-14-80.us-east-2.compute.amazonaws.com:27017
+[cluster-rtt-ClusterId{value='6011dcc085cfb55f9f244a22', description='null'}-ec2-18-191-14-80.us-east-2.compute.amazonaws.com:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:45}] to ec2-18-191-14-80.us-east-2.compute.amazonaws.com:27017
+[cluster-ClusterId{value='6011dcc085cfb55f9f244a22', description='null'}-ec2-18-191-14-80.us-east-2.compute.amazonaws.com:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=ec2-18-191-14-80.us-east-2.compute.amazonaws.com:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=164490400}
+[main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:47}] to ec2-18-191-14-80.us-east-2.compute.amazonaws.com:27017
+]]></system-err>
+  </testcase>
+  <testcase name="testK" classname="org.lpld.backend.model.TestRequests" time="1.829">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.lpld.backend.model.TestRequests.testK(TestRequests.java:42)
+</failure>
+    <system-err><![CDATA[[main] INFO org.mongodb.driver.cluster - Cluster created with settings {hosts=[ec2-18-191-14-80.us-east-2.compute.amazonaws.com:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+[main] INFO org.mongodb.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+[cluster-ClusterId{value='6011dcc285cfb55f9f244a23', description='null'}-ec2-18-191-14-80.us-east-2.compute.amazonaws.com:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:4, serverValue:48}] to ec2-18-191-14-80.us-east-2.compute.amazonaws.com:27017
+[cluster-ClusterId{value='6011dcc285cfb55f9f244a23', description='null'}-ec2-18-191-14-80.us-east-2.compute.amazonaws.com:27017] INFO org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=ec2-18-191-14-80.us-east-2.compute.amazonaws.com:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=108711000}
+[cluster-rtt-ClusterId{value='6011dcc285cfb55f9f244a23', description='null'}-ec2-18-191-14-80.us-east-2.compute.amazonaws.com:27017] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:5, serverValue:49}] to ec2-18-191-14-80.us-east-2.compute.amazonaws.com:27017
+[main] INFO org.mongodb.driver.connection - Opened connection [connectionId{localValue:6, serverValue:50}] to ec2-18-191-14-80.us-east-2.compute.amazonaws.com:27017
+]]></system-err>
+  </testcase>
 </testsuite>

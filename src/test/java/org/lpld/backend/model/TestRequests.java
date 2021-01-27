@@ -22,7 +22,7 @@ import java.util.Date;
 public class TestRequests {
     private final Requests request = new Requests();
     private static final Logger LOGGER = LoggerFactory.getLogger(TestRequests.class);
-
+    /*
     @Test
     public void testDoRequest(){
         MongoCursor<?> cursor = request.doRequest("./src/main/java/org/lpld/datacompanies/backend/examplerequest.json");
@@ -32,7 +32,7 @@ public class TestRequests {
         Assert.assertNotNull(doc.get("siren"));
 
         LOGGER.info("document : "+doc.toString());
-    }
+    }*/
 
     @Test
     public void testK(){
