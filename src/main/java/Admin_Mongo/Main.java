@@ -15,8 +15,9 @@ import com.mongodb.client.model.*;
 public class Main {
 
 	public static void main(String[] args) throws FileNotFoundException, IOException {
-		System.out.println("Atol les opticiens !");
-		DatabaseMongoDB db = new DatabaseMongoDB();
+        System.out.println("Atol les opticiens !");
+        String cluster_address = "";
+		DatabaseMongoDB db = new DatabaseMongoDB(cluster_address);
         MongoDatabase database = db.getDataBase();
         MongoCollection<Document> collection = database.getCollection("Comptes_annuels");
 

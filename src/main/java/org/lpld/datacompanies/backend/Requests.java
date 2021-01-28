@@ -21,10 +21,10 @@ public class Requests {
     private static final Logger LOGGER = LoggerFactory.getLogger(Requests.class);
     private static final String MORE_THAN = "more_than";
     private static final String LESS_THAN = "less_than";
-    private static final String EQUALS_TO = "equals_to";
+    private static final String EQUALS = "equals";
 
-    public Requests() {
-        this.db = new DatabaseMongoDB();
+    public Requests(String cluster_address) {
+        this.db = new DatabaseMongoDB(cluster_address);
     }
 
     public MongoCursor<Document> doRequest(JSONObject requestFile){
@@ -42,9 +42,9 @@ public class Requests {
             this.tempJSONFile = ((JSONObject) requestFile.get(LESS_THAN));
             this.putOptions(LESS_THAN);
         }
-        if (requestFile.containsKey(EQUALS_TO)) {
-            this.tempJSONFile = ((JSONObject) requestFile.get(EQUALS_TO));
-            this.putOptions(EQUALS_TO);
+        if (requestFile.containsKey(EQUALS)) {
+            this.tempJSONFile = ((JSONObject) requestFile.get(EQUALS));
+            this.putOptions(EQUALS);
         }
         
         return db.getCollection().find(this.doc).cursor();
@@ -62,25 +62,25 @@ public class Requests {
     private void putOptions(String option){
         Iterator<?> keys = tempJSONFile.keySet().iterator();
         String key;
-        String value;
+        Object value;
 
         try{
             if(option.equals(MORE_THAN)){
                 while (keys.hasNext()) {
                     key = (String)keys.next();
-                    value = (String)tempJSONFile.get(key);
-                    greaterThan(key, Integer.parseInt(value));
+                    value = tempJSONFile.get(key);
+                    greaterThan(key, value);
                 }
             }else if(option.equals(LESS_THAN)){
                 while (keys.hasNext()) {
                     key = (String)keys.next();
-                    value = (String) tempJSONFile.get(key);
-                    lessThan(key, Integer.parseInt(value));
+                    value =  tempJSONFile.get(key);
+                    lessThan(key, value);
                 }
-            }else if(option.equals(EQUALS_TO)){
+            }else if(option.equals(EQUALS)){
                 while (keys.hasNext()) {
-                    key = (String)keys.next();
-                    value = (String) tempJSONFile.get(key);
+                    key =  (String)keys.next();
+                    value =  tempJSONFile.get(key);
                     equalsTo(key, value);
                 }
             }
@@ -92,12 +92,12 @@ public class Requests {
     }
 
     // find greater than e.g. value<quote
-    private void lessThan(String key, int quote) {
+    private void lessThan(String key, Object quote) {
         this.doc.put(key,new BasicDBObject("$lt", quote));
     }
 
     //find greater than e.g. quote<value
-    private void greaterThan(String key, int quote){
+    private void greaterThan(String key, Object quote){
         this.doc.put(key, new BasicDBObject("$gt", quote));
     }
 

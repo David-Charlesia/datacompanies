@@ -1,4 +1,6 @@
 org\lpld\datacompanies\backend\mongodb\DatabaseMongoDB.class
-org\lpld\datacompanies\backend\Requests.class
+Admin_Mongo\Main.class
 org\lpld\datacompanies\App.class
 org\lpld\datacompanies\backend\model\AnnualAccount.class
+org\lpld\datacompanies\backend\model\AnnualAccountStringHelper.class
+org\lpld\datacompanies\backend\Requests.class

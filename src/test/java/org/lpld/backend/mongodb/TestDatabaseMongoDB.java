@@ -12,11 +12,13 @@ import org.lpld.datacompanies.backend.mongodb.DatabaseMongoDB;
 import com.mongodb.client.FindIterable;
 
 public class TestDatabaseMongoDB {
+    /*
     private static final Logger LOGGER = LoggerFactory.getLogger(TestDatabaseMongoDB.class);
 
     @Test
     public void TestDatabaseMongoDB_constructor(){
-        DatabaseMongoDB db = new DatabaseMongoDB();//Ok
+        String dns = "ec2-3-129-210-181.us-east-2.compute.amazonaws.com";
+        DatabaseMongoDB db = new DatabaseMongoDB(dns);//Ok
         MongoDatabase database = db.getDataBase();
         MongoCollection<Document> collection = db.getCollection();
         FindIterable<Document> myList = collection.find(new Document("siren","005880596"));
@@ -25,5 +27,5 @@ public class TestDatabaseMongoDB {
         doc.keySet();
         Assert.assertNotNull(database);
         Assert.assertEquals("GEDIMO HOLDING",myList.first().get("denomination"));
-    }
+    }*/
 }

@@ -20,9 +20,10 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class TestRequests {
+    /*
     private final Requests request = new Requests();
     private static final Logger LOGGER = LoggerFactory.getLogger(TestRequests.class);
-    /*
+    
     @Test
     public void testDoRequest(){
         MongoCursor<?> cursor = request.doRequest("./src/main/java/org/lpld/datacompanies/backend/examplerequest.json");
@@ -32,7 +33,7 @@ public class TestRequests {
         Assert.assertNotNull(doc.get("siren"));
 
         LOGGER.info("document : "+doc.toString());
-    }*/
+    }
 
     @Test
     public void testK(){
@@ -57,7 +58,7 @@ public class TestRequests {
         Document docResponse = (Document) cursor.next();
         LOGGER.info("date cloture exercice = "+docResponse.get("date_cloture_exercice").toString());
         Assert.assertNotNull(docResponse.get("siren"));
-    }
+    }*/
 
     //db.getCollection('CollectionName').find({"DepartureDate" : { $gte : new ISODate("2019-06-11T00:00:00.000Z") }})
 }
