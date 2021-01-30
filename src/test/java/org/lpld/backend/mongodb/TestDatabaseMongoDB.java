@@ -16,7 +16,8 @@ public class TestDatabaseMongoDB {
     private static final Logger LOGGER = LoggerFactory.getLogger(TestDatabaseMongoDB.class);
 
     @Test
-    public void TestDatabaseMongoDB_constructor(String dns){
+    public void TestDatabaseMongoDB_constructor(){
+        String dns = "ec2-3-16-130-152.us-east-2.compute.amazonaws.com";
         DatabaseMongoDB db = new DatabaseMongoDB(dns);//Ok
         MongoDatabase database = db.getDataBase();
         MongoCollection<Document> collection = db.getCollection();
