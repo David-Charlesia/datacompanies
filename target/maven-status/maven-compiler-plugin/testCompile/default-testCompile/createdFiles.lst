@@ -1,0 +1,4 @@
+org\lpld\backend\model\TestAnnualAccount.class
+org\lpld\datacompanies\AppTest.class
+org\lpld\backend\model\TestRequests.class
+org\lpld\backend\mongodb\TestDatabaseMongoDB.class
