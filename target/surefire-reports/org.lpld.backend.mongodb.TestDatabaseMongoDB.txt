@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.lpld.backend.mongodb.TestDatabaseMongoDB
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 11.221 s <<< FAILURE! - in org.lpld.backend.mongodb.TestDatabaseMongoDB
+TestDatabaseMongoDB_constructor(org.lpld.backend.mongodb.TestDatabaseMongoDB)  Time elapsed: 9.122 s  <<< ERROR!
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=ec2-3-16-130-152.us-east-2.compute.amazonaws.com:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketTimeoutException: connect timed out}}]
+	at org.lpld.backend.mongodb.TestDatabaseMongoDB.TestDatabaseMongoDB_constructor(TestDatabaseMongoDB.java:26)
+

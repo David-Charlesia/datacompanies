@@ -23,9 +23,9 @@ import java.util.Date;
 
 public class TestRequests {
     
-    private final Requests request = new Requests("ec2-3-16-130-152.us-east-2.compute.amazonaws.com");
+    private final Requests request = new Requests("ec2-18-221-105-102.us-east-2.compute.amazonaws.com");
     private static final Logger LOGGER = LoggerFactory.getLogger(TestRequests.class);
-    
+    /*
     @Test
     public void testDoRequest(){
         JSONObject request_json = new JSONObject();
@@ -39,7 +39,7 @@ public class TestRequests {
         Assert.assertNotNull(doc.get("siren"));
 
         LOGGER.info("document : "+doc.toString());
-    }
+    }*/
 /*
     @Test
     public void testK(){
@@ -68,6 +68,7 @@ public class TestRequests {
 
     //db.getCollection('CollectionName').find({"DepartureDate" : { $gte : new ISODate("2019-06-11T00:00:00.000Z") }})
 */
+/*
     @Test
     public void testMorethan(){
         JSONObject req = new JSONObject();
@@ -94,5 +95,5 @@ public class TestRequests {
         }
 
 
-    }
+    }*/
 }

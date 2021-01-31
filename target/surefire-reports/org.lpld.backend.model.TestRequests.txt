@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.lpld.backend.model.TestRequests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 81.363 s <<< FAILURE! - in org.lpld.backend.model.TestRequests
+testDoRequest(org.lpld.backend.model.TestRequests)  Time elapsed: 33.122 s  <<< ERROR!
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=ec2-3-16-130-152.us-east-2.compute.amazonaws.com:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketTimeoutException: connect timed out}}]
+	at org.lpld.backend.model.TestRequests.testDoRequest(TestRequests.java:35)
+
+testMorethan(org.lpld.backend.model.TestRequests)  Time elapsed: 28.466 s  <<< ERROR!
+com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting to connect. Client view of cluster state is {type=UNKNOWN, servers=[{address=ec2-3-16-130-152.us-east-2.compute.amazonaws.com:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketTimeoutException: connect timed out}}]
+	at org.lpld.backend.model.TestRequests.testMorethan(TestRequests.java:83)
+
