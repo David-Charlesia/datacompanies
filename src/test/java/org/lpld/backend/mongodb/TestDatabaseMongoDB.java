@@ -14,7 +14,7 @@ import com.mongodb.client.FindIterable;
 public class TestDatabaseMongoDB {
     
     private static final Logger LOGGER = LoggerFactory.getLogger(TestDatabaseMongoDB.class);
-
+/*
     @Test
     public void TestDatabaseMongoDB_constructor(){
         String dns = "ec2-3-16-130-152.us-east-2.compute.amazonaws.com";
@@ -28,5 +28,5 @@ public class TestDatabaseMongoDB {
         Assert.assertNotNull(database);
         Assert.assertEquals("GEDIMO HOLDING",myList.first().get("denomination"));
         LOGGER.info("c'est ok bro tema : "+doc.toString());
-    }
+    }*/
 }
