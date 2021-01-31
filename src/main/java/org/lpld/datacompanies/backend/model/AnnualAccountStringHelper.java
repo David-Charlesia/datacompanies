@@ -1,17 +1,25 @@
 package org.lpld.datacompanies.backend.model;
 
+import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.List;
+import java.util.Map;
 
 public class AnnualAccountStringHelper {
 
-    public Hashtable<String,List<String>> dict_int = new Hashtable();
+    public Map<String,List<String>> dict_int = new HashMap<String, List<String>>();
 
-    public Hashtable<String,List<String>> dict_String = new Hashtable();
+    public Map<String,List<String>> dict_String = new HashMap<String, List<String>>();
 
     //String :
 
     public String SIREN;
+
+    public String DENOMINATION;
+
+    public String DATE_CLOTURE_EXERCICE;
+
+    public String ADRESSE;
 
     //-------------------------------------------------------
     //int :
@@ -487,6 +495,8 @@ public class AnnualAccountStringHelper {
     public int EFFECTIF_MOYEN_DU_PERSONNEL;
 
     public int FILIALES_ET_PARTICIPATIONS;
+
+    
 
     public String getSIREN() {
         return SIREN;
@@ -2442,7 +2452,29 @@ public class AnnualAccountStringHelper {
         FILIALES_ET_PARTICIPATIONS = fILIALES_ET_PARTICIPATIONS;
     }
 
+    public String getDENOMINATION() {
+        return DENOMINATION;
+    }
 
+    public void setDENOMINATION(String dENOMINATION) {
+        DENOMINATION = dENOMINATION;
+    }
+
+    public String getDATE_CLOTURE_EXERCICE() {
+        return DATE_CLOTURE_EXERCICE;
+    }
+
+    public void setDATE_CLOTURE_EXERCICE(String dATE_CLOTURE_EXERCICE) {
+        DATE_CLOTURE_EXERCICE = dATE_CLOTURE_EXERCICE;
+    }
+
+    public String getADRESSE() {
+        return ADRESSE;
+    }
+
+    public void setADRESSE(String aDRESSE) {
+        ADRESSE = aDRESSE;
+    }
 
 
     //-------------------------------------------------------------------------------------------------------
@@ -2923,6 +2955,11 @@ public class AnnualAccountStringHelper {
 
     public static final String SIREN_STRING = "SIREN";
 
+    public static final String DENOMINATION_STRING = "DENOMINATION";
+
+    public static final String DATE_CLOTURE_EXERCICE_STRING = "DATE_CLOTURE_EXERCICE";
+
+    public static final String ADRESSE_STRING = "ADRESSE";
 
     //-------------------------------------------------------------------------------------
 
@@ -2961,15 +2998,15 @@ public class AnnualAccountStringHelper {
         dict_int.put("cu", List.of(AUTRES_PARTICIPATIONS_STRING));
         dict_int.put(AUTRES_PARTICIPATIONS_STRING, List.of("cu"));
         dict_int.put("bb", List.of(CREANCES_RATTACHEES_A_DES_PARTICIPATIONS_STRING));
-        dict_int.put(CREANCES_RATTACHEES_A_DES_PARTICIPATIONS_STRING, List.of("bb"));
+        dict_int.put(CREANCES_RATTACHEES_A_DES_PARTICIPATIONS_STRING, List.of("bb", "ul"));
         dict_int.put("bd", List.of(AUTRES_TITRES_IMMOBILISES_STRING));
         dict_int.put(AUTRES_TITRES_IMMOBILISES_STRING, List.of("bd"));
         dict_int.put("bf", List.of(PRETS_STRING));
-        dict_int.put(PRETS_STRING, List.of("bf"));
+        dict_int.put(PRETS_STRING, List.of("bf", "up"));
         dict_int.put("bh", List.of(AUTRES_IMMOBILISATIONS_FINANCIERES_STRING));
-        dict_int.put(AUTRES_IMMOBILISATIONS_FINANCIERES_STRING, List.of("bh"));
+        dict_int.put(AUTRES_IMMOBILISATIONS_FINANCIERES_STRING, List.of("bh", "ut"));
         dict_int.put("bj", List.of(TOTAL_I_STRING));
-        dict_int.put(TOTAL_I_STRING, List.of("bj"));
+        dict_int.put(TOTAL_I_STRING, List.of("bj","dl"));
         dict_int.put("bl", List.of(MATIERES_PREMIERES_APPROVISIONNEMENTS_STRING));
         dict_int.put(MATIERES_PREMIERES_APPROVISIONNEMENTS_STRING, List.of("bl"));
         dict_int.put("bn", List.of(EN_COURS_DE_PRODUCTION_DE_BIENS_STRING));
@@ -2993,11 +3030,11 @@ public class AnnualAccountStringHelper {
         dict_int.put("cf", List.of(DISPONIBILITES_STRING));
         dict_int.put(DISPONIBILITES_STRING, List.of("cf"));
         dict_int.put("ch", List.of(CHARGES_CONSTATEES_D_AVANCE_STRING));
-        dict_int.put(CHARGES_CONSTATEES_D_AVANCE_STRING, List.of("ch"));
+        dict_int.put(CHARGES_CONSTATEES_D_AVANCE_STRING, List.of("ch", "vs"));
         dict_int.put("cj", List.of(TOTAL_II_STRING));
-        dict_int.put(TOTAL_II_STRING, List.of("cj"));
+        dict_int.put(TOTAL_II_STRING, List.of("cj", "do"));
         dict_int.put("cw", List.of(CHARGES_A_REPARTIR_OU_FRAIS_D_EMISSION_D_EMPRUNT_STRING));
-        dict_int.put(CHARGES_A_REPARTIR_OU_FRAIS_D_EMISSION_D_EMPRUNT_STRING, List.of("cw"));
+        dict_int.put(CHARGES_A_REPARTIR_OU_FRAIS_D_EMISSION_D_EMPRUNT_STRING, List.of("cw", "z9"));
         dict_int.put("cm", List.of(PRIMES_DE_REMBOURSEMENT_DES_OBLIGATIONS_IV_STRING));
         dict_int.put(PRIMES_DE_REMBOURSEMENT_DES_OBLIGATIONS_IV_STRING, List.of("cm"));
         dict_int.put("cn", List.of(ECARTS_DE_CONVERSION_ACTIF_V_STRING));
@@ -3039,13 +3076,11 @@ public class AnnualAccountStringHelper {
         dict_int.put("dk", List.of(PROVISIONS_REGLEMENTEES_STRING));
         dict_int.put(PROVISIONS_REGLEMENTEES_STRING, List.of("dk"));
         dict_int.put("dl", List.of(TOTAL_I_STRING));
-        dict_int.put(TOTAL_I_STRING, List.of("dl"));
         dict_int.put("dm", List.of(PRODUIT_DES_EMISSIONS_DE_TITRES_PARTICIPATIFS_STRING));
         dict_int.put(PRODUIT_DES_EMISSIONS_DE_TITRES_PARTICIPATIFS_STRING, List.of("dm"));
         dict_int.put("dn", List.of(AVANCES_CONDITIONNEES_STRING));
         dict_int.put(AVANCES_CONDITIONNEES_STRING, List.of("dn"));
         dict_int.put("do", List.of(TOTAL_II_STRING));
-        dict_int.put(TOTAL_II_STRING, List.of("do"));
         dict_int.put("dp", List.of(PROVISIONS_POUR_RISQUES_STRING));
         dict_int.put(PROVISIONS_POUR_RISQUES_STRING, List.of("dp"));
         dict_int.put("dq", List.of(PROVISIONS_POUR_CHARGES_STRING));
@@ -3067,7 +3102,7 @@ public class AnnualAccountStringHelper {
         dict_int.put("dy", List.of(DETTES_FISCALES_ET_SOCIALES_STRING));
         dict_int.put(DETTES_FISCALES_ET_SOCIALES_STRING, List.of("dy"));
         dict_int.put("dz", List.of(DETTES_SUR_IMMOBILISATIONS_ET_COMPTES_RATTACHES_STRING));
-        dict_int.put(DETTES_SUR_IMMOBILISATIONS_ET_COMPTES_RATTACHES_STRING, List.of("dz"));
+        dict_int.put(DETTES_SUR_IMMOBILISATIONS_ET_COMPTES_RATTACHES_STRING, List.of("dz", "8j"));
         dict_int.put("ea", List.of(AUTRES_DETTES_STRING));
         dict_int.put(AUTRES_DETTES_STRING, List.of("ea"));
         dict_int.put("eb", List.of(PRODUITS_CONSTATES_D_AVANCE_2_STRING));
@@ -3149,7 +3184,7 @@ public class AnnualAccountStringHelper {
         dict_int.put("gl", List.of(AUTRES_INTERETS_ET_PRODUITS_ASSIMILES_STRING));
         dict_int.put(AUTRES_INTERETS_ET_PRODUITS_ASSIMILES_STRING, List.of("gl"));
         dict_int.put("gm", List.of(REPRISES_SUR_PROVISIONS_ET_TRANSFERTS_DE_CHARGES_STRING));
-        dict_int.put(REPRISES_SUR_PROVISIONS_ET_TRANSFERTS_DE_CHARGES_STRING, List.of("gm"));
+        dict_int.put(REPRISES_SUR_PROVISIONS_ET_TRANSFERTS_DE_CHARGES_STRING, List.of("gm", "hc"));
         dict_int.put("gn", List.of(DIFFERENCES_POSITIVES_DE_CHANGE_STRING));
         dict_int.put(DIFFERENCES_POSITIVES_DE_CHANGE_STRING, List.of("gn"));
         dict_int.put("go", List.of(PRODUITS_NETS_SUR_CESSIONS_DE_VALEURS_MOBILIERES_DE_PLACEMENT_STRING));
@@ -3177,7 +3212,6 @@ public class AnnualAccountStringHelper {
         dict_int.put("hb", List.of(PRODUITS_EXCEPTIONNELS_SUR_OPERATIONS_EN_CAPITAL_STRING));
         dict_int.put(PRODUITS_EXCEPTIONNELS_SUR_OPERATIONS_EN_CAPITAL_STRING, List.of("hb"));
         dict_int.put("hc", List.of(REPRISES_SUR_PROVISIONS_ET_TRANSFERTS_DE_CHARGES_STRING));
-        dict_int.put(REPRISES_SUR_PROVISIONS_ET_TRANSFERTS_DE_CHARGES_STRING, List.of("hc"));
         dict_int.put("hd", List.of(TOTAL_DES_PRODUITS_EXCEPTIONNELS_VII_STRING));
         dict_int.put(TOTAL_DES_PRODUITS_EXCEPTIONNELS_VII_STRING, List.of("hd"));
         dict_int.put("he", List.of(CHARGES_EXCEPTIONNELLES_SUR_OPERATIONS_DE_GESTION_STRING));
@@ -3251,7 +3285,6 @@ public class AnnualAccountStringHelper {
         dict_int.put("0n", List.of(AMORTISSEMENTS_TOTAL_GENERAL_STRING));
         dict_int.put(AMORTISSEMENTS_TOTAL_GENERAL_STRING, List.of("0n"));
         dict_int.put("z9", List.of(CHARGES_A_REPARTIR_OU_FRAIS_D_EMISSION_D_EMPRUNT_STRING));
-        dict_int.put(CHARGES_A_REPARTIR_OU_FRAIS_D_EMISSION_D_EMPRUNT_STRING, List.of("z9"));
         dict_int.put("sp", List.of(MVT_SUR_CHARGES_REP_PRIMES_DE_REMBOURSEMENT_DES_OBLIGATIONS_STRING));
         dict_int.put(MVT_SUR_CHARGES_REP_PRIMES_DE_REMBOURSEMENT_DES_OBLIGATIONS_STRING, List.of("sp"));
         dict_int.put("pppbbb", List.of(PROVISIONS_STRING));
@@ -3313,11 +3346,8 @@ public class AnnualAccountStringHelper {
         dict_int.put("cccaaa", List.of(CREANCES_ET_DETTES_STRING));
         dict_int.put(CREANCES_ET_DETTES_STRING, List.of("cccaaa"));
         dict_int.put("ul", List.of(CREANCES_RATTACHEES_A_DES_PARTICIPATIONS_STRING));
-        dict_int.put(CREANCES_RATTACHEES_A_DES_PARTICIPATIONS_STRING, List.of("ul"));
         dict_int.put("up", List.of(PRETS_STRING));
-        dict_int.put(PRETS_STRING, List.of("up"));
         dict_int.put("ut", List.of(AUTRES_IMMOBILISATIONS_FINANCIERES_STRING));
-        dict_int.put(AUTRES_IMMOBILISATIONS_FINANCIERES_STRING, List.of("ut"));
         dict_int.put("va", List.of(CLIENTS_DOUTEUX_OU_LITIGIEUX_STRING));
         dict_int.put(CLIENTS_DOUTEUX_OU_LITIGIEUX_STRING, List.of("va"));
         dict_int.put("ux", List.of(AUTRES_CREANCES_CLIENTS_STRING));
@@ -3327,11 +3357,11 @@ public class AnnualAccountStringHelper {
         dict_int.put("z1", List.of(CREANCES_REPRESENTATIVES_DE_TITRES_PRETES_STRING));
         dict_int.put(CREANCES_REPRESENTATIVES_DE_TITRES_PRETES_STRING, List.of("z1"));
         dict_int.put("uy", List.of(PERSONNEL_ET_COMPTES_RATTACHES_STRING));
-        dict_int.put(PERSONNEL_ET_COMPTES_RATTACHES_STRING, List.of("uy"));
+        dict_int.put(PERSONNEL_ET_COMPTES_RATTACHES_STRING, List.of("uy", "8c"));
         dict_int.put("uz", List.of(SECURITE_SOCIALE_AUTRES_ORGANISMES_SOCIAUX_STRING));
         dict_int.put(SECURITE_SOCIALE_AUTRES_ORGANISMES_SOCIAUX_STRING, List.of("uz"));
         dict_int.put("vm", List.of(IMPOTS_SUR_LES_BENEFICES_STRING));
-        dict_int.put(IMPOTS_SUR_LES_BENEFICES_STRING, List.of("vm"));
+        dict_int.put(IMPOTS_SUR_LES_BENEFICES_STRING, List.of("vm", "8e"));
         dict_int.put("vb", List.of(T_V_A_STRING));
         dict_int.put(T_V_A_STRING, List.of("vb"));
         dict_int.put("vn", List.of(AUTRES_IMPOTS_TAXES_VERSEMENTS_ASSIMILES_STRING));
@@ -3339,11 +3369,10 @@ public class AnnualAccountStringHelper {
         dict_int.put("vp", List.of(DIVERS_STRING));
         dict_int.put(DIVERS_STRING, List.of("vp"));
         dict_int.put("vc", List.of(GROUPE_ET_ASSOCIES_STRING));
-        dict_int.put(GROUPE_ET_ASSOCIES_STRING, List.of("vc"));
+        dict_int.put(GROUPE_ET_ASSOCIES_STRING, List.of("vc", "vi"));
         dict_int.put("vr", List.of(DEBITEURS_DIVERS_DONT_CREANCES_RELATIVES_A_DES_OPERATIONS_DE_PENSION_DE_TITRES_STRING));
         dict_int.put(DEBITEURS_DIVERS_DONT_CREANCES_RELATIVES_A_DES_OPERATIONS_DE_PENSION_DE_TITRES_STRING, List.of("vr"));
         dict_int.put("vs", List.of(CHARGES_CONSTATEES_D_AVANCE_STRING));
-        dict_int.put(CHARGES_CONSTATEES_D_AVANCE_STRING, List.of("vs"));
         dict_int.put("vt", List.of(TOTAL_ETAT_DES_CREANCES_STRING));
         dict_int.put(TOTAL_ETAT_DES_CREANCES_STRING, List.of("vt"));
         dict_int.put("7y", List.of(EMPRUNTS_OBLIGATAIRES_CONVERTIBLES_BRUT_A_UN_AN_AU_PLUS_STRING));
@@ -3359,11 +3388,9 @@ public class AnnualAccountStringHelper {
         dict_int.put("8b", List.of(FOURNISSEURS_ET_COMPTES_RATTACHES_STRING));
         dict_int.put(FOURNISSEURS_ET_COMPTES_RATTACHES_STRING, List.of("8b"));
         dict_int.put("8c", List.of(PERSONNEL_ET_COMPTES_RATTACHES_STRING));
-        dict_int.put(PERSONNEL_ET_COMPTES_RATTACHES_STRING, List.of("8c"));
         dict_int.put("8d", List.of(SECURITE_SOCIALE_ET_AUTRES_ORGANISMES_SOCIAUX_STRING));
         dict_int.put(SECURITE_SOCIALE_ET_AUTRES_ORGANISMES_SOCIAUX_STRING, List.of("8d"));
         dict_int.put("8e", List.of(IMPOTS_SUR_LES_BENEFICES_STRING));
-        dict_int.put(IMPOTS_SUR_LES_BENEFICES_STRING, List.of("8e"));
         dict_int.put("vw", List.of(TVA_STRING));
         dict_int.put(TVA_STRING, List.of("vw"));
         dict_int.put("vx", List.of(OBLIGATIONS_CAUTIONNEES_STRING));
@@ -3371,9 +3398,7 @@ public class AnnualAccountStringHelper {
         dict_int.put("vq", List.of(AUTRES_IMPOTS_TAXES_ET_ASSIMILES_STRING));
         dict_int.put(AUTRES_IMPOTS_TAXES_ET_ASSIMILES_STRING, List.of("vq"));
         dict_int.put("8j", List.of(DETTES_SUR_IMMOBILISATIONS_ET_COMPTES_RATTACHES_STRING));
-        dict_int.put(DETTES_SUR_IMMOBILISATIONS_ET_COMPTES_RATTACHES_STRING, List.of("8j"));
         dict_int.put("vi", List.of(GROUPE_ET_ASSOCIES_STRING));
-        dict_int.put(GROUPE_ET_ASSOCIES_STRING, List.of("vi"));
         dict_int.put("8k", List.of(AUTRES_DETTES_DONT_DETTES_RELATIVES_A_DES_OPERATIONS_DE_PENSION_DE_TITRE_STRING));
         dict_int.put(AUTRES_DETTES_DONT_DETTES_RELATIVES_A_DES_OPERATIONS_DE_PENSION_DE_TITRE_STRING, List.of("8k"));
         dict_int.put("z2", List.of(DETTE_REPRESENTATIVE_DE_TITRES_EMPRUNTES_STRING));
@@ -3424,6 +3449,16 @@ public class AnnualAccountStringHelper {
         dict_int.put(EFFECTIF_MOYEN_DU_PERSONNEL_STRING, List.of("yp"));
         dict_int.put("zr", List.of(FILIALES_ET_PARTICIPATIONS_STRING));
         dict_int.put(FILIALES_ET_PARTICIPATIONS_STRING, List.of("zr"));
+
+        //--------------------------String------------------------------
+        dict_String.put(SIREN_STRING, List.of("siren"));
+        dict_String.put("siren", List.of(SIREN_STRING));
+        dict_String.put(DENOMINATION_STRING, List.of("denomination"));
+        dict_String.put("denomination", List.of(DENOMINATION_STRING));
+        dict_String.put(DATE_CLOTURE_EXERCICE, List.of("date_cloture_exercice"));
+        dict_String.put("date_cloture_exercice", List.of(DATE_CLOTURE_EXERCICE_STRING));
+        dict_String.put(ADRESSE_STRING, List.of("adresse"));
+        dict_String.put("adresse", List.of(ADRESSE_STRING));
     }
 
     private void setInt(String key,int value){
@@ -4380,6 +4415,15 @@ public class AnnualAccountStringHelper {
         switch(key){
             case SIREN_STRING:
                 this.SIREN = value;
+                break;
+            case DENOMINATION_STRING:
+                this.DENOMINATION = value;
+                break;
+            case DATE_CLOTURE_EXERCICE_STRING:
+                this.DATE_CLOTURE_EXERCICE = value;
+                break;
+            case ADRESSE_STRING:
+                this.ADRESSE = value;
                 break;
         }
     }
