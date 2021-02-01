@@ -1,0 +1,968 @@
+
+        dict_int.put("AAAAAA", List.of(ACTIF_STRING));
+
+        dict_int.put(ACTIF_STRING, List.of("AAAAAA"));
+
+        dict_int.put("AA", List.of(CAPITAL_SOUSCRIT_NON_APPELE_STRING));
+
+        dict_int.put(CAPITAL_SOUSCRIT_NON_APPELE_STRING, List.of("AA"));
+
+        dict_int.put("AB", List.of(FRAIS_D_ETABLISSEMENT_STRING));
+
+        dict_int.put(FRAIS_D_ETABLISSEMENT_STRING, List.of("AB"));
+
+        dict_int.put("CX", List.of(FRAIS_DE_DEVELOPPEMENT_OU_DE_RECHERCHE_ET_DEVELOPPEMENT_STRING));
+
+        dict_int.put(FRAIS_DE_DEVELOPPEMENT_OU_DE_RECHERCHE_ET_DEVELOPPEMENT_STRING, List.of("CX"));
+
+        dict_int.put("AF", List.of(CONCESSIONS_BREVETS_ET_DROITS_SIMILAIRES_STRING));
+
+        dict_int.put(CONCESSIONS_BREVETS_ET_DROITS_SIMILAIRES_STRING, List.of("AF"));
+
+        dict_int.put("AH", List.of(FONDS_COMMERCIAL_STRING));
+
+        dict_int.put(FONDS_COMMERCIAL_STRING, List.of("AH"));
+
+        dict_int.put("AJ", List.of(AUTRES_IMMOBILISATIONS_INCORPORELLES_STRING));
+
+        dict_int.put(AUTRES_IMMOBILISATIONS_INCORPORELLES_STRING, List.of("AJ"));
+
+        dict_int.put("AL", List.of(AVANCES_ET_ACOMPTES_SUR_IMMOBILISATIONS_INCORPORELLES_STRING));
+
+        dict_int.put(AVANCES_ET_ACOMPTES_SUR_IMMOBILISATIONS_INCORPORELLES_STRING, List.of("AL"));
+
+        dict_int.put("AN", List.of(TERRAINS_STRING));
+
+        dict_int.put(TERRAINS_STRING, List.of("AN"));
+
+        dict_int.put("AP", List.of(CONSTRUCTIONS_STRING));
+
+        dict_int.put(CONSTRUCTIONS_STRING, List.of("AP"));
+
+        dict_int.put("AR", List.of(INSTALLATIONS_TECHNIQUES_MATERIEL_ET_OUTILLAGE_INDUSTRIELS_STRING));
+
+        dict_int.put(INSTALLATIONS_TECHNIQUES_MATERIEL_ET_OUTILLAGE_INDUSTRIELS_STRING, List.of("AR"));
+
+        dict_int.put("AT", List.of(AUTRES_IMMOBILISATIONS_CORPORELLES_STRING));
+
+        dict_int.put(AUTRES_IMMOBILISATIONS_CORPORELLES_STRING, List.of("AT"));
+
+        dict_int.put("AV", List.of(IMMOBILISATIONS_EN_COURS_STRING));
+
+        dict_int.put(IMMOBILISATIONS_EN_COURS_STRING, List.of("AV"));
+
+        dict_int.put("AX", List.of(AVANCES_ET_ACOMPTES_STRING));
+
+        dict_int.put(AVANCES_ET_ACOMPTES_STRING, List.of("AX"));
+
+        dict_int.put("CS", List.of(PARTICIPATIONS_EVALUEES_MISE_EN_EQUIVALENCE_STRING));
+
+        dict_int.put(PARTICIPATIONS_EVALUEES_MISE_EN_EQUIVALENCE_STRING, List.of("CS"));
+
+        dict_int.put("CU", List.of(AUTRES_PARTICIPATIONS_STRING));
+
+        dict_int.put(AUTRES_PARTICIPATIONS_STRING, List.of("CU"));
+
+        dict_int.put("BB", List.of(CREANCES_RATTACHEES_A_DES_PARTICIPATIONS_STRING));
+
+        dict_int.put(CREANCES_RATTACHEES_A_DES_PARTICIPATIONS_STRING, List.of("BB", "ul"));
+
+        dict_int.put("BD", List.of(AUTRES_TITRES_IMMOBILISES_STRING));
+
+        dict_int.put(AUTRES_TITRES_IMMOBILISES_STRING, List.of("BD"));
+
+        dict_int.put("BF", List.of(PRETS_STRING));
+
+        dict_int.put(PRETS_STRING, List.of("BF", "up"));
+
+        dict_int.put("BH", List.of(AUTRES_IMMOBILISATIONS_FINANCIERES_STRING));
+
+        dict_int.put(AUTRES_IMMOBILISATIONS_FINANCIERES_STRING, List.of("BH", "ut"));
+
+        dict_int.put("BJ", List.of(TOTAL_I_STRING));
+
+        dict_int.put(TOTAL_I_STRING, List.of("BJ","dl"));
+
+        dict_int.put("BL", List.of(MATIERES_PREMIERES_APPROVISIONNEMENTS_STRING));
+
+        dict_int.put(MATIERES_PREMIERES_APPROVISIONNEMENTS_STRING, List.of("BL"));
+
+        dict_int.put("BN", List.of(EN_COURS_DE_PRODUCTION_DE_BIENS_STRING));
+
+        dict_int.put(EN_COURS_DE_PRODUCTION_DE_BIENS_STRING, List.of("BN"));
+
+        dict_int.put("BP", List.of(EN_COURS_DE_PRODUCTION_DE_SERVICES_STRING));
+
+        dict_int.put(EN_COURS_DE_PRODUCTION_DE_SERVICES_STRING, List.of("BP"));
+
+        dict_int.put("BR", List.of(PRODUITS_INTERMEDIAIRES_ET_FINIS_STRING));
+
+        dict_int.put(PRODUITS_INTERMEDIAIRES_ET_FINIS_STRING, List.of("BR"));
+
+        dict_int.put("BT", List.of(MARCHANDISES_STRING));
+
+        dict_int.put(MARCHANDISES_STRING, List.of("BT"));
+
+        dict_int.put("BV", List.of(AVANCES_ET_ACOMPTES_VERSES_SUR_COMMANDES_STRING));
+
+        dict_int.put(AVANCES_ET_ACOMPTES_VERSES_SUR_COMMANDES_STRING, List.of("BV"));
+
+        dict_int.put("BX", List.of(CLIENTS_ET_COMPTES_RATTACHES_STRING));
+
+        dict_int.put(CLIENTS_ET_COMPTES_RATTACHES_STRING, List.of("BX"));
+
+        dict_int.put("BZ", List.of(AUTRES_CREANCES_STRING));
+
+        dict_int.put(AUTRES_CREANCES_STRING, List.of("BZ"));
+
+        dict_int.put("CB", List.of(CAPITAL_SOUSCRIT_ET_APPELE_NON_VERSE_STRING));
+
+        dict_int.put(CAPITAL_SOUSCRIT_ET_APPELE_NON_VERSE_STRING, List.of("CB"));
+
+        dict_int.put("CD", List.of(VALEURS_MOBILIERES_DE_PLACEMENT_STRING));
+
+        dict_int.put(VALEURS_MOBILIERES_DE_PLACEMENT_STRING, List.of("CD"));
+
+        dict_int.put("CF", List.of(DISPONIBILITES_STRING));
+
+        dict_int.put(DISPONIBILITES_STRING, List.of("CF"));
+
+        dict_int.put("CH", List.of(CHARGES_CONSTATEES_D_AVANCE_STRING));
+
+        dict_int.put(CHARGES_CONSTATEES_D_AVANCE_STRING, List.of("CH", "vs"));
+
+        dict_int.put("CJ", List.of(TOTAL_II_STRING));
+
+        dict_int.put(TOTAL_II_STRING, List.of("CJ", "do"));
+
+        dict_int.put("CW", List.of(CHARGES_A_REPARTIR_OU_FRAIS_D_EMISSION_D_EMPRUNT_STRING));
+
+        dict_int.put(CHARGES_A_REPARTIR_OU_FRAIS_D_EMISSION_D_EMPRUNT_STRING, List.of("CW", "z9"));
+
+        dict_int.put("CM", List.of(PRIMES_DE_REMBOURSEMENT_DES_OBLIGATIONS_IV_STRING));
+
+        dict_int.put(PRIMES_DE_REMBOURSEMENT_DES_OBLIGATIONS_IV_STRING, List.of("CM"));
+
+        dict_int.put("CN", List.of(ECARTS_DE_CONVERSION_ACTIF_V_STRING));
+
+        dict_int.put(ECARTS_DE_CONVERSION_ACTIF_V_STRING, List.of("CN"));
+
+        dict_int.put("CO", List.of(TOTAL_GENERAL_0_A_V_STRING));
+
+        dict_int.put(TOTAL_GENERAL_0_A_V_STRING, List.of("CO"));
+
+        dict_int.put("CP", List.of(PARTS_A_MOINS_D_UN_AN_STRING));
+
+        dict_int.put(PARTS_A_MOINS_D_UN_AN_STRING, List.of("CP"));
+
+        dict_int.put("CR", List.of(PARTS_A_PLUS_D_UN_AN_STRING));
+
+        dict_int.put(PARTS_A_PLUS_D_UN_AN_STRING, List.of("CR"));
+
+        dict_int.put("PPPPPP", List.of(PASSIF_STRING));
+
+        dict_int.put(PASSIF_STRING, List.of("PPPPPP"));
+
+        dict_int.put("DA", List.of(CAPITAL_SOCIAL_OU_INDIVIDUEL_STRING));
+
+        dict_int.put(CAPITAL_SOCIAL_OU_INDIVIDUEL_STRING, List.of("DA"));
+
+        dict_int.put("DB", List.of(PRIMES_D_EMISSION_DE_FUSION_D_APPORT_STRING));
+
+        dict_int.put(PRIMES_D_EMISSION_DE_FUSION_D_APPORT_STRING, List.of("DB"));
+
+        dict_int.put("EK", List.of(DONT_ECART_D_EQUIVALENCE_STRING));
+
+        dict_int.put(DONT_ECART_D_EQUIVALENCE_STRING, List.of("EK"));
+
+        dict_int.put("DC", List.of(ECARTS_DE_REEVALUATION_STRING));
+
+        dict_int.put(ECARTS_DE_REEVALUATION_STRING, List.of("DC"));
+
+        dict_int.put("DD", List.of(RESERVE_LEGALE_1_STRING));
+
+        dict_int.put(RESERVE_LEGALE_1_STRING, List.of("DD"));
+
+        dict_int.put("DE", List.of(RESERVES_STATUTAIRES_OU_CONTRACTUELLES_STRING));
+
+        dict_int.put(RESERVES_STATUTAIRES_OU_CONTRACTUELLES_STRING, List.of("DE"));
+
+        dict_int.put("B1", List.of(DONT_RESERVE_SPECIALE_DES_PROVISIONS_POUR_FLUCTUATION_DES_COURS_STRING));
+
+        dict_int.put(DONT_RESERVE_SPECIALE_DES_PROVISIONS_POUR_FLUCTUATION_DES_COURS_STRING, List.of("B1"));
+
+        dict_int.put("DF", List.of(RESERVES_REGLEMENTEES_1_STRING));
+
+        dict_int.put(RESERVES_REGLEMENTEES_1_STRING, List.of("DF"));
+
+        dict_int.put("EJ", List.of(DONT_RESERVE_RELATIVE_A_L_ACHAT_D_OEUVRES_ORIGINALES_D_ARTISTES_VIVANTS_STRING));
+
+        dict_int.put(DONT_RESERVE_RELATIVE_A_L_ACHAT_D_OEUVRES_ORIGINALES_D_ARTISTES_VIVANTS_STRING, List.of("EJ"));
+
+        dict_int.put("DG", List.of(AUTRES_RESERVES_STRING));
+
+        dict_int.put(AUTRES_RESERVES_STRING, List.of("DG"));
+
+        dict_int.put("DH", List.of(REPORT_A_NOUVEAU_STRING));
+
+        dict_int.put(REPORT_A_NOUVEAU_STRING, List.of("DH"));
+
+        dict_int.put("DI", List.of(RESULTAT_DE_L_EXERCICE_BENEFICE_OU_PERTE_STRING));
+
+        dict_int.put(RESULTAT_DE_L_EXERCICE_BENEFICE_OU_PERTE_STRING, List.of("DI"));
+
+        dict_int.put("DJ", List.of(SUBVENTIONS_D_INVESTISSEMENT_STRING));
+
+        dict_int.put(SUBVENTIONS_D_INVESTISSEMENT_STRING, List.of("DJ"));
+
+        dict_int.put("DK", List.of(PROVISIONS_REGLEMENTEES_STRING));
+
+        dict_int.put(PROVISIONS_REGLEMENTEES_STRING, List.of("DK"));
+
+        dict_int.put("DL", List.of(TOTAL_I_STRING));
+
+        dict_int.put("DM", List.of(PRODUIT_DES_EMISSIONS_DE_TITRES_PARTICIPATIFS_STRING));
+
+        dict_int.put(PRODUIT_DES_EMISSIONS_DE_TITRES_PARTICIPATIFS_STRING, List.of("DM"));
+
+        dict_int.put("DN", List.of(AVANCES_CONDITIONNEES_STRING));
+
+        dict_int.put(AVANCES_CONDITIONNEES_STRING, List.of("DN"));
+
+        dict_int.put("DO", List.of(TOTAL_II_STRING));
+
+        dict_int.put("DP", List.of(PROVISIONS_POUR_RISQUES_STRING));
+
+        dict_int.put(PROVISIONS_POUR_RISQUES_STRING, List.of("DP"));
+
+        dict_int.put("DQ", List.of(PROVISIONS_POUR_CHARGES_STRING));
+
+        dict_int.put(PROVISIONS_POUR_CHARGES_STRING, List.of("DQ"));
+
+        dict_int.put("DR", List.of(TOTAL_III_STRING));
+
+        dict_int.put(TOTAL_III_STRING, List.of("DR"));
+
+        dict_int.put("DS", List.of(EMPRUNTS_OBLIGATAIRES_CONVERTIBLES_STRING));
+
+        dict_int.put(EMPRUNTS_OBLIGATAIRES_CONVERTIBLES_STRING, List.of("DS"));
+
+        dict_int.put("DT", List.of(AUTRES_EMPRUNTS_OBLIGATAIRES_STRING));
+
+        dict_int.put(AUTRES_EMPRUNTS_OBLIGATAIRES_STRING, List.of("DT"));
+
+        dict_int.put("DU", List.of(EMPRUNTS_ET_DETTES_AUPRES_DES_ETABLISSEMENTS_DE_CREDIT_3_STRING));
+
+        dict_int.put(EMPRUNTS_ET_DETTES_AUPRES_DES_ETABLISSEMENTS_DE_CREDIT_3_STRING, List.of("DU"));
+
+        dict_int.put("DV", List.of(EMPRUNTS_ET_DETTES_FINANCIERES_DIVERS_4_STRING));
+
+        dict_int.put(EMPRUNTS_ET_DETTES_FINANCIERES_DIVERS_4_STRING, List.of("DV"));
+
+        dict_int.put("DW", List.of(AVANCES_ET_ACOMPTES_RECUS_SUR_COMMANDES_EN_COURS_STRING));
+
+        dict_int.put(AVANCES_ET_ACOMPTES_RECUS_SUR_COMMANDES_EN_COURS_STRING, List.of("DW"));
+
+        dict_int.put("DX", List.of(DETTES_FOURNISSEURS_ET_COMPTES_RATTACHES_STRING));
+
+        dict_int.put(DETTES_FOURNISSEURS_ET_COMPTES_RATTACHES_STRING, List.of("DX"));
+
+        dict_int.put("DY", List.of(DETTES_FISCALES_ET_SOCIALES_STRING));
+
+        dict_int.put(DETTES_FISCALES_ET_SOCIALES_STRING, List.of("DY"));
+
+        dict_int.put("DZ", List.of(DETTES_SUR_IMMOBILISATIONS_ET_COMPTES_RATTACHES_STRING));
+
+        dict_int.put(DETTES_SUR_IMMOBILISATIONS_ET_COMPTES_RATTACHES_STRING, List.of("DZ", "8j"));
+
+        dict_int.put("EA", List.of(AUTRES_DETTES_STRING));
+
+        dict_int.put(AUTRES_DETTES_STRING, List.of("EA"));
+
+        dict_int.put("EB", List.of(PRODUITS_CONSTATES_D_AVANCE_2_STRING));
+
+        dict_int.put(PRODUITS_CONSTATES_D_AVANCE_2_STRING, List.of("EB"));
+
+        dict_int.put("EC", List.of(TOTAL_IV_STRING));
+
+        dict_int.put(TOTAL_IV_STRING, List.of("EC"));
+
+        dict_int.put("ED", List.of(V_STRING));
+
+        dict_int.put(V_STRING, List.of("ED"));
+
+        dict_int.put("EE", List.of(TOTAL_GENERAL_I_A_V_STRING));
+
+        dict_int.put(TOTAL_GENERAL_I_A_V_STRING, List.of("EE"));
+
+        dict_int.put("EF", List.of(DONT_RESERVE_REGLEMENTEE_DES_PLUSVALUES_A_LONG_TERME_STRING));
+
+        dict_int.put(DONT_RESERVE_REGLEMENTEE_DES_PLUSVALUES_A_LONG_TERME_STRING, List.of("EF"));
+
+        dict_int.put("EG", List.of(DETTES_ET_PRODUITS_CONSTATES_D_AVANCE_A_MOINS_D_UN_AN_STRING));
+
+        dict_int.put(DETTES_ET_PRODUITS_CONSTATES_D_AVANCE_A_MOINS_D_UN_AN_STRING, List.of("EG"));
+
+        dict_int.put("EH", List.of(DONT_CONCOURS_BANCAIRES_COURANTS_ET_SOLDES_CREDITEURS_DE_BANQUES_ET_CCP_STRING));
+
+        dict_int.put(DONT_CONCOURS_BANCAIRES_COURANTS_ET_SOLDES_CREDITEURS_DE_BANQUES_ET_CCP_STRING, List.of("EH"));
+
+        dict_int.put("EI", List.of(DONT_EMPRUNTS_PARTICIPATIFS_STRING));
+
+        dict_int.put(DONT_EMPRUNTS_PARTICIPATIFS_STRING, List.of("EI"));
+
+        dict_int.put("CCCCCC", List.of(COMPTE_DE_RESULTAT_A_STRING));
+
+        dict_int.put(COMPTE_DE_RESULTAT_A_STRING, List.of("CCCCCC"));
+
+        dict_int.put("FA", List.of(VENTES_DE_MARCHANDISES_STRING));
+
+        dict_int.put(VENTES_DE_MARCHANDISES_STRING, List.of("FA"));
+
+        dict_int.put("FD", List.of(PRODUCTION_VENDUE_BIENS_STRING));
+
+        dict_int.put(PRODUCTION_VENDUE_BIENS_STRING, List.of("FD"));
+
+        dict_int.put("FG", List.of(PRODUCTION_VENDUE_SERVICES_STRING));
+
+        dict_int.put(PRODUCTION_VENDUE_SERVICES_STRING, List.of("FG"));
+
+        dict_int.put("FJ", List.of(CHIFFRES_D_AFFAIRES_NETS_STRING));
+
+        dict_int.put(CHIFFRES_D_AFFAIRES_NETS_STRING, List.of("FJ"));
+
+        dict_int.put("FM", List.of(PRODUCTION_STOCKEE_STRING));
+
+        dict_int.put(PRODUCTION_STOCKEE_STRING, List.of("FM"));
+
+        dict_int.put("FN", List.of(PRODUCTION_IMMOBILISEE_STRING));
+
+        dict_int.put(PRODUCTION_IMMOBILISEE_STRING, List.of("FN"));
+
+        dict_int.put("FO", List.of(SUBVENTIONS_D_EXPLOITATION_STRING));
+
+        dict_int.put(SUBVENTIONS_D_EXPLOITATION_STRING, List.of("FO"));
+
+        dict_int.put("FP", List.of(REPRISES_SUR_AMORTISSEMENTS_ET_PROVISIONS_TRANSFERT_DE_CHARGES_STRING));
+
+        dict_int.put(REPRISES_SUR_AMORTISSEMENTS_ET_PROVISIONS_TRANSFERT_DE_CHARGES_STRING, List.of("FP"));
+
+        dict_int.put("FQ", List.of(AUTRES_PRODUITS_STRING));
+
+        dict_int.put(AUTRES_PRODUITS_STRING, List.of("FQ"));
+
+        dict_int.put("FR", List.of(TOTAL_DES_PRODUITS_D_EXPLOITATION_I_STRING));
+
+        dict_int.put(TOTAL_DES_PRODUITS_D_EXPLOITATION_I_STRING, List.of("FR"));
+
+        dict_int.put("FS", List.of(ACHATS_DE_MARCHANDISES_Y_COMPRIS_DROITS_DE_DOUANE_STRING));
+
+        dict_int.put(ACHATS_DE_MARCHANDISES_Y_COMPRIS_DROITS_DE_DOUANE_STRING, List.of("FS"));
+
+        dict_int.put("FT", List.of(VARIATION_DE_STOCK_MARCHANDISES_STRING));
+
+        dict_int.put(VARIATION_DE_STOCK_MARCHANDISES_STRING, List.of("FT"));
+
+        dict_int.put("FU", List.of(ACHATS_DE_MATIERES_PREMIERES_ET_AUTRES_APPROVISIONNEMENTS_STRING));
+
+        dict_int.put(ACHATS_DE_MATIERES_PREMIERES_ET_AUTRES_APPROVISIONNEMENTS_STRING, List.of("FU"));
+
+        dict_int.put("FV", List.of(VARIATION_DE_STOCK_MATIERES_PREMIERES_ET_APPROVISIONNEMENTS_STRING));
+
+        dict_int.put(VARIATION_DE_STOCK_MATIERES_PREMIERES_ET_APPROVISIONNEMENTS_STRING, List.of("FV"));
+
+        dict_int.put("FW", List.of(AUTRES_ACHATS_ET_CHARGES_EXTERNES_STRING));
+
+        dict_int.put(AUTRES_ACHATS_ET_CHARGES_EXTERNES_STRING, List.of("FW"));
+
+        dict_int.put("FX", List.of(IMPOTS_TAXES_ET_VERSEMENTS_ASSIMILES_STRING));
+
+        dict_int.put(IMPOTS_TAXES_ET_VERSEMENTS_ASSIMILES_STRING, List.of("FX"));
+
+        dict_int.put("FY", List.of(SALAIRES_ET_TRAITEMENTS_STRING));
+
+        dict_int.put(SALAIRES_ET_TRAITEMENTS_STRING, List.of("FY"));
+
+        dict_int.put("FZ", List.of(CHARGES_SOCIALES_STRING));
+
+        dict_int.put(CHARGES_SOCIALES_STRING, List.of("FZ"));
+
+        dict_int.put("GA", List.of(DOT_D_EXPLOIT_DOTATIONS_AUX_AMORTISSEMENTS_STRING));
+
+        dict_int.put(DOT_D_EXPLOIT_DOTATIONS_AUX_AMORTISSEMENTS_STRING, List.of("GA"));
+
+        dict_int.put("GB", List.of(DOT_D_EXPLOIT_DOTATIONS_AUX_PROVISIONS_STRING));
+
+        dict_int.put(DOT_D_EXPLOIT_DOTATIONS_AUX_PROVISIONS_STRING, List.of("GB"));
+
+        dict_int.put("GC", List.of(DOT_D_EXPLOIT_SUR_ACTIF_CIRCULANT_DOTATIONS_AUX_PROVISIONS_STRING));
+
+        dict_int.put(DOT_D_EXPLOIT_SUR_ACTIF_CIRCULANT_DOTATIONS_AUX_PROVISIONS_STRING, List.of("GC"));
+
+        dict_int.put("GD", List.of(DOT_D_EXPLOIT_POUR_RISQUES_ET_CHARGES_DOTATIONS_AUX_PROVISIONS_STRING));
+
+        dict_int.put(DOT_D_EXPLOIT_POUR_RISQUES_ET_CHARGES_DOTATIONS_AUX_PROVISIONS_STRING, List.of("GD"));
+
+        dict_int.put("GE", List.of(AUTRES_CHARGES_STRING));
+
+        dict_int.put(AUTRES_CHARGES_STRING, List.of("GE"));
+
+        dict_int.put("GF", List.of(TOTAL_DES_CHARGES_D_EXPLOITATION_II_STRING));
+
+        dict_int.put(TOTAL_DES_CHARGES_D_EXPLOITATION_II_STRING, List.of("GF"));
+
+        dict_int.put("GG", List.of(RESULTAT_D_EXPLOITATION_I_II_STRING));
+
+        dict_int.put(RESULTAT_D_EXPLOITATION_I_II_STRING, List.of("GG"));
+
+        dict_int.put("GH", List.of(BENEFICE_ATTRIBUE_OU_PERTE_TRANSFEREE_III_STRING));
+
+        dict_int.put(BENEFICE_ATTRIBUE_OU_PERTE_TRANSFEREE_III_STRING, List.of("GH"));
+
+        dict_int.put("GI", List.of(PERTE_SUPPORTEE_OU_BENEFICE_TRANSFERE_IV_STRING));
+
+        dict_int.put(PERTE_SUPPORTEE_OU_BENEFICE_TRANSFERE_IV_STRING, List.of("GI"));
+
+        dict_int.put("GJ", List.of(PRODUITS_FINANCIERS_DE_PARTICIPATIONS_STRING));
+
+        dict_int.put(PRODUITS_FINANCIERS_DE_PARTICIPATIONS_STRING, List.of("GJ"));
+
+        dict_int.put("GK", List.of(PRODUITS_DES_AUTRES_VALEURS_MOBILIERES_ET_CREANCES_DE_L_ACTIF_IMMOBILISE_STRING));
+
+        dict_int.put(PRODUITS_DES_AUTRES_VALEURS_MOBILIERES_ET_CREANCES_DE_L_ACTIF_IMMOBILISE_STRING, List.of("GK"));
+
+        dict_int.put("GL", List.of(AUTRES_INTERETS_ET_PRODUITS_ASSIMILES_STRING));
+
+        dict_int.put(AUTRES_INTERETS_ET_PRODUITS_ASSIMILES_STRING, List.of("GL"));
+
+        dict_int.put("GM", List.of(REPRISES_SUR_PROVISIONS_ET_TRANSFERTS_DE_CHARGES_STRING));
+
+        dict_int.put(REPRISES_SUR_PROVISIONS_ET_TRANSFERTS_DE_CHARGES_STRING, List.of("GM", "hc"));
+
+        dict_int.put("GN", List.of(DIFFERENCES_POSITIVES_DE_CHANGE_STRING));
+
+        dict_int.put(DIFFERENCES_POSITIVES_DE_CHANGE_STRING, List.of("GN"));
+
+        dict_int.put("GO", List.of(PRODUITS_NETS_SUR_CESSIONS_DE_VALEURS_MOBILIERES_DE_PLACEMENT_STRING));
+
+        dict_int.put(PRODUITS_NETS_SUR_CESSIONS_DE_VALEURS_MOBILIERES_DE_PLACEMENT_STRING, List.of("GO"));
+
+        dict_int.put("GP", List.of(TOTAL_DES_PRODUITS_FINANCIERS_V_STRING));
+
+        dict_int.put(TOTAL_DES_PRODUITS_FINANCIERS_V_STRING, List.of("GP"));
+
+        dict_int.put("GQ", List.of(DOTATIONS_FINANCIERES_SUR_AMORTISSEMENTS_ET_PROVISIONS_STRING));
+
+        dict_int.put(DOTATIONS_FINANCIERES_SUR_AMORTISSEMENTS_ET_PROVISIONS_STRING, List.of("GQ"));
+
+        dict_int.put("GR", List.of(INTERETS_ET_CHARGES_ASSIMILEES_STRING));
+
+        dict_int.put(INTERETS_ET_CHARGES_ASSIMILEES_STRING, List.of("GR"));
+
+        dict_int.put("GS", List.of(DIFFERENCES_NEGATIVES_DE_CHANGE_STRING));
+
+        dict_int.put(DIFFERENCES_NEGATIVES_DE_CHANGE_STRING, List.of("GS"));
+
+        dict_int.put("GT", List.of(CHARGES_NETTES_SUR_CESSIONS_DE_VALEURS_MOBILIERES_DE_PLACEMENT_STRING));
+
+        dict_int.put(CHARGES_NETTES_SUR_CESSIONS_DE_VALEURS_MOBILIERES_DE_PLACEMENT_STRING, List.of("GT"));
+
+        dict_int.put("GU", List.of(TOTAL_DES_CHARGES_FINANCIERES_VI_STRING));
+
+        dict_int.put(TOTAL_DES_CHARGES_FINANCIERES_VI_STRING, List.of("GU"));
+
+        dict_int.put("GV", List.of(RESULTAT_FINANCIER_V_VI_STRING));
+
+        dict_int.put(RESULTAT_FINANCIER_V_VI_STRING, List.of("GV"));
+
+        dict_int.put("GW", List.of(RESULTAT_COURANT_AVANT_IMPOTS_I_II_III_IV_V_VI_STRING));
+
+        dict_int.put(RESULTAT_COURANT_AVANT_IMPOTS_I_II_III_IV_V_VI_STRING, List.of("GW"));
+
+        dict_int.put("CCCBBB", List.of(COMPTE_DE_RESULTAT_B_STRING));
+
+        dict_int.put(COMPTE_DE_RESULTAT_B_STRING, List.of("CCCBBB"));
+
+        dict_int.put("HA", List.of(PRODUITS_EXCEPTIONNELS_SUR_OPERATIONS_DE_GESTION_STRING));
+
+        dict_int.put(PRODUITS_EXCEPTIONNELS_SUR_OPERATIONS_DE_GESTION_STRING, List.of("HA"));
+
+        dict_int.put("HB", List.of(PRODUITS_EXCEPTIONNELS_SUR_OPERATIONS_EN_CAPITAL_STRING));
+
+        dict_int.put(PRODUITS_EXCEPTIONNELS_SUR_OPERATIONS_EN_CAPITAL_STRING, List.of("HB"));
+
+        dict_int.put("HC", List.of(REPRISES_SUR_PROVISIONS_ET_TRANSFERTS_DE_CHARGES_STRING));
+
+        dict_int.put("HD", List.of(TOTAL_DES_PRODUITS_EXCEPTIONNELS_VII_STRING));
+
+        dict_int.put(TOTAL_DES_PRODUITS_EXCEPTIONNELS_VII_STRING, List.of("HD"));
+
+        dict_int.put("HE", List.of(CHARGES_EXCEPTIONNELLES_SUR_OPERATIONS_DE_GESTION_STRING));
+
+        dict_int.put(CHARGES_EXCEPTIONNELLES_SUR_OPERATIONS_DE_GESTION_STRING, List.of("HE"));
+
+        dict_int.put("HF", List.of(CHARGES_EXCEPTIONNELLES_SUR_OPERATIONS_EN_CAPITAL_STRING));
+
+        dict_int.put(CHARGES_EXCEPTIONNELLES_SUR_OPERATIONS_EN_CAPITAL_STRING, List.of("HF"));
+
+        dict_int.put("HG", List.of(DOTATIONS_EXCEPTIONNELLES_AUX_AMORTISSEMENTS_ET_PROVISIONS_STRING));
+
+        dict_int.put(DOTATIONS_EXCEPTIONNELLES_AUX_AMORTISSEMENTS_ET_PROVISIONS_STRING, List.of("HG"));
+
+        dict_int.put("HH", List.of(TOTAL_DES_CHARGES_EXCEPTIONNELLES_VIII_STRING));
+
+        dict_int.put(TOTAL_DES_CHARGES_EXCEPTIONNELLES_VIII_STRING, List.of("HH"));
+
+        dict_int.put("HI", List.of(RESULTAT_EXCEPTIONNEL_VII_VIII_STRING));
+
+        dict_int.put(RESULTAT_EXCEPTIONNEL_VII_VIII_STRING, List.of("HI"));
+
+        dict_int.put("HJ", List.of(PARTICIPATION_DES_SALARIES_AUX_RESULTATS_DE_L_ENTREPRISE_STRING));
+
+        dict_int.put(PARTICIPATION_DES_SALARIES_AUX_RESULTATS_DE_L_ENTREPRISE_STRING, List.of("HJ"));
+
+        dict_int.put("HK", List.of(IMPOTS_SUR_LES_BENEFICES_X_STRING));
+
+        dict_int.put(IMPOTS_SUR_LES_BENEFICES_X_STRING, List.of("HK"));
+
+        dict_int.put("HL", List.of(TOTAL_DES_PRODUITS_I_III_V_VII_STRING));
+
+        dict_int.put(TOTAL_DES_PRODUITS_I_III_V_VII_STRING, List.of("HL"));
+
+        dict_int.put("HM", List.of(TOTAL_DES_CHARGES_II_IV_VI_VIII_IX_X_STRING));
+
+        dict_int.put(TOTAL_DES_CHARGES_II_IV_VI_VIII_IX_X_STRING, List.of("HM"));
+
+        dict_int.put("HN", List.of(BENEFICE_OU_PERTE_TOTAL_DES_PRODUITS_TOTAL_DES_CHARGES_STRING));
+
+        dict_int.put(BENEFICE_OU_PERTE_TOTAL_DES_PRODUITS_TOTAL_DES_CHARGES_STRING, List.of("HN"));
+
+        dict_int.put("HP", List.of(RENVOIS_CREDITBAIL_MOBILIER_STRING));
+
+        dict_int.put(RENVOIS_CREDITBAIL_MOBILIER_STRING, List.of("HP"));
+
+        dict_int.put("HQ", List.of(RENVOIS_CREDITBAIL_IMMOBILIER_STRING));
+
+        dict_int.put(RENVOIS_CREDITBAIL_IMMOBILIER_STRING, List.of("HQ"));
+
+        dict_int.put("A1", List.of(RENVOIS_TRANSFERT_DE_CHARGES_STRING));
+
+        dict_int.put(RENVOIS_TRANSFERT_DE_CHARGES_STRING, List.of("A1"));
+
+        dict_int.put("A2", List.of(RENVOIS_COTISATIONS_PERSONNELLES_DE_L_EXPLOITANT_STRING));
+
+        dict_int.put(RENVOIS_COTISATIONS_PERSONNELLES_DE_L_EXPLOITANT_STRING, List.of("A2"));
+
+        dict_int.put("A3", List.of(RENVOIS_REDEVANCES_POUR_CONCESSIONS_DE_BREVETS_DE_LICENCES_PRODUITS_STRING));
+
+        dict_int.put(RENVOIS_REDEVANCES_POUR_CONCESSIONS_DE_BREVETS_DE_LICENCES_PRODUITS_STRING, List.of("A3"));
+
+        dict_int.put("A4", List.of(RENVOIS_REDEVANCES_POUR_CONCESSIONS_DE_BREVETS_DE_LICENCES_CHARGES_STRING));
+
+        dict_int.put(RENVOIS_REDEVANCES_POUR_CONCESSIONS_DE_BREVETS_DE_LICENCES_CHARGES_STRING, List.of("A4"));
+
+        dict_int.put("IIIIII", List.of(IMMOBILISATIONS_STRING));
+
+        dict_int.put(IMMOBILISATIONS_STRING, List.of("IIIIII"));
+
+        dict_int.put("CZ", List.of(ACQUISITIONS_FRAIS_D_ETABLISSEMENT_ET_DE_DEVELOPPEMENT_OU_DE_RECHERCHE_STRING));
+
+        dict_int.put(ACQUISITIONS_FRAIS_D_ETABLISSEMENT_ET_DE_DEVELOPPEMENT_OU_DE_RECHERCHE_STRING, List.of("CZ"));
+
+        dict_int.put("KD", List.of(ACQUISITIONS_TOTAL_DONT_AUTRES_POSTES_D_IMMOBILISATIONS_INCORPORELLES_STRING));
+
+        dict_int.put(ACQUISITIONS_TOTAL_DONT_AUTRES_POSTES_D_IMMOBILISATIONS_INCORPORELLES_STRING, List.of("KD"));
+
+        dict_int.put("LN", List.of(ACQUISITIONS_TOTAL_IMMOBILISATIONS_CORPORELLES_STRING));
+
+        dict_int.put(ACQUISITIONS_TOTAL_IMMOBILISATIONS_CORPORELLES_STRING, List.of("LN"));
+
+        dict_int.put("LQ", List.of(ACQUISITIONS_TOTAL_IMMOBILISATIONS_FINANCIERES_STRING));
+
+        dict_int.put(ACQUISITIONS_TOTAL_IMMOBILISATIONS_FINANCIERES_STRING, List.of("LQ"));
+
+        dict_int.put("0G", List.of(ACQUISITIONS_TOTAL_GENERAL_STRING));
+
+        dict_int.put(ACQUISITIONS_TOTAL_GENERAL_STRING, List.of("0G"));
+
+        dict_int.put("IN", List.of(DIMINUTIONS_FRAIS_D_ETABLISSEMENT_ET_DE_DEVELOPPEMENT_OU_DE_RECHERCHE_STRING));
+
+        dict_int.put(DIMINUTIONS_FRAIS_D_ETABLISSEMENT_ET_DE_DEVELOPPEMENT_OU_DE_RECHERCHE_STRING, List.of("IN"));
+
+        dict_int.put("IO", List.of(DIMINUTIONS_TOTAL_DONT_AUTRES_POSTES_D_IMMOBILISATIONS_INCORPORELLES_STRING));
+
+        dict_int.put(DIMINUTIONS_TOTAL_DONT_AUTRES_POSTES_D_IMMOBILISATIONS_INCORPORELLES_STRING, List.of("IO"));
+
+        dict_int.put("MY", List.of(DIMINUTIONS_VIREMENT_POSTES_IMMOBILISATIONS_CORPORELLES_EN_COURS_STRING));
+
+        dict_int.put(DIMINUTIONS_VIREMENT_POSTES_IMMOBILISATIONS_CORPORELLES_EN_COURS_STRING, List.of("MY"));
+
+        dict_int.put("NC", List.of(DIMINUTIONS_VIREMENT_POSTES_AVANCES_ET_ACOMPTES_STRING));
+
+        dict_int.put(DIMINUTIONS_VIREMENT_POSTES_AVANCES_ET_ACOMPTES_STRING, List.of("NC"));
+
+        dict_int.put("IY", List.of(DIMINUTIONS_TOTAL_IMMOBILISATIONS_CORPORELLES_STRING));
+
+        dict_int.put(DIMINUTIONS_TOTAL_IMMOBILISATIONS_CORPORELLES_STRING, List.of("IY"));
+
+        dict_int.put("I2", List.of(DIMINUTIONS_PRETS_ET_IMMOBILISATIONS_FINANCIERES_STRING));
+
+        dict_int.put(DIMINUTIONS_PRETS_ET_IMMOBILISATIONS_FINANCIERES_STRING, List.of("I2"));
+
+        dict_int.put("I3", List.of(DIMINUTIONS_TOTAL_IMMOBILISATIONS_FINANCIERES_STRING));
+
+        dict_int.put(DIMINUTIONS_TOTAL_IMMOBILISATIONS_FINANCIERES_STRING, List.of("I3"));
+
+        dict_int.put("I4", List.of(DIMINUTIONS_TOTAL_GENERAL_STRING));
+
+        dict_int.put(DIMINUTIONS_TOTAL_GENERAL_STRING, List.of("I4"));
+
+        dict_int.put("IIIAAA", List.of(AMORTISSEMENTS_STRING));
+
+        dict_int.put(AMORTISSEMENTS_STRING, List.of("IIIAAA"));
+
+        dict_int.put("CY", List.of(AMORTISSEMENTS_FRAIS_D_ETABLISSEMENT_ET_DE_DEVELOPPEMENT_OU_DE_RECHERCHE_STRING));
+
+        dict_int.put(AMORTISSEMENTS_FRAIS_D_ETABLISSEMENT_ET_DE_DEVELOPPEMENT_OU_DE_RECHERCHE_STRING, List.of("CY"));
+
+        dict_int.put("PE", List.of(AMORTISSEMENTS_TOTAL_DONT_AUTRES_IMMOBILISATIONS_INCORPORELLES_STRING));
+
+        dict_int.put(AMORTISSEMENTS_TOTAL_DONT_AUTRES_IMMOBILISATIONS_INCORPORELLES_STRING, List.of("PE"));
+
+        dict_int.put("QU", List.of(AMORTISSEMENTS_TOTAL_IMMOBILISATIONS_CORPORELLES_STRING));
+
+        dict_int.put(AMORTISSEMENTS_TOTAL_IMMOBILISATIONS_CORPORELLES_STRING, List.of("QU"));
+
+        dict_int.put("0N", List.of(AMORTISSEMENTS_TOTAL_GENERAL_STRING));
+
+        dict_int.put(AMORTISSEMENTS_TOTAL_GENERAL_STRING, List.of("0N"));
+
+        dict_int.put("Z9", List.of(CHARGES_A_REPARTIR_OU_FRAIS_D_EMISSION_D_EMPRUNT_STRING));
+
+        dict_int.put("SP", List.of(MVT_SUR_CHARGES_REP_PRIMES_DE_REMBOURSEMENT_DES_OBLIGATIONS_STRING));
+
+        dict_int.put(MVT_SUR_CHARGES_REP_PRIMES_DE_REMBOURSEMENT_DES_OBLIGATIONS_STRING, List.of("SP"));
+
+        dict_int.put("PPPBBB", List.of(PROVISIONS_STRING));
+
+        dict_int.put(PROVISIONS_STRING, List.of("PPPBBB"));
+
+        dict_int.put("3X", List.of(AMORTISSEMENTS_DEROGATOIRES_STRING));
+
+        dict_int.put(AMORTISSEMENTS_DEROGATOIRES_STRING, List.of("3X"));
+
+        dict_int.put("3Z", List.of(TOTAL_PROVISIONS_REGLEMENTEES_STRING));
+
+        dict_int.put(TOTAL_PROVISIONS_REGLEMENTEES_STRING, List.of("3Z"));
+
+        dict_int.put("4A", List.of(PROVISIONS_POUR_LITIGES_STRING));
+
+        dict_int.put(PROVISIONS_POUR_LITIGES_STRING, List.of("4A"));
+
+        dict_int.put("4E", List.of(PROVISIONS_POUR_GARANTIES_DONNEES_AUX_CLIENTS_STRING));
+
+        dict_int.put(PROVISIONS_POUR_GARANTIES_DONNEES_AUX_CLIENTS_STRING, List.of("4E"));
+
+        dict_int.put("4J", List.of(PROVISIONS_POUR_PERTE_SUR_MARCHES_A_TERME_STRING));
+
+        dict_int.put(PROVISIONS_POUR_PERTE_SUR_MARCHES_A_TERME_STRING, List.of("4J"));
+
+        dict_int.put("4N", List.of(PROVISIONS_POUR_AMENDES_ET_PENALITES_STRING));
+
+        dict_int.put(PROVISIONS_POUR_AMENDES_ET_PENALITES_STRING, List.of("4N"));
+
+        dict_int.put("4T", List.of(PROVISIONS_POUR_PERTE_DE_CHANGE_STRING));
+
+        dict_int.put(PROVISIONS_POUR_PERTE_DE_CHANGE_STRING, List.of("4T"));
+
+        dict_int.put("4X", List.of(PROVISIONS_POUR_PENSIONS_ET_OBLIGATIONS_SIMILAIRES_STRING));
+
+        dict_int.put(PROVISIONS_POUR_PENSIONS_ET_OBLIGATIONS_SIMILAIRES_STRING, List.of("4X"));
+
+        dict_int.put("5B", List.of(PROVISIONS_POUR_IMPOTS_STRING));
+
+        dict_int.put(PROVISIONS_POUR_IMPOTS_STRING, List.of("5B"));
+
+        dict_int.put("5F", List.of(PROVISIONS_POUR_RENOUVELLEMENT_DES_IMMOBILISATIONS_STRING));
+
+        dict_int.put(PROVISIONS_POUR_RENOUVELLEMENT_DES_IMMOBILISATIONS_STRING, List.of("5F"));
+
+        dict_int.put("EO", List.of(PROVISIONS_POUR_GROS_ENTRETIEN_ET_GRANDES_REVISIONS_OU_GROSSES_REPARATIONS_STRING));
+
+        dict_int.put(PROVISIONS_POUR_GROS_ENTRETIEN_ET_GRANDES_REVISIONS_OU_GROSSES_REPARATIONS_STRING, List.of("EO"));
+
+        dict_int.put("5R", List.of(PROVISIONS_POUR_CHARGES_SOCIALES_ET_FISCALES_SUR_CONGES_A_PAYER_STRING));
+
+        dict_int.put(PROVISIONS_POUR_CHARGES_SOCIALES_ET_FISCALES_SUR_CONGES_A_PAYER_STRING, List.of("5R"));
+
+        dict_int.put("5V", List.of(AUTRES_PROVISIONS_POUR_RISQUES_ET_CHARGES_STRING));
+
+        dict_int.put(AUTRES_PROVISIONS_POUR_RISQUES_ET_CHARGES_STRING, List.of("5V"));
+
+        dict_int.put("5Z", List.of(TOTAL_PROVISIONS_POUR_RISQUES_ET_CHARGES_STRING));
+
+        dict_int.put(TOTAL_PROVISIONS_POUR_RISQUES_ET_CHARGES_STRING, List.of("5Z"));
+
+        dict_int.put("6A", List.of(SUR_IMMOBILISATIONS_INCORPORELLES_STRING));
+
+        dict_int.put(SUR_IMMOBILISATIONS_INCORPORELLES_STRING, List.of("6A"));
+
+        dict_int.put("6E", List.of(SUR_IMMOBILISATIONS_CORPORELLES_STRING));
+
+        dict_int.put(SUR_IMMOBILISATIONS_CORPORELLES_STRING, List.of("6E"));
+
+        dict_int.put("02", List.of(SUR_IMMOBILISATIONS_TITRES_MIS_EN_EQUIVALENCE_STRING));
+
+        dict_int.put(SUR_IMMOBILISATIONS_TITRES_MIS_EN_EQUIVALENCE_STRING, List.of("02"));
+
+        dict_int.put("9U", List.of(SUR_IMMOBILISATIONS_TITRES_DE_PARTICIPATION_STRING));
+
+        dict_int.put(SUR_IMMOBILISATIONS_TITRES_DE_PARTICIPATION_STRING, List.of("9U"));
+
+        dict_int.put("06", List.of(SUR_IMMOBILISATIONS_AUTRES_IMMOBILISATIONS_FINANCIERES_STRING));
+
+        dict_int.put(SUR_IMMOBILISATIONS_AUTRES_IMMOBILISATIONS_FINANCIERES_STRING, List.of("06"));
+
+        dict_int.put("6N", List.of(SUR_STOCKS_ET_EN_COURS_STRING));
+
+        dict_int.put(SUR_STOCKS_ET_EN_COURS_STRING, List.of("6N"));
+
+        dict_int.put("6T", List.of(SUR_COMPTES_CLIENTS_STRING));
+
+        dict_int.put(SUR_COMPTES_CLIENTS_STRING, List.of("6T"));
+
+        dict_int.put("6X", List.of(AUTRES_PROVISIONS_POUR_DEPRECIATION_STRING));
+
+        dict_int.put(AUTRES_PROVISIONS_POUR_DEPRECIATION_STRING, List.of("6X"));
+
+        dict_int.put("7B", List.of(TOTAL_PROVISIONS_POUR_DEPRECIATION_STRING));
+
+        dict_int.put(TOTAL_PROVISIONS_POUR_DEPRECIATION_STRING, List.of("7B"));
+
+        dict_int.put("7C", List.of(TOTAL_GENERAL_STRING));
+
+        dict_int.put(TOTAL_GENERAL_STRING, List.of("7C"));
+
+        dict_int.put("UE", List.of(DONT_DOTATIONS_ET_REPRISES_D_EXPLOITATION_STRING));
+
+        dict_int.put(DONT_DOTATIONS_ET_REPRISES_D_EXPLOITATION_STRING, List.of("UE"));
+
+        dict_int.put("UG", List.of(DONT_DOTATIONS_ET_REPRISES_FINANCIERES_STRING));
+
+        dict_int.put(DONT_DOTATIONS_ET_REPRISES_FINANCIERES_STRING, List.of("UG"));
+
+        dict_int.put("UJ", List.of(DONT_DOTATIONS_ET_REPRISES_EXCEPTIONNELLES_STRING));
+
+        dict_int.put(DONT_DOTATIONS_ET_REPRISES_EXCEPTIONNELLES_STRING, List.of("UJ"));
+
+        dict_int.put("CCCAAA", List.of(CREANCES_ET_DETTES_STRING));
+
+        dict_int.put(CREANCES_ET_DETTES_STRING, List.of("CCCAAA"));
+
+        dict_int.put("UL", List.of(CREANCES_RATTACHEES_A_DES_PARTICIPATIONS_STRING));
+
+        dict_int.put("UP", List.of(PRETS_STRING));
+
+        dict_int.put("UT", List.of(AUTRES_IMMOBILISATIONS_FINANCIERES_STRING));
+
+        dict_int.put("VA", List.of(CLIENTS_DOUTEUX_OU_LITIGIEUX_STRING));
+
+        dict_int.put(CLIENTS_DOUTEUX_OU_LITIGIEUX_STRING, List.of("VA"));
+
+        dict_int.put("UX", List.of(AUTRES_CREANCES_CLIENTS_STRING));
+
+        dict_int.put(AUTRES_CREANCES_CLIENTS_STRING, List.of("UX"));
+
+        dict_int.put("UO", List.of(PROVISION_POUR_DEPRECIATION_ANTERIEUREMENT_CONSTITUEE_STRING));
+
+        dict_int.put(PROVISION_POUR_DEPRECIATION_ANTERIEUREMENT_CONSTITUEE_STRING, List.of("UO"));
+
+        dict_int.put("Z1", List.of(CREANCES_REPRESENTATIVES_DE_TITRES_PRETES_STRING));
+
+        dict_int.put(CREANCES_REPRESENTATIVES_DE_TITRES_PRETES_STRING, List.of("Z1"));
+
+        dict_int.put("UY", List.of(PERSONNEL_ET_COMPTES_RATTACHES_STRING));
+
+        dict_int.put(PERSONNEL_ET_COMPTES_RATTACHES_STRING, List.of("UY", "8c"));
+
+        dict_int.put("UZ", List.of(SECURITE_SOCIALE_AUTRES_ORGANISMES_SOCIAUX_STRING));
+
+        dict_int.put(SECURITE_SOCIALE_AUTRES_ORGANISMES_SOCIAUX_STRING, List.of("UZ"));
+
+        dict_int.put("VM", List.of(IMPOTS_SUR_LES_BENEFICES_STRING));
+
+        dict_int.put(IMPOTS_SUR_LES_BENEFICES_STRING, List.of("VM", "8e"));
+
+        dict_int.put("VB", List.of(T_V_A_STRING));
+
+        dict_int.put(T_V_A_STRING, List.of("VB"));
+
+        dict_int.put("VN", List.of(AUTRES_IMPOTS_TAXES_VERSEMENTS_ASSIMILES_STRING));
+
+        dict_int.put(AUTRES_IMPOTS_TAXES_VERSEMENTS_ASSIMILES_STRING, List.of("VN"));
+
+        dict_int.put("VP", List.of(DIVERS_STRING));
+
+        dict_int.put(DIVERS_STRING, List.of("VP"));
+
+        dict_int.put("VC", List.of(GROUPE_ET_ASSOCIES_STRING));
+
+        dict_int.put(GROUPE_ET_ASSOCIES_STRING, List.of("VC", "vi"));
+
+        dict_int.put("VR", List.of(DEBITEURS_DIVERS_DONT_CREANCES_RELATIVES_A_DES_OPERATIONS_DE_PENSION_DE_TITRES_STRING));
+
+        dict_int.put(DEBITEURS_DIVERS_DONT_CREANCES_RELATIVES_A_DES_OPERATIONS_DE_PENSION_DE_TITRES_STRING, List.of("VR"));
+
+        dict_int.put("VS", List.of(CHARGES_CONSTATEES_D_AVANCE_STRING));
+
+        dict_int.put("VT", List.of(TOTAL_ETAT_DES_CREANCES_STRING));
+
+        dict_int.put(TOTAL_ETAT_DES_CREANCES_STRING, List.of("VT"));
+
+        dict_int.put("7Y", List.of(EMPRUNTS_OBLIGATAIRES_CONVERTIBLES_BRUT_A_UN_AN_AU_PLUS_STRING));
+
+        dict_int.put(EMPRUNTS_OBLIGATAIRES_CONVERTIBLES_BRUT_A_UN_AN_AU_PLUS_STRING, List.of("7Y"));
+
+        dict_int.put("7Z", List.of(AUTRES_EMPRUNTS_OBLIGATAIRES_BRUT_A_UN_AN_AU_PLUS_STRING));
+
+        dict_int.put(AUTRES_EMPRUNTS_OBLIGATAIRES_BRUT_A_UN_AN_AU_PLUS_STRING, List.of("7Z"));
+
+        dict_int.put("VG", List.of(EMPRUNTS_A_1_AN_MAXIMUM_A_L_ORIGINE_STRING));
+
+        dict_int.put(EMPRUNTS_A_1_AN_MAXIMUM_A_L_ORIGINE_STRING, List.of("VG"));
+
+        dict_int.put("VH", List.of(EMPRUNTS_A_PLUS_D_1_AN_A_L_ORIGINE_STRING));
+
+        dict_int.put(EMPRUNTS_A_PLUS_D_1_AN_A_L_ORIGINE_STRING, List.of("VH"));
+
+        dict_int.put("8A", List.of(EMPRUNTS_ET_DETTES_FINANCIERES_DIVERS_STRING));
+
+        dict_int.put(EMPRUNTS_ET_DETTES_FINANCIERES_DIVERS_STRING, List.of("8A"));
+
+        dict_int.put("8B", List.of(FOURNISSEURS_ET_COMPTES_RATTACHES_STRING));
+
+        dict_int.put(FOURNISSEURS_ET_COMPTES_RATTACHES_STRING, List.of("8B"));
+
+        dict_int.put("8C", List.of(PERSONNEL_ET_COMPTES_RATTACHES_STRING));
+
+        dict_int.put("8D", List.of(SECURITE_SOCIALE_ET_AUTRES_ORGANISMES_SOCIAUX_STRING));
+
+        dict_int.put(SECURITE_SOCIALE_ET_AUTRES_ORGANISMES_SOCIAUX_STRING, List.of("8D"));
+
+        dict_int.put("8E", List.of(IMPOTS_SUR_LES_BENEFICES_STRING));
+
+        dict_int.put("VW", List.of(TVA_STRING));
+
+        dict_int.put(TVA_STRING, List.of("VW"));
+
+        dict_int.put("VX", List.of(OBLIGATIONS_CAUTIONNEES_STRING));
+
+        dict_int.put(OBLIGATIONS_CAUTIONNEES_STRING, List.of("VX"));
+
+        dict_int.put("VQ", List.of(AUTRES_IMPOTS_TAXES_ET_ASSIMILES_STRING));
+
+        dict_int.put(AUTRES_IMPOTS_TAXES_ET_ASSIMILES_STRING, List.of("VQ"));
+
+        dict_int.put("8J", List.of(DETTES_SUR_IMMOBILISATIONS_ET_COMPTES_RATTACHES_STRING));
+
+        dict_int.put("VI", List.of(GROUPE_ET_ASSOCIES_STRING));
+
+        dict_int.put("8K", List.of(AUTRES_DETTES_DONT_DETTES_RELATIVES_A_DES_OPERATIONS_DE_PENSION_DE_TITRE_STRING));
+
+        dict_int.put(AUTRES_DETTES_DONT_DETTES_RELATIVES_A_DES_OPERATIONS_DE_PENSION_DE_TITRE_STRING, List.of("8K"));
+
+        dict_int.put("Z2", List.of(DETTE_REPRESENTATIVE_DE_TITRES_EMPRUNTES_STRING));
+
+        dict_int.put(DETTE_REPRESENTATIVE_DE_TITRES_EMPRUNTES_STRING, List.of("Z2"));
+
+        dict_int.put("8L", List.of(PRODUITS_CONSTATES_D_AVANCE_STRING));
+
+        dict_int.put(PRODUITS_CONSTATES_D_AVANCE_STRING, List.of("8L"));
+
+        dict_int.put("VY", List.of(TOTAL_ETAT_DES_DETTES_STRING));
+
+        dict_int.put(TOTAL_ETAT_DES_DETTES_STRING, List.of("VY"));
+
+        dict_int.put("VJ", List.of(EMPRUNTS_SOUSCRITS_EN_COURS_D_EXERCICE_STRING));
+
+        dict_int.put(EMPRUNTS_SOUSCRITS_EN_COURS_D_EXERCICE_STRING, List.of("VJ"));
+
+        dict_int.put("VK", List.of(EMPRUNTS_REMBOURSES_EN_COURS_D_EXERCICE_STRING));
+
+        dict_int.put(EMPRUNTS_REMBOURSES_EN_COURS_D_EXERCICE_STRING, List.of("VK"));
+
+        dict_int.put("RRRRRR", List.of(AFFECTATION_DU_RESULTAT_RENSEIGNEMENTS_DIVERS_STRING));
+
+        dict_int.put(AFFECTATION_DU_RESULTAT_RENSEIGNEMENTS_DIVERS_STRING, List.of("RRRRRR"));
+
+        dict_int.put("ZE", List.of(DIVIDENDES_STRING));
+
+        dict_int.put(DIVIDENDES_STRING, List.of("ZE"));
+
+        dict_int.put("YQ", List.of(ENGAGEMENT_DE_CREDITBAIL_MOBILIER_STRING));
+
+        dict_int.put(ENGAGEMENT_DE_CREDITBAIL_MOBILIER_STRING, List.of("YQ"));
+
+        dict_int.put("YR", List.of(ENGAGEMENT_DE_CREDITBAIL_IMMOBILIER_STRING));
+
+        dict_int.put(ENGAGEMENT_DE_CREDITBAIL_IMMOBILIER_STRING, List.of("YR"));
+
+        dict_int.put("YS", List.of(EFFETS_PORTES_A_L_ESCOMPTE_ET_NON_ECHUS_STRING));
+
+        dict_int.put(EFFETS_PORTES_A_L_ESCOMPTE_ET_NON_ECHUS_STRING, List.of("YS"));
+
+        dict_int.put("YT", List.of(SOUSTRAITANCE_STRING));
+
+        dict_int.put(SOUSTRAITANCE_STRING, List.of("YT"));
+
+        dict_int.put("XQ", List.of(LOCATION_CHARGES_LOCATIVES_ET_DE_COPROPRIETE_STRING));
+
+        dict_int.put(LOCATION_CHARGES_LOCATIVES_ET_DE_COPROPRIETE_STRING, List.of("XQ"));
+
+        dict_int.put("YU", List.of(PERSONNEL_EXTERIEUR_A_L_ENTREPRISE_STRING));
+
+        dict_int.put(PERSONNEL_EXTERIEUR_A_L_ENTREPRISE_STRING, List.of("YU"));
+
+        dict_int.put("SS", List.of(REMUNERATION_D_INTERMEDIAIRES_ET_HONORAIRES_HORS_RETROCESSIONS_STRING));
+
+        dict_int.put(REMUNERATION_D_INTERMEDIAIRES_ET_HONORAIRES_HORS_RETROCESSIONS_STRING, List.of("SS"));
+
+        dict_int.put("YV", List.of(RETROCESSIONS_D_HONORAIRES_COMMISSIONS_ET_COURTAGES_STRING));
+
+        dict_int.put(RETROCESSIONS_D_HONORAIRES_COMMISSIONS_ET_COURTAGES_STRING, List.of("YV"));
+
+        dict_int.put("ST", List.of(AUTRES_COMPTES_STRING));
+
+        dict_int.put(AUTRES_COMPTES_STRING, List.of("ST"));
+
+        dict_int.put("ZJ", List.of(TOTAL_DU_POSTE_CORRESPONDANT_A_LA_LIGNE_FW_DU_TABLEAU_NUMERO_2052_STRING));
+
+        dict_int.put(TOTAL_DU_POSTE_CORRESPONDANT_A_LA_LIGNE_FW_DU_TABLEAU_NUMERO_2052_STRING, List.of("ZJ"));
+
+        dict_int.put("YW", List.of(TAXE_PROFESSIONNELLE_STRING));
+
+        dict_int.put(TAXE_PROFESSIONNELLE_STRING, List.of("YW"));
+
+        dict_int.put("9Z", List.of(AUTRES_IMPOTS_TAXES_ET_VERSEMENTS_ASSIMILES_STRING));
+
+        dict_int.put(AUTRES_IMPOTS_TAXES_ET_VERSEMENTS_ASSIMILES_STRING, List.of("9Z"));
+
+        dict_int.put("YX", List.of(TOTAL_DU_COMPTE_CORRESPONDANT_A_LA_LIGNE_FX_DU_TABLEAU_NUMERO_2052_STRING));
+
+        dict_int.put(TOTAL_DU_COMPTE_CORRESPONDANT_A_LA_LIGNE_FX_DU_TABLEAU_NUMERO_2052_STRING, List.of("YX"));
+
+        dict_int.put("YY", List.of(MONTANT_DE_LA_TVA_COLLECTEE_STRING));
+
+        dict_int.put(MONTANT_DE_LA_TVA_COLLECTEE_STRING, List.of("YY"));
+
+        dict_int.put("YZ", List.of(TOTAL_TVA_DEDUCTIBLE_SUR_BIENS_ET_SERVICES_STRING));
+
+        dict_int.put(TOTAL_TVA_DEDUCTIBLE_SUR_BIENS_ET_SERVICES_STRING, List.of("YZ"));
+
+        dict_int.put("YP", List.of(EFFECTIF_MOYEN_DU_PERSONNEL_STRING));
+
+        dict_int.put(EFFECTIF_MOYEN_DU_PERSONNEL_STRING, List.of("YP"));
+
+        dict_int.put("ZR", List.of(FILIALES_ET_PARTICIPATIONS_STRING));
+
+        dict_int.put(FILIALES_ET_PARTICIPATIONS_STRING, List.of("ZR"));
