@@ -68,7 +68,7 @@ public class TestRequests {
 
     //db.getCollection('CollectionName').find({"DepartureDate" : { $gte : new ISODate("2019-06-11T00:00:00.000Z") }})
 */
-
+    /*
     @Test
     public void testMorethan(){
         JSONObject req = new JSONObject();
@@ -96,5 +96,5 @@ public class TestRequests {
         }
 
 
-    }
+    }*/
 }
