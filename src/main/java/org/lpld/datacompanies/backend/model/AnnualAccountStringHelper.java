@@ -1,5 +1,6 @@
 package org.lpld.datacompanies.backend.model;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.List;
@@ -7,11 +8,11 @@ import java.util.Map;
 
 public class AnnualAccountStringHelper {
 
-    public Map<String,List<String>> dict_int = new HashMap<String, List<String>>();
+    public Map<String, List<String>> dict_int = new HashMap<String, List<String>>();
 
-    public Map<String,List<String>> dict_String = new HashMap<String, List<String>>();
+    public Map<String, List<String>> dict_String = new HashMap<String, List<String>>();
 
-    //String :
+    // String :
 
     public String SIREN;
 
@@ -21,9 +22,9 @@ public class AnnualAccountStringHelper {
 
     public String ADRESSE;
 
-    //-------------------------------------------------------
-    //int :
-    
+    // -------------------------------------------------------
+    // int :
+
     public int ACTIF;
 
     public int CAPITAL_SOUSCRIT_NON_APPELE;
@@ -495,8 +496,6 @@ public class AnnualAccountStringHelper {
     public int EFFECTIF_MOYEN_DU_PERSONNEL;
 
     public int FILIALES_ET_PARTICIPATIONS;
-
-    
 
     public String getSIREN() {
         return SIREN;
@@ -2476,8 +2475,7 @@ public class AnnualAccountStringHelper {
         ADRESSE = aDRESSE;
     }
 
-
-    //-------------------------------------------------------------------------------------------------------
+    // -------------------------------------------------------------------------------------------------------
 
     public static final String ACTIF_STRING = "ACTIF";
 
@@ -2951,7 +2949,7 @@ public class AnnualAccountStringHelper {
 
     public static final String FILIALES_ET_PARTICIPATIONS_STRING = "FILIALES_ET_PARTICIPATIONS";
 
-    //-------------------------------------------------------------------------------------
+    // -------------------------------------------------------------------------------------
 
     public static final String SIREN_STRING = "SIREN";
 
@@ -2961,10 +2959,10 @@ public class AnnualAccountStringHelper {
 
     public static final String ADRESSE_STRING = "ADRESSE";
 
-    //-------------------------------------------------------------------------------------
+    // -------------------------------------------------------------------------------------
 
     public AnnualAccountStringHelper() {
-        
+
         dict_int.put("AAAAAA", List.of(ACTIF_STRING));
 
         dict_int.put(ACTIF_STRING, List.of("AAAAAA"));
@@ -3935,7 +3933,7 @@ public class AnnualAccountStringHelper {
 
         dict_int.put(FILIALES_ET_PARTICIPATIONS_STRING, List.of("ZR"));
 
-        //--------------------------String------------------------------
+        // --------------------------String------------------------------
         dict_String.put(SIREN_STRING, List.of("siren"));
         dict_String.put("siren", List.of(SIREN_STRING));
         dict_String.put(DENOMINATION_STRING, List.of("denomination"));
@@ -3946,9 +3944,9 @@ public class AnnualAccountStringHelper {
         dict_String.put("adresse", List.of(ADRESSE_STRING));
     }
 
-    private void setInt(String key,int value){
-        switch(key){
-            
+    private void setInt(String key, int value) {
+        switch (key) {
+
             case ACTIF_STRING:
                 this.setACTIF(value);
                 break;
@@ -4896,8 +4894,8 @@ public class AnnualAccountStringHelper {
         }
     }
 
-    private void setString(String key, String value){
-        switch(key){
+    private void setString(String key, String value) {
+        switch (key) {
             case SIREN_STRING:
                 this.SIREN = value;
                 break;
@@ -4914,7 +4912,16 @@ public class AnnualAccountStringHelper {
     }
 
     public void set(String key, Object o) {
-        if(dict_int.get(key)!=null){
+        if (dict_int.get(key) != null) {
+            try {
+                if (o.getClass() == Class.forName("java.util.ArrayList")) {
+                    ArrayList<String> a = (ArrayList<String>)o;
+                    o = a.get(0);
+                }
+            } catch (ClassNotFoundException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
             this.setInt(key, (int)o);
         }else if(dict_String.get(key)!=null){
             this.setString(key,(String)o);

@@ -23,7 +23,7 @@ import java.util.Date;
 
 public class TestRequests {
     
-    private final Requests request = new Requests("ec2-18-221-105-102.us-east-2.compute.amazonaws.com");
+    private final Requests request = new Requests("ec2-3-138-34-23.us-east-2.compute.amazonaws.com");
     private static final Logger LOGGER = LoggerFactory.getLogger(TestRequests.class);
     /*
     @Test
@@ -68,7 +68,7 @@ public class TestRequests {
 
     //db.getCollection('CollectionName').find({"DepartureDate" : { $gte : new ISODate("2019-06-11T00:00:00.000Z") }})
 */
-/*
+
     @Test
     public void testMorethan(){
         JSONObject req = new JSONObject();
@@ -88,6 +88,7 @@ public class TestRequests {
             LOGGER.info("Document : "+doc.toString());
             LOGGER.info("siren : "+doc.get("siren").toString());
             LOGGER.info("DI.0:"+doc.get("DI"));
+            AnnualAccount ac = new AnnualAccount(doc);
             Assert.assertNotNull(doc);
         }else{
             LOGGER.info("bruh");
@@ -95,5 +96,5 @@ public class TestRequests {
         }
 
 
-    }*/
+    }
 }
