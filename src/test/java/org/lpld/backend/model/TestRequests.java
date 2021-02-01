@@ -76,8 +76,8 @@ public class TestRequests {
 
         //JSONObject equals = new JSONObject();
         //equals.put("siren","005880596");
-        more_than.put("DI.0", 4500);
-        more_than.put("DI.1",21000);
+        more_than.put("CO.0", 4500);
+        //more_than.put("DI.1",21000);
 
         req.put("more_than",more_than);
         //req.put("equals_to",equals);
@@ -87,7 +87,7 @@ public class TestRequests {
             doc = cursor.next();
             LOGGER.info("Document : "+doc.toString());
             LOGGER.info("siren : "+doc.get("siren").toString());
-            LOGGER.info("DI.0:"+doc.get("DI"));
+            //LOGGER.info("DI.0:"+doc.get("DI"));
             AnnualAccount ac = new AnnualAccount(doc);
             Assert.assertNotNull(doc);
         }else{
