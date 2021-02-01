@@ -4922,9 +4922,9 @@ public class AnnualAccountStringHelper {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
             }
-            this.setInt(key, (int)o);
+            this.setInt(dict_int.get(key).get(0), (int)o);
         }else if(dict_String.get(key)!=null){
-            this.setString(key,(String)o);
+            this.setString(dict_String.get(key).get(0),(String)o);
         }
     }
 }
