@@ -17,7 +17,7 @@ public class TestDatabaseMongoDB {
 /*
     @Test
     public void TestDatabaseMongoDB_constructor(){
-        String dns = "ec2-3-16-130-152.us-east-2.compute.amazonaws.com";
+        String dns = "ec2-3-141-3-83.us-east-2.compute.amazonaws.com";
         DatabaseMongoDB db = new DatabaseMongoDB(dns);//Ok
         MongoDatabase database = db.getDataBase();
         MongoCollection<Document> collection = db.getCollection();

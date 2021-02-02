@@ -23,7 +23,7 @@ import java.util.Date;
 
 public class TestRequests {
     
-    private final Requests request = new Requests("ec2-3-139-86-117.us-east-2.compute.amazonaws.com");
+    //private final Requests request = new Requests("ec2-3-141-3-83.us-east-2.compute.amazonaws.com");
     private static final Logger LOGGER = LoggerFactory.getLogger(TestRequests.class);
     /*
     @Test
@@ -68,19 +68,19 @@ public class TestRequests {
 
     //db.getCollection('CollectionName').find({"DepartureDate" : { $gte : new ISODate("2019-06-11T00:00:00.000Z") }})
 */
-    
+    /*
     @Test
     public void testMorethan(){
         JSONObject req = new JSONObject();
         JSONObject more_than = new JSONObject();
 
-        //JSONObject equals = new JSONObject();
-        //equals.put("siren","005880596");
-        more_than.put("CO.0", 4500);
+        JSONObject equals = new JSONObject();
+        equals.put("siren","005880596");
+        //more_than.put("CO.0", "4500");
         //more_than.put("DI.1",21000);
 
-        req.put("more_than",more_than);
-        //req.put("equals_to",equals);
+        //req.put("more_than",more_than);
+        req.put("equals_to",equals);
         MongoCursor<Document> cursor = request.doRequest(req);
         Document doc;
         if(cursor.hasNext()){
@@ -96,5 +96,5 @@ public class TestRequests {
         }
 
 
-    }
+    }*/
 }
