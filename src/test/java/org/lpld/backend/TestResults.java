@@ -7,8 +7,11 @@ import org.junit.Test;
 import org.lpld.datacompanies.backend.Requests;
 import org.lpld.datacompanies.backend.Results;
 import org.lpld.datacompanies.backend.model.AnnualAccount;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class TestResults {
+    private static final Logger LOGGER = LoggerFactory.getLogger(TestResults.class);
     private Results results;
 
     @Before
@@ -41,7 +44,17 @@ public class TestResults {
         Assert.assertEquals(3, currentPagePosition);
     }
 
+    @Test
     public void testFinish(){
+        JSONObject req = new JSONObject();
+        JSONObject equals_to = new JSONObject();
+        equals_to.put("siren", "005880596");
+        req.put("equals_to", equals_to);
+        this.results = new Results(req);
+
         Assert.assertFalse(results.finish());
+        Assert.assertNotNull(results.nextPage());
+        Assert.assertTrue(results.finish());
+        Assert.assertNull(results.nextPage());
     }
 }

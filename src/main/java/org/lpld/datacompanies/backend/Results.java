@@ -7,26 +7,25 @@ import com.mongodb.client.MongoCursor;
 import org.bson.Document;
 import org.json.simple.JSONObject;
 import org.lpld.datacompanies.backend.model.AnnualAccount;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class Results {
+    private static final Logger LOGGER = LoggerFactory.getLogger(Results.class);
     private Requests request;
     private JSONObject requestFile;
     private MongoCursor<Document> cursor;
     private ArrayList<AnnualAccount> list;
     private int currentPagePosition;
-    private int numberOfPagesInList;
     private int numberOfAccount;
-    private int numberOfDocumentInCursor;
     private boolean finish;
 
     public Results(JSONObject requestFile){
         this.request = new Requests("localhost");
         this.requestFile = requestFile;
-        //this.cursor = request.doRequest(this.requestFile);
         this.list = new ArrayList<AnnualAccount>();
         this.currentPagePosition = 0;
         this.numberOfAccount = 10;
-        this.numberOfPagesInList = 0;
         this.finish = false;
     }
 
@@ -46,15 +45,22 @@ public class Results {
 
         if(posBegin>list.size()){
             this.cursor = this.request.doRequest(this.requestFile);
-            for(int i=0;i<list.size();i++){
-                cursor.next();
-            }
-            for (int i = list.size(); i < posEnd; i++) {
-                if (cursor.hasNext()) {
-                    list.add(new AnnualAccount(cursor.next()));
+            try{
+                for(int i=0;i<list.size();i++){
+                    cursor.next();
                 }
+                
+                for (int i = list.size(); i < posEnd; i++) {
+                        if (cursor.hasNext()) {
+                            list.add(new AnnualAccount(cursor.next()));
+                        }
+                    }
+                    this.cursor.close();
+            }catch(Exception e){
+                    cursor.close();
+                    LOGGER.error(e.toString());
             }
-            this.cursor.close();
+            
         }
         
 
