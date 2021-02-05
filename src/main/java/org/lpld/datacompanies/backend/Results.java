@@ -29,6 +29,15 @@ public class Results {
         this.finish = false;
     }
 
+    public Results(JSONObject requestFile, int numberOfAccountPerPage){
+        this.request = new Requests("localhost");
+        this.requestFile = requestFile;
+        this.list = new ArrayList<AnnualAccount>();
+        this.currentPagePosition = 0;
+        this.numberOfAccount = numberOfAccountPerPage;
+        this.finish = false;
+    }
+
     public AnnualAccount[] nextPage(){
         return this.goToPage(this.currentPagePosition+1);
     }
@@ -90,6 +99,14 @@ public class Results {
 
     public int getCurrentPagePosition(){
         return this.currentPagePosition;
+    }
+
+    public int getNumberOfAccountPerPage(){
+        return this.numberOfAccount;
+    }
+
+    public void setNumberOfAccountPerPage(int numberOfAccount){
+        this.numberOfAccount = numberOfAccount;
     }
 
 

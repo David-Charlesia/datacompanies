@@ -4,7 +4,6 @@ import org.json.simple.JSONObject;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.lpld.datacompanies.backend.Requests;
 import org.lpld.datacompanies.backend.Results;
 import org.lpld.datacompanies.backend.model.AnnualAccount;
 import org.slf4j.Logger;
