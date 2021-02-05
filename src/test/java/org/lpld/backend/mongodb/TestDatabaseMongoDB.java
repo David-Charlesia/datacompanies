@@ -14,10 +14,10 @@ import com.mongodb.client.FindIterable;
 public class TestDatabaseMongoDB {
     
     private static final Logger LOGGER = LoggerFactory.getLogger(TestDatabaseMongoDB.class);
-/*
+
     @Test
     public void TestDatabaseMongoDB_constructor(){
-        String dns = "ec2-3-141-3-83.us-east-2.compute.amazonaws.com";
+        String dns = "ec2-3-135-217-232.us-east-2.compute.amazonaws.com";
         DatabaseMongoDB db = new DatabaseMongoDB(dns);//Ok
         MongoDatabase database = db.getDataBase();
         MongoCollection<Document> collection = db.getCollection();
@@ -28,5 +28,5 @@ public class TestDatabaseMongoDB {
         Assert.assertNotNull(database);
         Assert.assertEquals("GEDIMO HOLDING",myList.first().get("denomination"));
         LOGGER.info("c'est ok bro tema : "+doc.toString());
-    }*/
+    }
 }

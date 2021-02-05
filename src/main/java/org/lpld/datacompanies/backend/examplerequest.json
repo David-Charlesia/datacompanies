@@ -2,10 +2,7 @@
     "more_than":{
         "DI.0":"2000"
     },
-    "less_than":{
-        
-    },
     "equals_to":{
-        "siren":"005880596"
+        "adress": "75018 PARIS"
     }
 }

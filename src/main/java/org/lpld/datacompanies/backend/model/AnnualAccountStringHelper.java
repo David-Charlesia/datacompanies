@@ -4918,10 +4918,14 @@ public class AnnualAccountStringHelper {
                     ArrayList<String> a = (ArrayList<String>)o;
                     o = a.get(0);
                 }
+                if (o.getClass() == Class.forName("java.lang.Double")) {
+                    o = ((Double)o).intValue();
+                }
             } catch (ClassNotFoundException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
             }
+            
             this.setInt(dict_int.get(key).get(0), (int)o);
         }else if(dict_String.get(key)!=null){
             this.setString(dict_String.get(key).get(0),(String)o);
